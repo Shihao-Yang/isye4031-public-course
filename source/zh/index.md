@@ -6,12 +6,12 @@ en_url: ../index.html
 
 <section class="hero">
 <div>
-<p class="eyebrow">ISYE 4031 公开课程，2026 秋季</p>
+<p class="eyebrow">ISYE 4031 公开教学资源</p>
 <h1>统计为本。智能体协作。验证贯穿始终。</h1>
 <p class="lede">当学生能够使用强大的编程智能体时，《回归与预测》需要新的教学方式，但数学和统计推理仍然是课程核心。变化的是工作流：学生需要规划、实现、测试、审计，并为自己的统计决策进行答辩。</p>
 <div class="actions">
 <a class="button primary" href="sample-lesson.html">开始示例课程</a>
-<a class="button secondary" href="https://github.com/Shihao-Yang/ISYE4031-Fall2026-Codespaces">打开课程 GitHub</a>
+<a class="button secondary" href="https://github.com/Shihao-Yang">浏览公开课程仓库</a>
 </div>
 </div>
 <aside class="hero-panel" aria-label="课程工作流">
@@ -57,7 +57,7 @@ AI 可以迅速生成看似合理的代码和流畅的解释，但这并不能�
 <ul>
 <li>课程理念和学习目标</li>
 <li>可重复使用的课程与完整示例</li>
-<li>教师制作的讲义和作业</li>
+<li>教师制作的课程讲义</li>
 </ul>
 </section>
 <section class="panel">

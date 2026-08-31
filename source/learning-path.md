@@ -39,13 +39,13 @@ Students move beyond fitting a model to asking whether the validation scheme mat
 
 Forecasting is treated as a decision process. A useful forecast needs a target, issue time, horizon, information set, uncertainty statement, and evaluation protocol.
 
-## Early-course sequence
+## Example learning sequence
 
 <div class="timeline">
-<div><h3>Class 1: Why forecasting needs an auditable workflow</h3><p>Connect regression and forecasting to decisions, establish the course challenge, and introduce baseline, agent, audit, and provenance.</p></div>
-<div><h3>Class 2: Statistical foundations for trustworthy forecasts</h3><p>Review sampling variability, uncertainty, confidence intervals, hypothesis tests, assumptions, and software defaults.</p></div>
-<div><h3>Class 3: From p-values to simple linear regression</h3><p>Build the regression line from conditional means and least squares, then inspect residuals and audit the implementation.</p></div>
-<div><h3>Homework 1: Statistical review and agent audit</h3><p>Create descriptive summaries, implement a transparent forecast baseline, complete one-sample inference, and critique an agent-generated analysis.</p></div>
+<div><h3>Orientation: Why forecasting needs an auditable workflow</h3><p>Connect regression and forecasting to decisions, establish a motivating challenge, and introduce baseline, agent, audit, and provenance.</p></div>
+<div><h3>Foundation: Statistical ideas for trustworthy forecasts</h3><p>Review sampling variability, uncertainty, confidence intervals, hypothesis tests, assumptions, and software defaults.</p></div>
+<div><h3>Transition: From p-values to simple linear regression</h3><p>Build the regression line from conditional means and least squares, then inspect residuals and audit the implementation.</p></div>
+<div><h3>Practice: Statistical review and agent audit</h3><p>Create descriptive summaries, implement a transparent forecast baseline, complete one-sample inference, and critique an agent-generated analysis.</p></div>
 </div>
 
 ## Repeated questions across the semester

@@ -31,11 +31,19 @@ allowlist:
       local_source: ../course-design/slides/week02_class03/ISYE4031_Week02_Class03.pdf
       public_output: docs/materials/ISYE4031_Week02_Class03.pdf
       release_status: owner-approved-and-content-reviewed-pdf-untagged
-    - key: homework-01
-      source_display_name: ISYE4031_Homework01.pdf
-      local_source: ../course-design/homework/homework01/ISYE4031_Homework01.pdf
-      public_output: docs/materials/ISYE4031_Homework01.pdf
-      release_status: owner-approved-and-content-reviewed-pdf-untagged
+  automated_review_materials:
+    source: instructor-controlled Canvas course files
+    public_output_rule: retain the sanitized instructor filename; append a content hash only on collision
+    allowed_formats:
+      - pdf
+      - pptx
+    inclusion_rule: English lecture slides matching the local title allowlist
+    exclusions:
+      - assignments, homework, exams, quizzes, answers, solutions, and grading material
+      - locked or hidden files
+      - files containing contact information, credentials, private links, or roster denylist terms
+      - files that fail text, metadata, or OCR inspection
+    release_status: owner-authorized-for-automated-publication-after-all-privacy-gates
 
 denylist:
   - student records and contact information
@@ -48,9 +56,10 @@ denylist:
   - material without confirmed redistribution permission
 
 release_gates:
-  - human content review
+  - owner publication authorization
   - mathematical review
-  - privacy and assessment-security review
+  - deterministic privacy and assessment-security scan using the in-memory roster denylist
+  - independent read-only Codex publication-safety audit
   - contributor provenance and redistribution review
-  - PDF metadata and accessibility review
+  - PDF and Office metadata, extracted-text, and OCR review
   - link and responsive-layout review

@@ -3,3 +3,10 @@ tmp/
 wordpress/
 *-public-source-inventory-*.md
 hosting-decision.md
+automation/logs/
+automation/state.json
+automation/*.local.toml
+automation/*.last-message.txt
+automation/*.audit.json
+__pycache__/
+*.pyc

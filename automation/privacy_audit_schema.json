@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["pass", "findings", "summary"],
+  "properties": {
+    "pass": {"type": "boolean"},
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["category", "path"],
+        "properties": {
+          "category": {"type": "string"},
+          "path": {"type": "string"}
+        }
+      }
+    },
+    "summary": {"type": "string"}
+  }
+}

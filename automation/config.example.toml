@@ -1,0 +1,29 @@
+[canvas]
+base_url = "https://gatech.instructure.com"
+course_id = 0 # Keep the real course ID only in ignored config.local.toml.
+token_env = "CANVAS_API_KEY"
+public_course_title = "ISYE 4031 Regression and Forecasting"
+max_pages = 60
+max_slide_files = 24
+max_slide_bytes = 52428800
+page_title_include = "(?i)(home|overview|course|module|week|lecture|regression|forecast|syllabus|resource)"
+page_title_exclude = "(?i)(exam|quiz|solution|answer|grade|submission|accommodation|discussion|announcement)"
+slide_name_include = "(?i)(week|lecture|class|slide|regression|forecast)"
+slide_name_exclude = "(?i)(exam|quiz|solution|answer|key|homework|assignment|grade|submission)"
+
+[site]
+repository = "https://github.com/Shihao-Yang/isye4031-public-course.git"
+branch = "main"
+publish = true
+languages = ["en", "zh-Hans"]
+
+[agent]
+adapt = true
+privacy_audit = true
+command = "codex"
+
+[schedule]
+hour = 20
+minute = 30
+timezone = "America/New_York"
+weekdays = [2, 4]

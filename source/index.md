@@ -6,12 +6,12 @@ zh_url: zh/index.html
 
 <section class="hero">
 <div>
-<p class="eyebrow">ISYE 4031 public course, Fall 2026</p>
+<p class="eyebrow">ISYE 4031 public teaching resource</p>
 <h1>Statistics first. Agents in the workflow. Verification throughout.</h1>
 <p class="lede">Regression and Forecasting is being redesigned for a world in which students can work with capable coding agents. The mathematics remains central. What changes is the workflow: students plan, implement, test, audit, and defend their statistical decisions.</p>
 <div class="actions">
 <a class="button primary" href="sample-lesson.html">Start the sample lesson</a>
-<a class="button secondary" href="https://github.com/Shihao-Yang/ISYE4031-Fall2026-Codespaces">Open the course GitHub</a>
+<a class="button secondary" href="https://github.com/Shihao-Yang">Browse public course repositories</a>
 </div>
 </div>
 <aside class="hero-panel" aria-label="Course workflow">
@@ -57,7 +57,7 @@ AI can produce plausible code and polished explanations quickly. That does not m
 <ul>
 <li>Course philosophy and learning outcomes</li>
 <li>Reusable lessons and worked examples</li>
-<li>Instructor-created slides and assignments</li>
+<li>Instructor-created lecture slides</li>
 </ul>
 </section>
 <section class="panel">

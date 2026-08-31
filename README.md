@@ -48,6 +48,58 @@ Shihao Yang's Sites@GeorgiaTech faculty site remains the institutional discovery
 
 ## 中文说明
 
-本仓库包含 ISYE 4031《回归与预测》的中英文公开课程网站。中文版位于 `docs/zh/`，包括课程理念、教学模式、学习路径、简单线性回归示例课程和公开资料。当前讲义与作业 PDF 为英文，并在中文资料页中明确标注。
+本仓库包含 ISYE 4031《回归与预测》的中英文公开课程网站。中文版位于 `docs/zh/`，包括课程理念、教学模式、学习路径、简单线性回归示例课程和公开资料。当前讲义 PDF 为英文，并在中文资料页中明确标注。
 
 The public site is an independently curated public teaching resource.
+
+## Canvas-to-GitHub automation
+
+The `automation/` workflow performs the Tuesday/Thursday refresh without placing a Canvas export or credential in Git:
+
+1. It reads the Canvas API credential from macOS Keychain.
+2. It fetches only a title-allowlisted subset of published course pages, module file/page titles, and English lecture-slide files. Assignments, quizzes, discussions, announcements, submissions, grades, analytics, and accommodations are never source inputs.
+3. It reads the student roster only into memory to create an exact denylist. Roster data is never written to disk, sent to the adapting agent, or printed.
+4. It strips active HTML, private links, contact information, credentials, and denylisted identifiers before Codex can read the selected teaching content.
+5. Codex makes bounded edits to the bilingual Markdown under `source/`; the deterministic build regenerates `docs/`.
+6. A fail-closed gate scans public text, PDF/Office metadata and extracted text, and OCR from slides/images. A separate read-only Codex pass reviews publication safety.
+7. Only allowlisted public-content paths may change. A clean temporary clone is committed and pushed without force only after every gate passes.
+
+Raw Canvas responses and temporary working copies are deleted at the end of every run. Logs contain status and finding categories, not matched values.
+
+### Local configuration
+
+`automation/config.example.toml` is safe to keep in Git. Copy it to ignored `automation/config.local.toml` and add the real Canvas course ID there. Never put a token in either file.
+
+The local credential is stored as a macOS Keychain generic password under service `Codex Canvas API`; `automation/run-scheduled.sh` reads it at runtime. The current Mac also exposes `CANVAS_API_KEY` from `~/.bash_profile` using a Keychain lookup for interactive runs.
+
+GitHub HTTPS write authentication must be available to Git before scheduling. With GitHub CLI, the one-time setup is:
+
+```bash
+gh auth login
+gh auth setup-git
+```
+
+### Verify and run
+
+```bash
+source ~/.bash_profile
+python3 -m unittest discover -s tests -v
+python3 automation/pipeline.py --config automation/config.local.toml --preflight
+python3 automation/pipeline.py --config automation/config.local.toml --dry-run --force
+```
+
+Install the local macOS schedule only after the full preflight succeeds:
+
+```bash
+python3 automation/install_schedule.py
+```
+
+The checked-in default runs at 8:30 PM local time on Tuesday and Thursday. macOS `launchd` coalesces a missed run when the Mac next wakes. Change `schedule.hour` and `schedule.minute` in the ignored local configuration if lecture timing changes.
+
+To remove the schedule without touching the site or Keychain credential:
+
+```bash
+python3 automation/install_schedule.py --uninstall
+```
+
+Codex non-interactive mode is designed for scripted pipelines and scheduled jobs; see the [official OpenAI documentation](https://learn.chatgpt.com/docs/non-interactive-mode).
