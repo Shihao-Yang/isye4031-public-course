@@ -7,7 +7,7 @@ en_url: ../index.html
 <section class="hero">
 <div>
 <p class="eyebrow">ISYE 4031 公开课程，2026 秋季</p>
-<h1>统计为本。智能体进入工作流。验证贯穿始终。</h1>
+<h1>统计为本。智能体协作。验证贯穿始终。</h1>
 <p class="lede">当学生能够使用强大的编程智能体时，《回归与预测》需要新的教学方式，但数学和统计推理仍然是课程核心。变化的是工作流：学生需要规划、实现、测试、审计，并为自己的统计决策进行答辩。</p>
 <div class="actions">
 <a class="button primary" href="sample-lesson.html">开始示例课程</a>
