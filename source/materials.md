@@ -25,7 +25,7 @@ This collection publishes a small set of instructor-created materials that illus
 
 ## Release review
 
-The three PDFs were reviewed on August 31, 2026. Their metadata identifies Shihao Yang as the author of the lecture slides, and the files contain no student records, solutions, restricted assessments, or embedded external links. All 63 pages rendered successfully without clipping or broken graphics. Homework 1 is presented as a public sample assignment with generic completion and reproducibility instructions.
+The three PDFs were reviewed on August 31, 2026. Their metadata identifies Shihao Yang as the author of the lecture slides, and the files contain no student records, solutions, restricted assessments, or embedded external links. All 63 pages rendered successfully without clipping or broken graphics. Homework 1 is the current course assignment.
 
 <div class="callout">
 <p><strong>Excluded deliberately:</strong> student records, grades, submissions, student work, exams, solutions, instructor-only archives, licensed textbooks, and private repositories.</p>

@@ -33,7 +33,7 @@ allowlist:
       release_status: owner-approved-and-content-reviewed-pdf-untagged
     - key: homework-01
       source_display_name: ISYE4031_Homework01.pdf
-      local_source: public-source/ISYE4031_Homework01_Public.tex
+      local_source: ../course-design/homework/homework01/ISYE4031_Homework01.pdf
       public_output: docs/materials/ISYE4031_Homework01.pdf
       release_status: owner-approved-and-content-reviewed-pdf-untagged
 
