@@ -8,7 +8,7 @@ en_url: ../materials.html
 
 # 小规模、可审查的第一批公开资料
 
-本网站不会完整复制 Canvas 课程，而是发布一组由教师制作、能够体现教学方法的资料。当前 PDF 为英文。正式选课学生应使用 Canvas 获取最新截止日期、作业提交要求、通知和成绩。
+本网站发布一组由教师制作、能够体现教学方法的公开资料。当前讲义与作业 PDF 为英文。
 
 <div class="resource-list">
 <article class="resource"><strong>课程计算环境</strong><p>公开 GitHub 模板，包含 Python、Jupyter、课程分析软件包、Codex、环境检查和第一节智能体审计实验。</p><a href="https://github.com/Shihao-Yang/ISYE4031-Fall2026-Codespaces">打开 GitHub 仓库</a></article>
@@ -20,7 +20,7 @@ en_url: ../materials.html
 ## 课程参考资料
 
 - [2026 秋季官方课程大纲](https://syllabus.gatech.edu/syllabi/4031/t08)由 Georgia Tech 维护。
-- 正式选课学生应使用 Canvas 获取权威课程安排、作业、截止日期、通知和提交入口。
+- 公开 GitHub 仓库提供课程计算环境。
 - 推荐的开放统计学习教材可在 [An Introduction to Statistical Learning](https://www.statlearning.com/) 获取。
 
 ## 公开审核
@@ -28,5 +28,5 @@ en_url: ../materials.html
 三份 PDF 已于 2026 年 8 月 31 日完成内容、隐私、元数据和视觉审核。文件不包含学生记录、答案、受限测评或嵌入的外部链接，所有 63 页均可正常渲染。PDF 可以提取文本，但尚未完成正式可及性标签。网页提供了清晰的 HTML 说明，PDF 标签将在后续版本中继续改进。
 
 <div class="callout">
-<p><strong>明确排除：</strong>Canvas 导出、课程通知、成绩、学生提交、学生作品、考试、答案、仅供教师使用的资料、授权教材和私有仓库。</p>
+<p><strong>明确排除：</strong>学生记录、成绩、学生提交、学生作品、考试、答案、仅供教师使用的资料、授权教材和私有仓库。</p>
 </div>

@@ -1,5 +1,5 @@
 .DS_Store
 tmp/
 wordpress/
-canvas-public-source-inventory-*.md
+*-public-source-inventory-*.md
 hosting-decision.md

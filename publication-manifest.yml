@@ -1,8 +1,5 @@
 version: 1
 status: approved-for-bilingual-github-pages-release
-canvas:
-  role: private-course-operations
-
 public_site:
   role: curated-public-learning-resource
   output_directory: docs
@@ -25,18 +22,18 @@ allowlist:
     - materials
   review_materials:
     - key: statistical-review-slides
-      canvas_display_name: ISYE4031_Week01_Class02.pdf
+      source_display_name: ISYE4031_Week01_Class02.pdf
       local_source: ../course-design/slides/week01_class02/ISYE4031_Week01_Class02.pdf
       public_output: docs/materials/ISYE4031_Week01_Class02.pdf
       release_status: owner-approved-and-content-reviewed-pdf-untagged
     - key: simple-linear-regression-slides
-      canvas_display_name: null
+      source_display_name: null
       local_source: ../course-design/slides/week02_class03/ISYE4031_Week02_Class03.pdf
       public_output: docs/materials/ISYE4031_Week02_Class03.pdf
       release_status: owner-approved-and-content-reviewed-pdf-untagged
     - key: homework-01
-      canvas_display_name: ISYE4031_Homework01.pdf
-      local_source: ../course-design/homework/homework01/ISYE4031_Homework01.pdf
+      source_display_name: ISYE4031_Homework01.pdf
+      local_source: public-source/ISYE4031_Homework01_Public.tex
       public_output: docs/materials/ISYE4031_Homework01.pdf
       release_status: owner-approved-and-content-reviewed-pdf-untagged
 
@@ -45,7 +42,7 @@ denylist:
   - submissions, grades, attendance, and recordings
   - announcements and accommodations
   - exams, solutions, question banks, and instructor-only assessments
-  - Canvas exports and API responses
+  - learning-management-system exports and API responses
   - credentials, verifier URLs, and private repository links
   - locally stored textbook
   - material without confirmed redistribution permission

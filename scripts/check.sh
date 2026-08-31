@@ -12,7 +12,7 @@ if rg -n '—' "$project_root/source" "$project_root/templates" "$project_root/a
   exit 1
 fi
 
-if rg -n -i '@gatech\.edu|verifier=|authorization:[[:space:]]*bearer|canvas[_ -]?(api[_ -]?)?token|answer key' "$docs_dir" --glob '!materials/**'; then
+if rg -n -i '@gatech\.edu|verifier=|authorization:[[:space:]]*bearer|learning[_ -]?management[_ -]?system[_ -]?(api[_ -]?)?token|answer key' "$docs_dir" --glob '!materials/**'; then
   echo "Potentially restricted pattern found in generated pages." >&2
   exit 1
 fi

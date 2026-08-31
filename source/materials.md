@@ -8,7 +8,7 @@ zh_url: zh/materials.html
 
 # A small, reviewable first release
 
-This site does not copy the full Canvas course. It publishes a small set of instructor-created materials that illustrate the teaching approach. Enrolled students should use Canvas for current due dates, submissions, announcements, and grades.
+This collection publishes a small set of instructor-created materials that illustrate the teaching approach. The slides and assignment are shared as public course resources.
 
 <div class="resource-list">
 <article class="resource"><strong>Course computing environment</strong><p>A public GitHub template with Python, Jupyter, course analysis packages, Codex, environment checks, and a first agent-audit lab.</p><a href="https://github.com/Shihao-Yang/ISYE4031-Fall2026-Codespaces">Open the GitHub repository</a></article>
@@ -19,14 +19,14 @@ This site does not copy the full Canvas course. It publishes a small set of inst
 
 ## Course references
 
-- The official current syllabus is maintained through Georgia Tech's syllabus service and Canvas.
-- Enrolled students should use Canvas for the authoritative schedule, assignments, due dates, communications, and submissions.
+- The official current syllabus is maintained through [Georgia Tech's syllabus service](https://syllabus.gatech.edu/syllabi/4031/t08).
+- The public GitHub repository provides the course computing environment.
 - The recommended open statistical-learning reference is available from [An Introduction to Statistical Learning](https://www.statlearning.com/).
 
 ## Release review
 
-The three PDFs were reviewed on August 31, 2026. Their metadata identifies Shihao Yang as the author of the lecture slides, and the files contain no student records, solutions, restricted assessments, or embedded external links. All 63 pages rendered successfully without clipping or broken graphics. Homework 1 retains its directions to use Canvas for the authoritative due date and submission process.
+The three PDFs were reviewed on August 31, 2026. Their metadata identifies Shihao Yang as the author of the lecture slides, and the files contain no student records, solutions, restricted assessments, or embedded external links. All 63 pages rendered successfully without clipping or broken graphics. Homework 1 is presented as a public sample assignment with generic completion and reproducibility instructions.
 
 <div class="callout">
-<p><strong>Excluded deliberately:</strong> the locally stored textbook, Canvas exports, announcements, grades, submissions, student work, exams, solutions, and instructor-only archives.</p>
+<p><strong>Excluded deliberately:</strong> student records, grades, submissions, student work, exams, solutions, instructor-only archives, licensed textbooks, and private repositories.</p>
 </div>

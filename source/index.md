@@ -49,27 +49,23 @@ AI can produce plausible code and polished explanations quickly. That does not m
 <p><strong>Core principle:</strong> An AI-generated answer is not evidence that an analysis is correct. Evidence comes from mathematics, diagnostics, tests, reproducibility, and appropriate validation.</p>
 </div>
 
-## A public learning layer, not a Canvas mirror
+## What this public course site provides
 
 <div class="two-column">
 <section class="panel">
-<h3>Public here</h3>
+<h3>Learn</h3>
 <ul>
 <li>Course philosophy and learning outcomes</li>
-<li>Reusable lessons and examples</li>
-<li>Public-safe slides and assignments</li>
-<li>Reproducibility and AI-audit practices</li>
-<li>Teaching reflections and design updates</li>
+<li>Reusable lessons and worked examples</li>
+<li>Instructor-created slides and assignments</li>
 </ul>
 </section>
 <section class="panel">
-<h3>Private in Canvas</h3>
+<h3>Build and audit</h3>
 <ul>
-<li>Enrollment and announcements</li>
-<li>Due dates and submissions</li>
-<li>Grades and feedback</li>
-<li>Accommodations and student communication</li>
-<li>Restricted assessments and licensed materials</li>
+<li>A reproducible GitHub computing environment</li>
+<li>Statistical baselines and automated checks</li>
+<li>AI-assisted workflows with explicit verification</li>
 </ul>
 </section>
 </div>

@@ -4,7 +4,7 @@
 
 - [x] Course claims match the current syllabus and public course design.
 - [x] The sample lesson has been checked for mathematical correctness.
-- [x] The public site is understandable without access to Canvas.
+- [x] The public site is understandable without access to private course systems.
 - [x] Dates and operational details are omitted or clearly marked as nonauthoritative.
 
 ## Privacy and assessment security
@@ -12,7 +12,7 @@
 - [x] No student names, contact information, records, submissions, grades, or recordings.
 - [x] No accommodations or private communications.
 - [x] No exams, solutions, answer keys, question banks, or instructor-only notes.
-- [x] No Canvas export, API response, token, verifier URL, or credential.
+- [x] No learning-management-system export, API response, token, verifier URL, or credential.
 - [x] No licensed textbook or unapproved copyrighted material.
 
 ## Provenance
@@ -37,4 +37,4 @@
 - [x] Publication package contains only public-safe files.
 - [x] GitHub Pages is the bilingual publishing target; Sites@GeorgiaTech remains the institutional discovery path.
 - [ ] A human preview is approved before the first public deployment.
-- [x] Canvas remains the authoritative private course-operations layer.
+- [x] Operational course systems remain separate from the public teaching layer.
