@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sample lesson | Regression and Forecasting</title>
+  <meta name="description" content="A self-contained AI-agent-first
+lesson on simple linear regression and audit.">
+<script
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+type="text/javascript"></script>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="Regression and Forecasting home">
+        <span class="brand-mark" aria-hidden="true">R/F</span>
+        <span>
+          <strong>Regression and Forecasting</strong>
+          <small>AI-agent-first public course</small>
+        </span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="teaching-model.html">Teaching model</a>
+        <a href="learning-path.html">Learning path</a>
+        <a href="sample-lesson.html">Sample lesson</a>
+        <a href="materials.html">Materials</a>
+        <a class="language-link" href="zh/sample-lesson.html" lang="zh-Hans">中文</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="shell page-content">
+    <p class="eyebrow">
+    Sample lesson
+    </p>
+    <h1 id="from-association-to-simple-linear-regression">From
+    association to simple linear regression</h1>
+    <h2 id="learning-goals">Learning goals</h2>
+    <p>By the end of this lesson, a learner should be able to:</p>
+    <ol type="1">
+    <li>distinguish association from a conditional-mean model;</li>
+    <li>fit and interpret a simple linear regression;</li>
+    <li>connect least squares to residuals and sample covariance;</li>
+    <li>use an AI coding agent to implement the analysis reproducibly;
+    and</li>
+    <li>audit the implementation using mathematical identities and
+    diagnostic questions.</li>
+    </ol>
+    <h2 id="begin-with-the-statistical-model">1. Begin with the
+    statistical model</h2>
+    <p>For observations <span class="math inline">\((x_i, y_i)\)</span>,
+    simple linear regression assumes</p>
+    <p><span class="math display">\[
+    Y_i = \beta_0 + \beta_1 x_i + \varepsilon_i,
+    \qquad E(\varepsilon_i \mid x_i)=0.
+    \]</span></p>
+    <p>The line <span class="math inline">\(\beta_0 + \beta_1 x\)</span>
+    describes the conditional mean of <span
+    class="math inline">\(Y\)</span> at a given value of <span
+    class="math inline">\(x\)</span>. It does not automatically
+    establish causality, and it does not guarantee that extrapolation is
+    valid.</p>
+    <p>Least squares chooses <span
+    class="math inline">\(\hat\beta_0\)</span> and <span
+    class="math inline">\(\hat\beta_1\)</span> to minimize</p>
+    <p><span class="math display">\[
+    \sum_{i=1}^n \left[y_i-(b_0+b_1x_i)\right]^2.
+    \]</span></p>
+    <p>For a model with an intercept,</p>
+    <p><span class="math display">\[
+    \hat\beta_1 = \frac{\sum_i (x_i-\bar x)(y_i-\bar y)}{\sum_i
+    (x_i-\bar x)^2},
+    \qquad
+    \hat\beta_0 = \bar y-\hat\beta_1\bar x.
+    \]</span></p>
+    <h2 id="work-a-transparent-five-point-example">2. Work a transparent
+    five-point example</h2>
+    <p>Suppose <span class="math inline">\(x\)</span> is hours of
+    controlled testing and <span class="math inline">\(y\)</span> is an
+    observed performance score.</p>
+    <table>
+    <thead>
+    <tr class="header">
+    <th style="text-align: right;">Observation</th>
+    <th style="text-align: right;"><span
+    class="math inline">\(x\)</span></th>
+    <th style="text-align: right;"><span
+    class="math inline">\(y\)</span></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">1</td>
+    <td style="text-align: right;">2.2</td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">2</td>
+    <td style="text-align: right;">2.8</td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">3</td>
+    <td style="text-align: right;">4.2</td>
+    </tr>
+    <tr class="even">
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">4</td>
+    <td style="text-align: right;">4.7</td>
+    </tr>
+    <tr class="odd">
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">5</td>
+    <td style="text-align: right;">6.1</td>
+    </tr>
+    </tbody>
+    </table>
+    <p>Before using software:</p>
+    <ol type="1">
+    <li>Sketch the data and predict the sign of the slope.</li>
+    <li>Calculate <span class="math inline">\(\bar x\)</span> and <span
+    class="math inline">\(\bar y\)</span>.</li>
+    <li>Calculate the least-squares slope and intercept.</li>
+    <li>Interpret the slope using the units of <span
+    class="math inline">\(x\)</span> and <span
+    class="math inline">\(y\)</span>.</li>
+    <li>Explain why a prediction at <span
+    class="math inline">\(x=20\)</span> would be more questionable than
+    a prediction at <span class="math inline">\(x=3.5\)</span>.</li>
+    </ol>
+    <h2 id="ask-an-agent-to-implement-explain-and-test">3. Ask an agent
+    to implement, explain, and test</h2>
+    <p>Use a clean project directory. Give the agent the data and the
+    following task:</p>
+    <blockquote>
+    <p>Fit a simple linear regression with an intercept. Report the
+    coefficients, fitted values, and residuals. Plot the observations
+    and fitted line. Write tests for the core least-squares identities.
+    Explain the slope in context, flag extrapolation risk, and list the
+    assumptions that cannot be verified from five observations alone.
+    Keep the analysis reproducible and do not invent additional
+    data.</p>
+    </blockquote>
+    <p>Require the project to include:</p>
+    <ul>
+    <li>an executable analysis script;</li>
+    <li>at least three automated checks;</li>
+    <li>a saved figure;</li>
+    <li>a short interpretation; and</li>
+    <li>an AI usage statement describing what was generated and what was
+    verified.</li>
+    </ul>
+    <h2 id="audit-the-result">4. Audit the result</h2>
+    <p>For ordinary least squares with an intercept, check that
+    numerical error is near zero for:</p>
+    <p><span class="math display">\[
+    \sum_i e_i = 0,
+    \qquad
+    \sum_i x_i e_i = 0,
+    \qquad
+    \bar{\hat y} = \bar y.
+    \]</span></p>
+    <p>Then ask:</p>
+    <ul>
+    <li>Did the implementation include an intercept?</li>
+    <li>Are the coefficient units explained correctly?</li>
+    <li>Does the fitted line pass through <span
+    class="math inline">\((\bar x, \bar y)\)</span>?</li>
+    <li>Are residuals computed as observed minus fitted rather than the
+    reverse?</li>
+    <li>Does the plot use the same data and model as the reported
+    coefficients?</li>
+    <li>Is a confidence interval being confused with a prediction
+    interval?</li>
+    <li>Are causal or extrapolative claims stronger than the data
+    support?</li>
+    </ul>
+    <details>
+    <summary>
+    Reference values for checking the implementation
+    </summary>
+    <p>For these five observations, the least-squares line is
+    approximately</p>
+    <p><span class="math display">\[
+    \hat y = 1.09 + 0.97x.
+    \]</span></p>
+    The exact numerical display may differ slightly because of rounding.
+    The audit should use a tolerance rather than exact string equality.
+    </details>
+    <h2 id="defend-the-analysis">5. Defend the analysis</h2>
+    <p>A learner should be able to answer these questions without asking
+    the agent:</p>
+    <ol type="1">
+    <li>What does the slope estimate?</li>
+    <li>Why is the intercept difficult to interpret if <span
+    class="math inline">\(x=0\)</span> is outside the observed
+    range?</li>
+    <li>Which least-squares identity gives you confidence that the
+    implementation used an intercept correctly?</li>
+    <li>What evidence would you need before making a causal
+    statement?</li>
+    <li>What changes when predicting a new observation rather than the
+    conditional mean?</li>
+    </ol>
+    <h2 id="exit-check">Exit check</h2>
+    <p>Write three sentences:</p>
+    <ol type="1">
+    <li>one sentence stating the fitted relationship;</li>
+    <li>one sentence stating the strongest limitation; and</li>
+    <li>one sentence identifying the most informative next diagnostic or
+    data collection step.</li>
+    </ol>
+  </main>
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <strong>Public course materials</strong>
+        <p>Prepared by Shihao Yang. This is not the official course operations site.</p>
+      </div>
+      <div>
+        <strong>Public and private layers</strong>
+        <p>Learning resources may be public. Enrollment, communication, submissions, grades, and accommodations remain in Canvas.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

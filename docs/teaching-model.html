@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teaching model | Regression and Forecasting</title>
+  <meta name="description" content="How an AI-agent-first statistics
+course organizes learning, verification, and assessment.">
+
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="Regression and Forecasting home">
+        <span class="brand-mark" aria-hidden="true">R/F</span>
+        <span>
+          <strong>Regression and Forecasting</strong>
+          <small>AI-agent-first public course</small>
+        </span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="teaching-model.html">Teaching model</a>
+        <a href="learning-path.html">Learning path</a>
+        <a href="sample-lesson.html">Sample lesson</a>
+        <a href="materials.html">Materials</a>
+        <a class="language-link" href="zh/teaching-model.html" lang="zh-Hans">中文</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="shell page-content">
+    <p class="eyebrow">
+    Teaching model
+    </p>
+    <h1 id="from-code-production-to-statistical-judgment">From code
+    production to statistical judgment</h1>
+    <p>The redesign does not remove programming or mathematical
+    foundations. It changes where students spend their attention. Agents
+    can accelerate implementation, but students remain responsible for
+    the target, assumptions, evidence, and interpretation.</p>
+    <h2 id="baseline-agent-audit-defend">Baseline, agent, audit,
+    defend</h2>
+    <div class="timeline">
+    <div>
+    <h3>
+    <ol type="1">
+    <li>Baseline
+    </h3>
+    <p>
+    Define the estimand or forecast target, write down the model, and
+    establish a transparent benchmark before introducing a more complex
+    workflow.
+    </p>
+    </div>
+    <div>
+    <h3>
+    <ol start="2" type="1">
+    <li>Agent
+    </h3>
+    <p>
+    Ask an AI coding agent to plan and implement the analysis in a
+    reproducible project. Preserve prompts, code changes, tests, and
+    generated outputs.
+    </p>
+    </div>
+    <div>
+    <h3>
+    <ol start="3" type="1">
+    <li>Audit
+    </h3>
+    <p>
+    Test the implementation against mathematical identities, simple
+    cases, diagnostics, alternative specifications, and held-out data.
+    </p>
+    </div>
+    <div>
+    <h3>
+    <ol start="4" type="1">
+    <li>Defend
+    </h3>
+    <p>
+    Explain which choices were made, what evidence supports them, what
+    was rejected, and where the analysis can fail.
+    </p>
+    </div>
+    </div></li>
+    </ol></li>
+    </ol></li>
+    </ol></li>
+    </ol>
+    <h2 id="what-the-agent-may-do">What the agent may do</h2>
+    <p>An agent may help students:</p>
+    <ul>
+    <li>inspect data structure and propose an analysis plan;</li>
+    <li>write, refactor, and test Python code;</li>
+    <li>create diagnostic plots and model comparisons;</li>
+    <li>explain an unfamiliar error or statistical method;</li>
+    <li>propose checks for leakage, extrapolation, instability, and
+    violated assumptions; and</li>
+    <li>improve clarity after the statistical content has been
+    verified.</li>
+    </ul>
+    <h2 id="what-the-student-must-own">What the student must own</h2>
+    <p>The student must be able to:</p>
+    <ul>
+    <li>state the statistical target in plain language and
+    notation;</li>
+    <li>justify the model and validation design;</li>
+    <li>inspect and run every submitted component;</li>
+    <li>identify unsupported claims or fabricated evidence;</li>
+    <li>reproduce the analysis from a clean environment;</li>
+    <li>disclose how AI was used; and</li>
+    <li>answer questions about the work without relying on the
+    agent.</li>
+    </ul>
+    <h2 id="reproducibility-contract">Reproducibility contract</h2>
+    <p>Each substantial analysis should include:</p>
+    <ol type="1">
+    <li>a human-readable <code>README</code> with the question, data,
+    and execution steps;</li>
+    <li>source code or a clearly organized notebook;</li>
+    <li>executable tests for important calculations or invariants;</li>
+    <li>a fixed environment or dependency record;</li>
+    <li>a concise AI usage statement; and</li>
+    <li>a report that separates evidence, interpretation, and
+    limitations.</li>
+    </ol>
+    <div class="callout">
+    <p>
+    <strong>Why tests matter:</strong> Agent-generated code often looks
+    reasonable even when a sign, data split, target alignment, or
+    default option is wrong. A test makes the intended behavior explicit
+    and repeatable.
+    </p>
+    </div>
+    <h2 id="assessment-in-an-ai-rich-environment">Assessment in an
+    AI-rich environment</h2>
+    <p>No single assessment format is sufficient. The course
+    combines:</p>
+    <table>
+    <colgroup>
+    <col style="width: 50%" />
+    <col style="width: 50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th>Evidence</th>
+    <th>What it measures</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td>In-person quizzes and exams</td>
+    <td>Individual command of concepts and calculations</td>
+    </tr>
+    <tr class="even">
+    <td>Reproducible homework</td>
+    <td>Ability to build, test, and document an analysis</td>
+    </tr>
+    <tr class="odd">
+    <td>Common forecasting challenge</td>
+    <td>Model development under a shared prediction target</td>
+    </tr>
+    <tr class="even">
+    <td>Oral presentation and defense</td>
+    <td>Individual understanding, critique, and communication</td>
+    </tr>
+    <tr class="odd">
+    <td>AI usage statement</td>
+    <td>Transparency about workflow and verification</td>
+    </tr>
+    </tbody>
+    </table>
+    <p>The goal is not to detect whether AI was used. AI use is
+    expected. The goal is to determine whether the student can produce
+    and defend trustworthy statistical work.</p>
+    <h2 id="a-course-that-can-be-evaluated">A course that can be
+    evaluated</h2>
+    <p>The redesign itself can be studied. Useful outcomes include
+    conceptual performance, reproducibility failures, audit quality,
+    oral-defense performance, time spent, accessibility, and student
+    confidence. Comparisons should distinguish the effect of the model
+    from the effect of prompts, scaffolding, environment, and assessment
+    design.</p>
+  </main>
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <strong>Public course materials</strong>
+        <p>Prepared by Shihao Yang. This is not the official course operations site.</p>
+      </div>
+      <div>
+        <strong>Public and private layers</strong>
+        <p>Learning resources may be public. Enrollment, communication, submissions, grades, and accommodations remain in Canvas.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

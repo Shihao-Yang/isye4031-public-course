@@ -1,0 +1,84 @@
+---
+title: 首页
+description: 面向 AI 智能体时代的回归与预测公开课程。
+en_url: ../index.html
+---
+
+<section class="hero">
+<div>
+<p class="eyebrow">ISYE 4031 公开课程，2026 秋季</p>
+<h1>统计为本。智能体进入工作流。验证贯穿始终。</h1>
+<p class="lede">当学生能够使用强大的编程智能体时，《回归与预测》需要新的教学方式，但数学和统计推理仍然是课程核心。变化的是工作流：学生需要规划、实现、测试、审计，并为自己的统计决策进行答辩。</p>
+<div class="actions">
+<a class="button primary" href="sample-lesson.html">开始示例课程</a>
+<a class="button secondary" href="https://github.com/Shihao-Yang/ISYE4031-Fall2026-Codespaces">打开课程 GitHub</a>
+</div>
+</div>
+<aside class="hero-panel" aria-label="课程工作流">
+<h2>课程工作流</h2>
+<div class="process">
+<div class="process-step"><span>1</span><div><strong>基线</strong><small>明确目标、假设和一个透明的比较基准。</small></div></div>
+<div class="process-step"><span>2</span><div><strong>智能体</strong><small>使用 AI 编程智能体进行实现和探索。</small></div></div>
+<div class="process-step"><span>3</span><div><strong>审计</strong><small>检查代码、计算、结论、不确定性和数据来源。</small></div></div>
+<div class="process-step"><span>4</span><div><strong>答辩</strong><small>解释做了什么、为何可信，以及可能在哪里失败。</small></div></div>
+</div>
+</aside>
+</section>
+
+## 学生应该掌握什么
+
+<div class="card-grid">
+<article class="card"><h3>建模</h3><p>把真实问题转化为回归、统计学习或预测问题。</p></article>
+<article class="card"><h3>实现</h3><p>使用智能体和 Python 构建可复现的分析，而不是零散的代码片段。</p></article>
+<article class="card"><h3>验证</h3><p>检查假设、测试、残差、信息泄漏、不确定性、计算和引用。</p></article>
+<article class="card"><h3>沟通</h3><p>清楚说明结论、局限和决策，并能够回答质询。</p></article>
+</div>
+
+## 为什么要面向 AI 智能体重新设计课程？
+
+AI 可以迅速生成看似合理的代码和流畅的解释，但这并不能保证统计推理正确。因此，课程把注意力从独立完成语法细节，转移到真正决定分析是否可信的环节：
+
+- 选择正确的研究目标和数据结构；
+- 把数学原理连接到具体实现；
+- 设计能够暴露错误的检查；
+- 用透明基线比较模型；
+- 记录哪些智能体建议被接受、修改或拒绝；
+- 不依赖智能体，也能解释和捍卫分析结果。
+
+<div class="callout">
+<p><strong>核心原则：</strong>AI 生成的答案不是分析正确的证据。真正的证据来自数学、诊断、测试、可复现性和恰当的验证设计。</p>
+</div>
+
+## 公开学习层，而不是 Canvas 镜像
+
+<div class="two-column">
+<section class="panel">
+<h3>在这里公开</h3>
+<ul>
+<li>课程理念和学习目标</li>
+<li>可重复使用的课程与示例</li>
+<li>适合公开的讲义和作业</li>
+<li>可复现分析与 AI 审计方法</li>
+<li>教学设计的反思与更新</li>
+</ul>
+</section>
+<section class="panel">
+<h3>在 Canvas 中保密</h3>
+<ul>
+<li>选课信息和课程通知</li>
+<li>截止日期和作业提交</li>
+<li>成绩和反馈</li>
+<li>教学便利安排和学生沟通</li>
+<li>受限测评和授权教学材料</li>
+</ul>
+</section>
+</div>
+
+## 从一节完整的课程开始
+
+第一节公开示例从相关关系进入简单线性回归。学生需要拟合模型，在具体语境中解释斜率，检查残差，使用智能体复现分析，并利用数学恒等式审计结果。
+
+<div class="actions">
+<a class="button primary" href="sample-lesson.html">打开回归示例课程</a>
+<a class="button secondary" href="materials.html">查看课程资料</a>
+</div>
