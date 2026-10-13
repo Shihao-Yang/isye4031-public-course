@@ -1,0 +1,8 @@
+method,predictors,fold_count
+Backward,Accts + Adver + Change + MktPoten + MktShare,1
+Backward,Accts + Adver + MktPoten + MktShare,3
+Backward,Adver + Change + MktPoten + MktShare + Time,20
+Backward,Adver + MktPoten + MktShare + Time,1
+Forward,Accts + Adver + Change + MktPoten + MktShare,3
+Forward,Accts + Adver + MktPoten + MktShare,22
+Full,Accts + Adver + Change + MktPoten + MktShare + Rating + Time + WkLoad,25

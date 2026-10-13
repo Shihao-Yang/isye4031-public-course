@@ -1,0 +1,28 @@
+{
+  "full_formula": "Sales ~ Time + MktPoten + Adver + MktShare + Change + Accts + WkLoad + Rating",
+  "simple_formula": "Sales ~ Accts",
+  "simple_accounts_slope": 21.721769712310763,
+  "simple_accounts_se": 3.9460330436769864,
+  "simple_accounts_p": 1.3457227135610928e-05,
+  "simple_accounts_ci95": [
+    13.558778425543323,
+    29.884760999078203
+  ],
+  "simple_r_squared": 0.5684951818463957,
+  "sales_accounts_correlation": 0.7539861947319698,
+  "adjusted_accounts_slope": 5.55096065129905,
+  "adjusted_accounts_se": 4.775549619779348,
+  "adjusted_accounts_p": 0.2621300346045893,
+  "adjusted_accounts_ci95": [
+    -4.572752294365236,
+    15.674673596963336
+  ],
+  "partial_correlation": 0.27904946840848815,
+  "accounts_regressed_on_other_predictors_r_squared": 0.8226735730771557,
+  "accounts_vif": 5.639317372785646,
+  "reduced_r_squared": 0.9154558154108055,
+  "full_r_squared": 0.9220391531948753,
+  "incremental_r_squared": 0.0065833377840698315,
+  "training_rmse": 359.22052696090645,
+  "residual_standard_error": 449.02565870113307
+}

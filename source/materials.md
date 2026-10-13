@@ -11,6 +11,8 @@ zh_url: zh/materials.html
 This collection publishes a small set of instructor-created lecture materials that illustrate the teaching approach. The slides are shared as public course resources.
 
 <div class="resource-list">
+<article class="resource"><strong>Lecture 12: Sales-territory model selection</strong><p>Step through a recorded analysis with plots, equations, instructor notes, and discussion checkpoints.</p><a href="lectures.html">Open lecture replays</a></article>
+
 <article class="resource"><strong>Course computing environment</strong><p>Public GitHub repositories demonstrate Python, Jupyter, course analysis packages, Codex, environment checks, and agent-audit labs.</p><a href="https://github.com/Shihao-Yang">Browse the instructor's public repositories</a></article>
 <article class="resource"><strong>Statistical review</strong><p>Sampling variability, uncertainty, intervals, tests, assumptions, and software defaults.</p><a href="materials/ISYE4031_Week01_Class02.pdf">Open lecture PDF</a></article>
 <article class="resource"><strong>Simple linear regression</strong><p>Conditional means, least squares, slope interpretation, residuals, and implementation audits.</p><a href="materials/ISYE4031_Week02_Class03.pdf">Open lecture PDF</a></article>

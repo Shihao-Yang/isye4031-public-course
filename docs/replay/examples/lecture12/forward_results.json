@@ -1,0 +1,25 @@
+{
+  "forward_predictors": [
+    "Accts",
+    "Adver",
+    "MktPoten",
+    "MktShare"
+  ],
+  "backward_predictors": [
+    "Time",
+    "MktPoten",
+    "Adver",
+    "MktShare",
+    "Change"
+  ],
+  "nested": false,
+  "advertising_after_accounts": {
+    "n": 25,
+    "reduced_SSE": 17855474.734961167,
+    "full_SSE": 9306228.87507377,
+    "numerator_df": 1,
+    "denominator_df": 22,
+    "F": 20.210486056419047,
+    "p": 0.00017978987421128073
+  }
+}

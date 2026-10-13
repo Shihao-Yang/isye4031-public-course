@@ -103,3 +103,11 @@ python3 automation/install_schedule.py --uninstall
 ```
 
 Codex non-interactive mode is designed for scripted pipelines and scheduled jobs; see the [official OpenAI documentation](https://learn.chatgpt.com/docs/non-interactive-mode).
+
+## Lecture replay preview
+
+Run `python3 scripts/prepare-replay.py` to build the player and stage the course site in `tmp/replay-preview/isye4031-public-course/`. Serve `tmp/replay-preview/` to test the same subdirectory used by GitHub Pages. Only the player assets, Lecture 12 transcript, linked results and code, and input CSV enter the preview. Raw sessions and unrelated conversation examples are excluded. The upstream MIT license accompanies the player.
+
+The Lecture 12 data originates from course file `5-1.txt`. On October 13, 2026, Shihao explicitly approved public release of this replay, including the dataset, after reviewing the preview and the redistribution question. This records owner authorization; it does not assert an independently verified dataset license. Run `python3 scripts/prepare-replay.py --release` and `bash scripts/check.sh` to stage and check the approved payload in `docs/`.
+
+The existing lesson addresses requests for complete worked examples throughout chapters 1 to 6, independent judgment at all eight checkpoints, a compact manual calculation in chapter 4, and checks of AI claims in chapter 7. This update changes hosting and navigation only. Assessment alignment was documented in the October 8 lesson preparation; current exam materials were not re-reviewed for this packaging change.

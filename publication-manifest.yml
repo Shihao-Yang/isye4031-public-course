@@ -20,6 +20,16 @@ allowlist:
     - learning-path
     - sample-lesson
     - materials
+    - lectures
+  lecture_replays:
+    - key: lecture12-model-selection
+      public_output: docs/replay/
+      transcript: docs/replay/examples/lecture12-replay.md
+      source: ../../llm-chat-replay/public/examples/lecture12-replay.md
+      data_provenance: course-file-5-1.txt
+      release_status: owner-approved-2026-10-13-after-preview-and-redistribution-question
+      player_license: MIT
+      assets: linked-classroom-results-code-plots-and-input-csv-only
   review_materials:
     - key: statistical-review-slides
       source_display_name: ISYE4031_Week01_Class02.pdf

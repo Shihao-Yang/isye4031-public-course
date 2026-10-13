@@ -11,6 +11,8 @@ en_url: ../materials.html
 本网站发布一组由教师制作、能够体现教学方法的公开资料。当前讲义 PDF 为英文。
 
 <div class="resource-list">
+<article class="resource"><strong>第 12 讲：销售区域模型选择（英文）</strong><p>逐步回放分析过程，包含图表、公式、教师说明和讨论停顿。</p><a href="../lectures.html">打开课堂回放</a></article>
+
 <article class="resource"><strong>课程计算环境</strong><p>公开 GitHub 仓库展示 Python、Jupyter、课程分析软件包、Codex、环境检查和智能体审计实验。</p><a href="https://github.com/Shihao-Yang">浏览教师的公开仓库</a></article>
 <article class="resource"><strong>统计复习讲义（英文）</strong><p>抽样变异、不确定性、区间估计、检验、假设和软件默认选项。</p><a href="../materials/ISYE4031_Week01_Class02.pdf">打开讲义 PDF</a></article>
 <article class="resource"><strong>简单线性回归讲义（英文）</strong><p>条件均值、最小二乘、斜率解释、残差和实现审计。</p><a href="../materials/ISYE4031_Week02_Class03.pdf">打开讲义 PDF</a></article>

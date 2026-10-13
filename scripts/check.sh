@@ -2,7 +2,7 @@
 set -euo pipefail
 
 project_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-docs_dir="$project_root/docs"
+docs_dir="${COURSE_CHECK_DOCS_DIR:-$project_root/docs}"
 
 test -f "$docs_dir/index.html"
 test -f "$docs_dir/zh/index.html"
@@ -22,6 +22,7 @@ while IFS= read -r href; do
     http://*|https://*|mailto:*|\#*) continue ;;
   esac
   href_path="${href%%#*}"
+  href_path="${href_path%%\?*}"
   test -e "$docs_dir/$href_path" || {
     echo "Broken local link: $href" >&2
     exit 1
@@ -33,6 +34,7 @@ while IFS= read -r href; do
     http://*|https://*|mailto:*|\#*) continue ;;
   esac
   href_path="${href%%#*}"
+  href_path="${href_path%%\?*}"
   test -e "$docs_dir/zh/$href_path" || {
     echo "Broken Chinese local link: $href" >&2
     exit 1

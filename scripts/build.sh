@@ -16,7 +16,7 @@ for source_file in "$source_dir"/*.md; do
     --from=markdown+tex_math_dollars+tex_math_single_backslash-native_divs \
     --to=html5 \
     --standalone \
-    --math-method=mathjax \
+    --mathjax \
     --template "$project_root/templates/page.html" \
     --output "$docs_dir/$page_name.html"
 done
@@ -27,7 +27,7 @@ for source_file in "$source_dir"/zh/*.md; do
     --from=markdown+tex_math_dollars+tex_math_single_backslash-native_divs \
     --to=html5 \
     --standalone \
-    --math-method=mathjax \
+    --mathjax \
     --template "$project_root/templates/page-zh.html" \
     --output "$docs_dir/zh/$page_name.html"
 done
