@@ -1,0 +1,45 @@
+{
+  "model": "Original eight-predictor OLS model with intercept",
+  "profile_label": "Constructed teaching examples, not observed new territories",
+  "n": 25,
+  "residual_df": 16,
+  "largest_training_leverage": 0.7162623198481389,
+  "largest_training_leverage_row": 7,
+  "profiles": [
+    {
+      "profile": "All predictor means",
+      "Time": 87.642,
+      "MktPoten": 38858.0496,
+      "Adver": 4357.3872,
+      "MktShare": 7.5648,
+      "Change": 0.09560000000000002,
+      "Accts": 122.69920000000002,
+      "WkLoad": 18.060799999999997,
+      "Rating": 3.7439999999999998,
+      "h0": 0.039999999999999994,
+      "fitted_Sales": 3374.567599999941,
+      "prediction_lower_95": 2403.8245525743528,
+      "prediction_upper_95": 4345.310647425529,
+      "prediction_width": 1941.4860948511764
+    },
+    {
+      "profile": "Min Time, max Accts",
+      "Time": 8.13,
+      "MktPoten": 38858.0496,
+      "Adver": 4357.3872,
+      "MktShare": 7.5648,
+      "Change": 0.09560000000000002,
+      "Accts": 256.1,
+      "WkLoad": 18.060799999999997,
+      "Rating": 3.7439999999999998,
+      "h0": 2.900796084374613,
+      "fitted_Sales": 3955.285567843165,
+      "prediction_lower_95": 2075.2578895790057,
+      "prediction_upper_95": 5835.313246107325,
+      "prediction_width": 3760.055356528319
+    }
+  ],
+  "all_profiles_within_separate_ranges": true,
+  "error_variance_estimate": 201624.04217198645,
+  "interval_assumptions": "Correct linear mean also at the hypothetical profile; independent normal homoskedastic errors; new individual error independent of training errors; fixed accurately measured predictors."
+}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a local course-site preview with only selected classroom assets."""
+"""Build a course-site preview or release with explicitly approved replays."""
 from pathlib import Path
 import argparse
 import re
@@ -19,18 +19,25 @@ if not args.release:
 replay = preview / 'replay'
 replay.mkdir(parents=True, exist_ok=True)
 shutil.copy2(player / 'dist/index.html', replay / 'index.html')
+if (replay / 'assets').exists():
+    shutil.rmtree(replay / 'assets')
 shutil.copytree(player / 'dist/assets', replay / 'assets', dirs_exist_ok=True)
-transcript = player / 'public/examples/lecture12-replay.md'
-text = transcript.read_text()
-# Discover only assets linked by this lesson, plus its input data.
-paths = set(re.findall(r'\]\(/(examples/lecture12/[^)]+)\)', text))
-paths.add('examples/lecture12/sales_territory.csv')
 (replay / 'examples').mkdir(exist_ok=True)
-shutil.copy2(transcript, replay / 'examples/lecture12-replay.md')
-for path in sorted(paths):
-    target = replay / path
-    target.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(player / 'public' / path, target)
+# Keep this explicit list aligned with publication-manifest.yml.
+for lecture in (12, 13):
+    transcript = player / f'public/examples/lecture{lecture}-replay.md'
+    text = transcript.read_text()
+    paths = set(re.findall(rf'\]\(/(examples/lecture{lecture}/[^)]+)\)', text))
+    paths.add(f'examples/lecture{lecture}/sales_territory.csv')
+    shutil.copy2(transcript, replay / f'examples/lecture{lecture}-replay.md')
+    asset_root = (player / f'public/examples/lecture{lecture}').resolve()
+    for path in sorted(paths):
+        source = (player / 'public' / path).resolve()
+        if not source.is_relative_to(asset_root) or source.suffix not in {'.py', '.csv', '.json', '.png', '.txt'}:
+            raise SystemExit(f'Unapproved replay asset path: {path}')
+        target = replay / path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, target)
 shutil.copy2(player / 'LICENSE', replay / 'LICENSE')
 print(f'Local preview: {preview}')
 print('Release payload staged.' if args.release else 'Local preview staged. No Git operations performed.')

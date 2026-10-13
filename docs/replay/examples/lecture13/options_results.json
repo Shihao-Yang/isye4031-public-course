@@ -1,0 +1,83 @@
+{
+  "time_comparison": [
+    {
+      "model": "original",
+      "Time_coefficient": 2.009566151129275,
+      "Time_standard_error": 1.9306542139050382,
+      "Time_p_value": 0.3134082901167487
+    },
+    {
+      "model": "without_Accts",
+      "Time_coefficient": 3.70068224130359,
+      "Time_standard_error": 1.2821866786482883,
+      "Time_p_value": 0.010257508861799792
+    }
+  ],
+  "vifs": {
+    "original": {
+      "Time": 3.3426186465792984,
+      "MktPoten": 1.977623379087502,
+      "Adver": 1.9102120221669523,
+      "MktShare": 3.2357574788958003,
+      "Change": 1.6017300997018395,
+      "Accts": 5.639317372785646,
+      "WkLoad": 1.8183460883999527,
+      "Rating": 1.8085578984048953
+    },
+    "centered": {
+      "Time": 3.3426186465792984,
+      "MktPoten": 1.977623379087501,
+      "Adver": 1.9102120221669523,
+      "MktShare": 3.2357574788958003,
+      "Change": 1.6017300997018395,
+      "Accts": 5.639317372785646,
+      "WkLoad": 1.8183460883999523,
+      "Rating": 1.8085578984048953
+    },
+    "centered_scaled": {
+      "Time": 3.3426186465792997,
+      "MktPoten": 1.977623379087501,
+      "Adver": 1.9102120221669532,
+      "MktShare": 3.2357574788958003,
+      "Change": 1.6017300997018395,
+      "Accts": 5.639317372785646,
+      "WkLoad": 1.8183460883999527,
+      "Rating": 1.8085578984048953
+    },
+    "centered_interaction": {
+      "Time": 4.156226069554008,
+      "MktPoten": 2.1903802216777395,
+      "Adver": 2.42974481415867,
+      "MktShare": 3.2812205851377287,
+      "Change": 1.6017451502404803,
+      "Accts": 6.362738425212109,
+      "WkLoad": 1.9317926336758873,
+      "Rating": 2.1274252367020354,
+      "Time_x_Accts": 3.194197087432378
+    },
+    "without_Accts": {
+      "Time": 1.444448640705166,
+      "MktPoten": 1.580674666178385,
+      "Adver": 1.5218598777319376,
+      "MktShare": 1.4975814517030297,
+      "Change": 1.5971772216809863,
+      "WkLoad": 1.4578486724713375,
+      "Rating": 1.7400586314331628
+    }
+  },
+  "coordinate_checks": {
+    "centered": {
+      "max_absolute_vif_difference": 8.881784197001252e-16,
+      "max_absolute_fitted_difference": 1.2496457202360034e-09
+    },
+    "centered_scaled": {
+      "max_absolute_vif_difference": 1.3322676295501878e-15,
+      "max_absolute_fitted_difference": 7.003109203651547e-11
+    }
+  },
+  "interaction": {
+    "coefficient": -0.014750811776044287,
+    "p_value": 0.5220380170559881
+  },
+  "inference_assumptions": "Correct linear conditional mean, independent homoskedastic errors, and normal errors for exact finite-sample t tests. Models fitted to identical unmodified rows."
+}

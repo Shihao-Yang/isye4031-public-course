@@ -1,0 +1,30 @@
+{
+  "other_predictors": [
+    "Time",
+    "MktPoten",
+    "Adver",
+    "MktShare",
+    "Change",
+    "WkLoad",
+    "Rating"
+  ],
+  "n": 25,
+  "auxiliary_r_squared": 0.8226735730771557,
+  "one_minus_r_squared": 0.17732642692284428,
+  "accounts_centered_sum_squares": 49856.539384,
+  "accounts_residual_sum_squares": 8840.881987702787,
+  "vif": 5.639317372785646,
+  "standard_error_inflation_factor": 2.374724694103644,
+  "residual_slope": 5.5509606512990555,
+  "full_model_accounts_coefficient": 5.55096065129905,
+  "slope_difference": 5.329070518200751e-15,
+  "full_model_accounts_standard_error": 4.775549619779348,
+  "full_model_accounts_confidence_interval_95": [
+    -4.572752294365236,
+    15.674673596963336
+  ],
+  "full_model_residual_df": 16,
+  "full_model_error_variance_estimate": 201624.04217198645,
+  "standard_error_from_residual_information": 4.77554961977935,
+  "hypothetical_orthogonal_standard_error": 2.0109908452280254
+}

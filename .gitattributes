@@ -1,0 +1,2 @@
+# Preserve recorded data bytes for the Lecture 13 reproducibility manifest.
+docs/replay/examples/lecture13/*.csv -text

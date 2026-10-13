@@ -1,0 +1,49 @@
+{
+  "label": "Constructed collinearity stress test, not new-territory validation",
+  "seed": 4031,
+  "noise_generator": "numpy default_rng normal",
+  "noise_sd": 0.45578018908972634,
+  "Accts_sample_sd": 45.57801890897263,
+  "Sales_sample_sd": 1313.06811398051,
+  "first_sales_increase": 13.1306811398051,
+  "models": [
+    {
+      "model": "original",
+      "rank": 9,
+      "columns": 9,
+      "unique": true,
+      "Accts": 5.55096065129905,
+      "copy_coefficient": null
+    },
+    {
+      "model": "exact_copy",
+      "rank": 9,
+      "columns": 10,
+      "unique": false,
+      "Accts": 2.775480325649763,
+      "copy_coefficient": 2.7754803256492337
+    },
+    {
+      "model": "near_copy",
+      "rank": 10,
+      "columns": 10,
+      "unique": true,
+      "Accts": -141.42479115609285,
+      "copy_coefficient": 147.36986726867622
+    },
+    {
+      "model": "near_copy_changed_sales",
+      "rank": 10,
+      "columns": 10,
+      "unique": true,
+      "Accts": -140.41004884757012,
+      "copy_coefficient": 146.31610256571525
+    }
+  ],
+  "Accts_coefficient_change": 1.0147423085227274,
+  "copy_coefficient_change": -1.0537647029609616,
+  "fitted_max_absolute_change": 7.011888366314452,
+  "fitted_rms_change": 1.919071341309428,
+  "fitted_first_row_change": 7.011888366314452,
+  "original_csv_unchanged": true
+}

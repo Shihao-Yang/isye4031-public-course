@@ -1,0 +1,47 @@
+{
+  "model": "Original eight-predictor OLS with intercept",
+  "row_numbers": "Positions in supplied CSV, excluding header",
+  "selected_rows": [
+    {
+      "csv_row_position": 7,
+      "fitted_Sales": 5286.027005192814,
+      "residual": -254.36700519281385,
+      "leverage": 0.7162623198481091,
+      "externally_studentized_residual": -1.0681588562924664,
+      "Cooks_distance": 0.31723040430273963
+    },
+    {
+      "csv_row_position": 17,
+      "fitted_Sales": 3355.5611342557013,
+      "residual": -66.1611342557012,
+      "leverage": 0.5615244025597772,
+      "externally_studentized_residual": -0.21578324671294316,
+      "Cooks_distance": 0.007045289359994357
+    },
+    {
+      "csv_row_position": 10,
+      "fitted_Sales": 4087.376837196338,
+      "residual": 788.993162803662,
+      "leverage": 0.21856602922054646,
+      "externally_studentized_residual": 2.2178228791013312,
+      "Cooks_distance": 0.12278907872998411
+    }
+  ],
+  "largest_Cook_row": 7,
+  "largest_Cook_distance": 0.31723040430273963,
+  "sensitivity_label": "Excluding largest-Cook row only as sensitivity check; not a data-cleaning decision",
+  "sensitivity_changes": [
+    {
+      "predictor": "Time",
+      "original": 2.009566151129275,
+      "sensitivity_excluding_largest_Cook": 3.1711747781588455,
+      "change": 1.1616086270295707
+    },
+    {
+      "predictor": "Accts",
+      "original": 5.55096065129905,
+      "sensitivity_excluding_largest_Cook": 7.684881240630219,
+      "change": 2.1339205893311686
+    }
+  ]
+}

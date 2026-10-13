@@ -22,6 +22,14 @@ allowlist:
     - materials
     - lectures
   lecture_replays:
+    - key: lecture13-regression-pitfalls
+      public_output: docs/replay/
+      transcript: docs/replay/examples/lecture13-replay.md
+      source: ../../llm-chat-replay/public/examples/lecture13-replay.md
+      data_provenance: same-owner-approved-course-file-5-1.txt-as-lecture12
+      release_status: owner-approved-2026-10-13-after-local-replay-review
+      player_license: MIT
+      assets: linked-classroom-results-code-plots-input-csv-and-requirements-only
     - key: lecture12-model-selection
       public_output: docs/replay/
       transcript: docs/replay/examples/lecture12-replay.md
