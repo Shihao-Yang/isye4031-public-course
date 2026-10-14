@@ -1,0 +1,48 @@
+{
+  "seed": 403116,
+  "construction": "Common x; y=5+2*x+residual. Each constructed residual vector is projected perpendicular to intercept and x, then scaled to squared length 30. All datasets constructed here; none is actual territory data.",
+  "summaries": [
+    {
+      "dataset": "Scattered residuals",
+      "n": 30,
+      "x_mean": -4.4408920985006264e-17,
+      "y_mean": 4.999999999999999,
+      "x_sample_variance": 1.4744351961950057,
+      "y_sample_variance": 6.932223543400712,
+      "correlation": 0.9223729558263262,
+      "intercept": 4.999999999999998,
+      "slope": 1.9999999999999996,
+      "R_squared": 0.8507718696397941,
+      "SSE": 30.0,
+      "slope_SE": 0.15829593705031073
+    },
+    {
+      "dataset": "Curved relationship",
+      "n": 30,
+      "x_mean": -4.4408920985006264e-17,
+      "y_mean": 5.0,
+      "x_sample_variance": 1.4744351961950057,
+      "y_sample_variance": 6.932223543400713,
+      "correlation": 0.9223729558263262,
+      "intercept": 4.999999999999998,
+      "slope": 1.9999999999999998,
+      "R_squared": 0.8507718696397942,
+      "SSE": 29.999999999999993,
+      "slope_SE": 0.15829593705031073
+    },
+    {
+      "dataset": "One large residual",
+      "n": 30,
+      "x_mean": -4.4408920985006264e-17,
+      "y_mean": 5.000000000000001,
+      "x_sample_variance": 1.4744351961950057,
+      "y_sample_variance": 6.932223543400716,
+      "correlation": 0.9223729558263262,
+      "intercept": 4.999999999999998,
+      "slope": 1.9999999999999996,
+      "R_squared": 0.8507718696397942,
+      "SSE": 30.0,
+      "slope_SE": 0.15829593705031073
+    }
+  ]
+}

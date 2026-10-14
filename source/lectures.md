@@ -10,13 +10,15 @@ Follow each analysis one step at a time. Use **Next message** to reveal an answe
 
 ## Lecture 13: Regression pitfalls and multicollinearity
 
-[Open the conversational replay](replay/?transcript=./examples/lecture13-v2-replay.md)
+[Open the conversational replay](replay/?transcript=./examples/lecture13-v3-replay.md)
 
-[Download the Markdown transcript](replay/examples/lecture13-v2-replay.md) · [Original version](replay/?transcript=./examples/lecture13-replay.md)
+[Download the Markdown transcript](replay/examples/lecture13-v3-replay.md) · [Earlier conversational version](replay/?transcript=./examples/lecture13-v2-replay.md) · [Original version](replay/?transcript=./examples/lecture13-replay.md)
 
-Continue with the sales-territory example to examine VIF, the variation that identifies an adjusted coefficient, exact and near collinearity, proposed remedies, extrapolation, and influential observations. Compare individual and joint tests before deciding what to investigate next.
+Start with a reminder of the sales-territory question and data. Follow the figures through predictor overlap, coefficient uncertainty, proposed remedies, prediction and diagnostic checks.
 
-Short, simulated instructor questions guide the conversation. Codex CLI chooses and executes the analysis, and the replay preserves its recorded responses and generated results. Instructor notes are labeled separately, and constructed experiments are identified. Open-ended pauses invite students to explain their reasoning before revealing the answer. The original recording remains available for comparison.
+For one meeting, use checkpoints **1–13** and allow time for discussion. Checkpoints **14–19** extend the lesson with PCA, ridge, polynomial identifiability, PRESS and DFFITS, and constructed examples showing why numerical summaries and normality tests cannot replace plots.
+
+Short, simulated instructor questions guide the conversation. Codex CLI chooses and executes the analysis, and the replay preserves its recorded responses and generated results. Instructor notes are labeled separately, and constructed experiments are identified. Open-ended pauses invite students to explain their reasoning before revealing the answer. Both earlier recordings remain available for comparison.
 
 ## Lecture 12: Sales-territory model selection
 

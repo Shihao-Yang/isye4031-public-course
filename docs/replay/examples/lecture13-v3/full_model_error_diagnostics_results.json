@@ -1,0 +1,18 @@
+{
+  "model": "Original eight-predictor OLS sales model with intercept; all 25 observations",
+  "residual_df": 16.0,
+  "Shapiro_Wilk_raw_residuals": {
+    "statistic": 0.9641505748880183,
+    "pvalue": 0.5031525604316236,
+    "qualification": "Descriptive screen; fitted residuals are correlated and have unequal variances due to leverage."
+  },
+  "Breusch_Pagan": {
+    "LM": 11.160890653530089,
+    "LM_pvalue": 0.19274851380165864,
+    "F": 1.6129492692211465,
+    "F_pvalue": 0.19772049261132463,
+    "qualification": "Small sample with eight predictors limits diagnostic power and asymptotic calibration."
+  },
+  "largest_absolute_external_studentized_residual": 2.2178228791013312,
+  "note": "Plots do not establish independence; CSV row order has no documented temporal interpretation. LOWESS curves are descriptive."
+}

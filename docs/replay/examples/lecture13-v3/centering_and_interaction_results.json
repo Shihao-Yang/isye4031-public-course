@@ -1,0 +1,27 @@
+{
+  "near_copy_centering": {
+    "raw_Accounts_slope": 1083.2685674069749,
+    "centered_Accounts_slope": 1083.2685674069119,
+    "raw_Accounts_SE": 916.0527944590013,
+    "centered_Accounts_SE": 916.0527944590027,
+    "max_fitted_change": 5.19321474712342e-10
+  },
+  "actual_data_interaction": {
+    "mean_Time": 87.642,
+    "interaction_coefficient": -0.014750811776044287,
+    "interaction_SE": 0.02250121663375998,
+    "interaction_ci95": [
+      -0.06271101974461407,
+      0.03320939619252549
+    ],
+    "interaction_pvalue": 0.5220380170559881,
+    "raw_Accounts_coefficient_at_Time_zero": 7.985567172449243,
+    "centered_Accounts_coefficient_at_mean_Time": 6.692776526774374,
+    "centered_Accounts_SE": 5.165503020424586,
+    "max_fitted_difference_raw_vs_centered_interaction": 9.549694368615746e-10,
+    "base_residual_sd": 449.02565870113307,
+    "interaction_residual_sd": 457.2478268920738,
+    "residual_df": 15.0
+  },
+  "note": "All 25 observations retained. Interaction is a constructed product of actual predictors; no near copy is included in interaction models. Classical pointwise t intervals; exploratory in-sample analysis, not validation."
+}

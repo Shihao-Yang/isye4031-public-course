@@ -1,0 +1,84 @@
+{
+  "full_eight_predictor_model": {
+    "R_squared": 0.9220391531948753,
+    "adjusted_R_squared": 0.8830587297923129,
+    "SSE": 3225984.6747517833,
+    "residual_SD": 449.02565870113307,
+    "residual_df": 16.0
+  },
+  "seven_predictor_model_without_Accounts": {
+    "R_squared": 0.9154558154108055,
+    "adjusted_R_squared": 0.8806435041093724,
+    "SSE": 3498400.2226897194,
+    "residual_SD": 453.6388964732995,
+    "residual_df": 17.0
+  },
+  "partial_F_test": {
+    "F": 1.3511064702569753,
+    "pvalue": 0.26213003460458967,
+    "df_numerator": 1.0,
+    "df_denominator": 16.0
+  },
+  "RMS_fitted_change": 104.38688575447327,
+  "max_absolute_fitted_change": 236.41872310225995,
+  "row_of_max_absolute_change": 12,
+  "coefficient_comparison": [
+    {
+      "term": "const",
+      "full_coefficient": -1507.813729842376,
+      "without_Accounts_coefficient": -1260.4511998308221,
+      "full_SE": 778.6349396429604,
+      "without_Accounts_SE": 756.684267105398
+    },
+    {
+      "term": "Time",
+      "full_coefficient": 2.009566151129275,
+      "without_Accounts_coefficient": 3.70068224130359,
+      "full_SE": 1.9306542139050382,
+      "without_Accounts_SE": 1.2821866786482883
+    },
+    {
+      "term": "MktPoten",
+      "full_coefficient": 0.03720490957821154,
+      "without_Accounts_coefficient": 0.041476364460201164,
+      "full_SE": 0.008202299653678928,
+      "without_Accounts_SE": 0.007408396374947614
+    },
+    {
+      "term": "Adver",
+      "full_coefficient": 0.15098889562735793,
+      "without_Accounts_coefficient": 0.12629917383714845,
+      "full_SE": 0.04710850722704687,
+      "without_Accounts_SE": 0.04248004967602244
+    },
+    {
+      "term": "MktShare",
+      "full_coefficient": 199.02353634541282,
+      "without_Accounts_coefficient": 256.1266041018809,
+      "full_SE": 67.02792229985293,
+      "without_Accounts_SE": 46.0682938796444
+    },
+    {
+      "term": "Change",
+      "full_coefficient": 290.8551339862283,
+      "without_Accounts_coefficient": 302.4303242247549,
+      "full_SE": 186.78199573963792,
+      "without_Accounts_SE": 188.43259263293083
+    },
+    {
+      "term": "WkLoad",
+      "full_coefficient": 19.79389188698722,
+      "without_Accounts_coefficient": 2.364307974160994,
+      "full_SE": 33.67669223400783,
+      "without_Accounts_SE": 30.463970362564154
+    },
+    {
+      "term": "Rating",
+      "full_coefficient": 8.189283661689956,
+      "without_Accounts_coefficient": 37.25919038522727,
+      "full_SE": 128.50561301223286,
+      "without_Accounts_SE": 127.34355129691149
+    }
+  ],
+  "note": "Actual data, all 25 rows. In-sample nested model comparison, not validation. Classical OLS partial F test."
+}

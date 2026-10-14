@@ -1,0 +1,20 @@
+{
+  "model": "OLS Accts on intercept, Time, MktPoten, Adver, MktShare, Change, WkLoad, Rating",
+  "n": 25,
+  "r_squared": 0.8226735730771557,
+  "remaining_variation_fraction": 0.17732642692284434,
+  "VIF_Accounts": 5.639317372785646,
+  "residual_min": -26.62151890167452,
+  "residual_max": 42.59059610646247,
+  "residual_sum": -1.0999912092302111e-10,
+  "coefficients": {
+    "const": 44.562111956884166,
+    "Time": 0.30465286936928715,
+    "MktPoten": 0.0007694983175553206,
+    "Adver": -0.004447828644657368,
+    "MktShare": 10.287060446574106,
+    "Change": 2.0852589246543873,
+    "WkLoad": -3.139922079747958,
+    "Rating": 5.236914572027378
+  }
+}

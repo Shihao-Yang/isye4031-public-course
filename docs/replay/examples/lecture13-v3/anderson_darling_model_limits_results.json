@@ -1,0 +1,30 @@
+{
+  "test": "Anderson\u2013Darling normality screen, mean and variance estimated (statsmodels normal_ad)",
+  "results": [
+    {
+      "dataset": "Actual sales: full model",
+      "n": 25,
+      "AD_statistic": 0.2883484003699124,
+      "nominal_pvalue": 0.588219646708929
+    },
+    {
+      "dataset": "Constructed: Scattered residuals",
+      "n": 30,
+      "AD_statistic": 0.30062391224921825,
+      "nominal_pvalue": 0.5585116770164777
+    },
+    {
+      "dataset": "Constructed: Curved relationship",
+      "n": 30,
+      "AD_statistic": 1.0482702132473278,
+      "nominal_pvalue": 0.00795565837181953
+    },
+    {
+      "dataset": "Constructed: One large residual",
+      "n": 30,
+      "AD_statistic": 6.929427520737505,
+      "nominal_pvalue": 2.0803879810623717e-17
+    }
+  ],
+  "qualification": "Nominal iid normality p-values applied to fitted residuals. Residuals are correlated and their variances depend on leverage; constructed residuals also satisfy enforced constraints. These p-values are descriptive screens, not exact regression adequacy tests. No fitted-design bootstrap calibration used."
+}

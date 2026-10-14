@@ -1,0 +1,35 @@
+{
+  "model": "All eight actual predictors, standardized; intercept unpenalized; all 25 observations",
+  "objective": "sum of squared residuals + alpha * sum of squared standardized slopes",
+  "selected_results": [
+    {
+      "alpha": 0.0,
+      "training_RMSE": 359.22052696090645,
+      "coefficient_L2_norm_standardized": 918.4756244496224,
+      "mean_deletion_RMS_fitted_change": 55.09095578427488,
+      "max_deletion_RMS_fitted_change": 151.7434002174463
+    },
+    {
+      "alpha": 1.0,
+      "training_RMSE": 361.11234267731,
+      "coefficient_L2_norm_standardized": 878.4805933175078,
+      "mean_deletion_RMS_fitted_change": 49.28813945802729,
+      "max_deletion_RMS_fitted_change": 163.6556058487884
+    },
+    {
+      "alpha": 10.0,
+      "training_RMSE": 429.0563653488906,
+      "coefficient_L2_norm_standardized": 693.572036601518,
+      "mean_deletion_RMS_fitted_change": 40.41708627157284,
+      "max_deletion_RMS_fitted_change": 154.7866184665815
+    },
+    {
+      "alpha": 100.0,
+      "training_RMSE": 860.7905956780723,
+      "coefficient_L2_norm_standardized": 292.8956206112011,
+      "mean_deletion_RMS_fitted_change": 37.241809543836176,
+      "max_deletion_RMS_fitted_change": 121.5492740020625
+    }
+  ],
+  "note": "In-sample fit and one-row deletion sensitivity, not predictive validation or tuning. Each deletion refits scaling on its remaining 24 rows. No alpha is selected."
+}

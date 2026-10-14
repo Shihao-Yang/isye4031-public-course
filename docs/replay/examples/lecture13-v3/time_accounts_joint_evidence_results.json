@@ -1,0 +1,35 @@
+{
+  "hypothesis": "Time and Accts coefficients both zero, conditional on the other six predictors",
+  "n": 25,
+  "full_SSE": 3225984.6747517833,
+  "reduced_SSE": 5212679.762531718,
+  "SSE_reduction": 1986695.087779935,
+  "partial_R_squared": 0.3811274005474351,
+  "F": 4.9267316198463895,
+  "numerator_df": 2,
+  "denominator_df": 16,
+  "pvalue": 0.02151840306246317,
+  "individual_tests_in_full_model": {
+    "Time": {
+      "coefficient": 2.009566151129275,
+      "SE": 1.9306542139050382,
+      "pvalue": 0.3134082901167487
+    },
+    "Accts": {
+      "coefficient": 5.55096065129905,
+      "SE": 4.775549619779348,
+      "pvalue": 0.2621300346045893
+    }
+  },
+  "coefficient_covariance": [
+    [
+      3.727425693669281,
+      -6.9478750046621105
+    ],
+    [
+      -6.9478750046621105,
+      22.80587417097467
+    ]
+  ],
+  "note": "Classical OLS joint F test and 95% joint confidence ellipse under independent normal errors with constant variance. Actual data; all rows retained. Not validation or a causal test."
+}

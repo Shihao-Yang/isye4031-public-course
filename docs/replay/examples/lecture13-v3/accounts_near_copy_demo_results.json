@@ -1,0 +1,44 @@
+{
+  "seed": 403114,
+  "construction": "Copy = actual Accounts + independent Normal(0, 0.1) noise; sensitivity trials add Normal(0, 0.01) noise to this copy only; Sales and all original predictors unchanged",
+  "n": 25,
+  "correlation_accounts_copy": 0.9999965405593715,
+  "design_rank": 10,
+  "design_columns": 10,
+  "Accounts_slope": 1083.2685674070447,
+  "copy_slope": -1078.1402439076096,
+  "Accounts_SE": 916.0527944590342,
+  "copy_SE": 916.3998723269019,
+  "combined_slope": 5.128323499435055,
+  "combined_SE": 4.732886886915812,
+  "combined_ci95": [
+    -4.9595861048674745,
+    15.216233103737585
+  ],
+  "original_accounts_slope": 5.55096065129905,
+  "original_accounts_SE": 4.775549619779348,
+  "RMS_fitted_difference_from_original_model": 104.4093852163054,
+  "sensitivity_summary": {
+    "Accounts_slope": {
+      "min": 902.9375870563742,
+      "max": 1293.789533178753,
+      "median": 1091.1138935514741
+    },
+    "copy_slope": {
+      "min": -1288.669800260204,
+      "max": -897.8255265089947,
+      "median": -1086.0824518313066
+    },
+    "sum": {
+      "min": 4.789767383917933,
+      "max": 5.370719735142757,
+      "median": 5.129198270197435
+    },
+    "fitted_sales_RMS_change_from_initial_near_copy_fit": {
+      "min": 4.577157021799036,
+      "max": 24.822317652749895,
+      "median": 9.657937501196635
+    }
+  },
+  "note": "Constructed sensitivity analysis, not validation. Classical OLS uncertainty."
+}

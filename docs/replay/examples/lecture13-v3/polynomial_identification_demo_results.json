@@ -1,0 +1,40 @@
+{
+  "seed": 403115,
+  "construction": "30 constructed observations at x=0 or 1; y=2+3*x+Normal(0,0.15). Near-two-level x adds Normal(0,0.001); y unchanged. Neither dataset is sales-territory data.",
+  "exact_design_rank": 2,
+  "exact_design_columns": 3,
+  "exact_pseudoinverse_coefficients": [
+    2.042195083341617,
+    1.4792947934976381,
+    1.4792947934976381
+  ],
+  "equivalent_coefficients_intercept_linear_quadratic": [
+    [
+      2.042195083341617,
+      -8.520705206502361,
+      11.479294793497639
+    ],
+    [
+      2.042195083341617,
+      1.4792947934976381,
+      1.4792947934976381
+    ],
+    [
+      2.042195083341617,
+      11.479294793497639,
+      -8.520705206502361
+    ]
+  ],
+  "max_fitted_difference_equivalent_choices": 1.7763568394002505e-15,
+  "near_design_rank": 3,
+  "near_coefficients": [
+    2.0356853861170756,
+    -64.26515581032922,
+    67.22727627259218
+  ],
+  "near_classical_standard_errors": [
+    0.03354816231014939,
+    21.638462671206042,
+    21.63973327944207
+  ]
+}

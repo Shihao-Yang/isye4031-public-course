@@ -1,0 +1,35 @@
+{
+  "original_accounts_slope": 5.55096065129905,
+  "original_design_columns": 9,
+  "original_design_rank": 9,
+  "duplicate_design_columns": 10,
+  "duplicate_design_rank": 9,
+  "software_pseudoinverse_accounts_coefficient": 2.775480325649763,
+  "software_pseudoinverse_copy_coefficient": 2.7754803256492337,
+  "max_fitted_difference": 2.764863893389702e-10,
+  "equivalent_coefficient_choices": [
+    {
+      "Accounts_coefficient": -7.224519674350237,
+      "copy_coefficient": 12.775480325649234,
+      "sum": 5.550960651298997,
+      "max_fitted_difference_from_original": 2.764863893389702e-10
+    },
+    {
+      "Accounts_coefficient": 2.775480325649763,
+      "copy_coefficient": 2.7754803256492337,
+      "sum": 5.550960651298997,
+      "max_fitted_difference_from_original": 2.764863893389702e-10
+    },
+    {
+      "Accounts_coefficient": 12.775480325649763,
+      "copy_coefficient": -7.224519674350766,
+      "sum": 5.550960651298997,
+      "max_fitted_difference_from_original": 2.764863893389702e-10
+    }
+  ],
+  "combined_accounts_slope_standard_error": 4.775549619779348,
+  "combined_accounts_slope_ci95": [
+    -4.572752294365236,
+    15.674673596963336
+  ]
+}

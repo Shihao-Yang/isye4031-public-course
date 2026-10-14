@@ -1,0 +1,13 @@
+{
+  "seed": 403113,
+  "population_size": 100000,
+  "random_sample_size": 1000,
+  "data_generating_equations": {
+    "advertising": "2 * territory_potential + independent_noise",
+    "sales": "3 * territory_potential + independent_noise"
+  },
+  "true_advertising_causal_effect": 0,
+  "observational_simple_regression_slope": 1.1791274124968487,
+  "random_assignment_simple_regression_slope": 0.0005446432129100134,
+  "note": "Constructed illustration, not analysis or validation of the supplied sales-territory data."
+}

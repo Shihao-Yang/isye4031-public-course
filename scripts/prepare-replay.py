@@ -24,7 +24,7 @@ if (replay / 'assets').exists():
 shutil.copytree(player / 'dist/assets', replay / 'assets', dirs_exist_ok=True)
 (replay / 'examples').mkdir(exist_ok=True)
 # Keep this explicit list aligned with publication-manifest.yml.
-for lesson in ('lecture12', 'lecture13', 'lecture13-v2'):
+for lesson in ('lecture12', 'lecture13', 'lecture13-v2', 'lecture13-v3'):
     transcript = player / f'public/examples/{lesson}-replay.md'
     text = transcript.read_text()
     paths = set(re.findall(rf'\]\(/(examples/{re.escape(lesson)}/[^)]+)\)', text))

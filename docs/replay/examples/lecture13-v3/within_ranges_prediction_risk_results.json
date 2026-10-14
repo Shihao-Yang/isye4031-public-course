@@ -1,0 +1,70 @@
+{
+  "model": "Original full eight-predictor OLS model, all 25 actual observations",
+  "construction": "Choose highest-leverage combination among 256 candidates at 5% or 95% of each observed predictor range. Comparison point is vector of predictor means. Both territories are hypothetical.",
+  "observed_ranges": {
+    "min": {
+      "Time": 8.13,
+      "MktPoten": 20416.87,
+      "Adver": 402.44,
+      "MktShare": 2.51,
+      "Change": -1.63,
+      "Accts": 74.86,
+      "WkLoad": 7.81,
+      "Rating": 1.6
+    },
+    "max": {
+      "Time": 365.04,
+      "MktPoten": 74065.11,
+      "Adver": 10694.2,
+      "MktShare": 12.88,
+      "Change": 1.24,
+      "Accts": 256.1,
+      "WkLoad": 24.96,
+      "Rating": 5.5
+    }
+  },
+  "observed_leverage_max": 0.7162623198481091,
+  "territories": [
+    {
+      "territory": "Constructed mean territory",
+      "predictors": {
+        "Time": 87.642,
+        "MktPoten": 38858.0496,
+        "Adver": 4357.3872,
+        "MktShare": 7.5648,
+        "Change": 0.09560000000000002,
+        "Accts": 122.69920000000002,
+        "WkLoad": 18.060799999999997,
+        "Rating": 3.7439999999999998
+      },
+      "leverage": 0.03999999999999923,
+      "mean": 3374.567599999941,
+      "mean_se": 89.80513174022633,
+      "mean_ci_lower": 3184.1892253265723,
+      "mean_ci_upper": 3564.94597467331,
+      "obs_ci_lower": 2403.8245525743528,
+      "obs_ci_upper": 4345.310647425529
+    },
+    {
+      "territory": "Constructed unusual combination",
+      "predictors": {
+        "Time": 347.1945,
+        "MktPoten": 71382.698,
+        "Adver": 917.028,
+        "MktShare": 12.3615,
+        "Change": -1.4865,
+        "Accts": 83.922,
+        "WkLoad": 8.6675,
+        "Rating": 5.305
+      },
+      "leverage": 9.56727656711722,
+      "mean": 4692.873170131362,
+      "mean_se": 1388.881915081156,
+      "mean_ci_lower": 1748.575038358255,
+      "mean_ci_upper": 7637.171301904469,
+      "obs_ci_lower": 1598.5251568425442,
+      "obs_ci_upper": 7787.221183420179
+    }
+  ],
+  "note": "Model-based classical 95% intervals, not validation; prediction interval concerns one new observation under the same model and error assumptions."
+}

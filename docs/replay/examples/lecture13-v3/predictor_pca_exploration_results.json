@@ -1,0 +1,97 @@
+{
+  "method": "PCA of all eight predictors standardized to mean zero and population SD one, fitted to all 25 rows; Sales excluded from PCA",
+  "variance_fractions": [
+    0.3676155522220507,
+    0.194516156183961,
+    0.16007706673112246,
+    0.0948059320862943,
+    0.07435291509094245,
+    0.054754793276671626,
+    0.04288707509787375,
+    0.010990509311083708
+  ],
+  "weights": {
+    "PC1": {
+      "Time": 0.4073175517833808,
+      "MktPoten": 0.3856442285660947,
+      "Adver": 0.337131532029817,
+      "MktShare": 0.08147779795802794,
+      "Change": 0.3949962129360064,
+      "Accts": 0.4441146904077277,
+      "WkLoad": -0.2780480071823527,
+      "Rating": 0.36674797718075847
+    },
+    "PC2": {
+      "Time": 0.26664036668803137,
+      "MktPoten": -0.15795883658749502,
+      "Adver": 0.01838027171420179,
+      "MktShare": 0.6771897940538791,
+      "Change": -0.12273521902960038,
+      "Accts": 0.37600953115920177,
+      "WkLoad": 0.4660279899569009,
+      "Rating": -0.2672056891259971
+    },
+    "PC3": {
+      "Time": -0.4113566147560952,
+      "MktPoten": -0.3819420092780945,
+      "Adver": 0.46771096717273625,
+      "MktShare": 0.36119229724736857,
+      "Change": 0.3377129212893892,
+      "Accts": -0.2700623522280889,
+      "WkLoad": 0.08509755763592583,
+      "Rating": 0.37612142590943787
+    }
+  },
+  "in_sample_component_regressions": [
+    {
+      "components": 1,
+      "cumulative_predictor_variance": 0.3676155522220507,
+      "in_sample_sales_R_squared": 0.6979705051989107,
+      "RMS_fitted_difference_from_full_model": 608.9945675528967
+    },
+    {
+      "components": 2,
+      "cumulative_predictor_variance": 0.5621317084060118,
+      "in_sample_sales_R_squared": 0.840836074775003,
+      "RMS_fitted_difference_from_full_model": 366.6140617317582
+    },
+    {
+      "components": 3,
+      "cumulative_predictor_variance": 0.7222087751371342,
+      "in_sample_sales_R_squared": 0.8448467229802963,
+      "RMS_fitted_difference_from_full_model": 357.44582486564747
+    },
+    {
+      "components": 4,
+      "cumulative_predictor_variance": 0.8170147072234285,
+      "in_sample_sales_R_squared": 0.8478769818318723,
+      "RMS_fitted_difference_from_full_model": 350.35965512240443
+    },
+    {
+      "components": 5,
+      "cumulative_predictor_variance": 0.8913676223143709,
+      "in_sample_sales_R_squared": 0.8874551689786805,
+      "RMS_fitted_difference_from_full_model": 239.25464818553786
+    },
+    {
+      "components": 6,
+      "cumulative_predictor_variance": 0.9461224155910426,
+      "in_sample_sales_R_squared": 0.8875137058422764,
+      "RMS_fitted_difference_from_full_model": 239.05208118302943
+    },
+    {
+      "components": 7,
+      "cumulative_predictor_variance": 0.9890094906889163,
+      "in_sample_sales_R_squared": 0.9213174823233454,
+      "RMS_fitted_difference_from_full_model": 34.561490209511405
+    },
+    {
+      "components": 8,
+      "cumulative_predictor_variance": 1.0000000000000002,
+      "in_sample_sales_R_squared": 0.9220391531948753,
+      "RMS_fitted_difference_from_full_model": 5.878615233825301e-11
+    }
+  ],
+  "max_absolute_off_diagonal_score_covariance": 5.336166002996759e-16,
+  "note": "Exploratory in-sample analysis, not validation. New component columns are mathematical combinations of actual predictors. Component signs are arbitrary."
+}

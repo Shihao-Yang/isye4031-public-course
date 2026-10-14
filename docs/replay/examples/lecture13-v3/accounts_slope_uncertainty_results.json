@@ -1,0 +1,30 @@
+{
+  "simple_sales_on_accounts": {
+    "slope": 21.721769712310763,
+    "standard_error": 3.9460330436769864,
+    "ci95": [
+      13.558778425543323,
+      29.884760999078203
+    ],
+    "residual_df": 23.0,
+    "residual_sd": 881.0930645945253
+  },
+  "full_eight_predictor_sales_model": {
+    "slope": 5.55096065129905,
+    "standard_error": 4.775549619779348,
+    "ci95": [
+      -4.572752294365236,
+      15.674673596963336
+    ],
+    "residual_df": 16.0,
+    "residual_sd": 449.02565870113307
+  },
+  "accounts_auxiliary_R_squared": 0.8226735730771557,
+  "accounts_residual_sum_squares": 8840.881987702787,
+  "accounts_total_sum_squares": 49856.539384,
+  "VIF": 5.639317372785644,
+  "standard_error_inflation_factor_holding_full_model_error_variance_fixed": 2.3747246941036435,
+  "reference_standard_error_using_total_accounts_variation_and_full_model_error_variance": 2.0109908452280254,
+  "partial_regression_slope": 5.5509606512990555,
+  "note": "Classical OLS standard errors and t intervals. Reference SE is an algebraic comparison holding full-model residual variance fixed, not a fitted alternative model."
+}

@@ -1,0 +1,302 @@
+{
+  "observations": 25,
+  "columns": [
+    "Sales",
+    "Time",
+    "MktPoten",
+    "Adver",
+    "MktShare",
+    "Change",
+    "Accts",
+    "WkLoad",
+    "Rating"
+  ],
+  "missing_by_column": {
+    "Sales": 0,
+    "Time": 0,
+    "MktPoten": 0,
+    "Adver": 0,
+    "MktShare": 0,
+    "Change": 0,
+    "Accts": 0,
+    "WkLoad": 0,
+    "Rating": 0
+  },
+  "data": [
+    {
+      "Sales": 3669.88,
+      "Time": 43.1,
+      "MktPoten": 74065.11,
+      "Adver": 4582.88,
+      "MktShare": 2.51,
+      "Change": 0.34,
+      "Accts": 74.86,
+      "WkLoad": 15.05,
+      "Rating": 4.9
+    },
+    {
+      "Sales": 3473.95,
+      "Time": 108.13,
+      "MktPoten": 58117.3,
+      "Adver": 5539.78,
+      "MktShare": 5.51,
+      "Change": 0.15,
+      "Accts": 107.32,
+      "WkLoad": 19.97,
+      "Rating": 5.1
+    },
+    {
+      "Sales": 2295.1,
+      "Time": 13.82,
+      "MktPoten": 21118.49,
+      "Adver": 2950.38,
+      "MktShare": 10.91,
+      "Change": -0.72,
+      "Accts": 96.75,
+      "WkLoad": 17.34,
+      "Rating": 2.9
+    },
+    {
+      "Sales": 4675.56,
+      "Time": 186.18,
+      "MktPoten": 68521.27,
+      "Adver": 2243.07,
+      "MktShare": 8.27,
+      "Change": 0.17,
+      "Accts": 195.12,
+      "WkLoad": 13.4,
+      "Rating": 3.4
+    },
+    {
+      "Sales": 6125.96,
+      "Time": 161.79,
+      "MktPoten": 57805.11,
+      "Adver": 7747.08,
+      "MktShare": 9.15,
+      "Change": 0.5,
+      "Accts": 180.44,
+      "WkLoad": 17.64,
+      "Rating": 4.6
+    },
+    {
+      "Sales": 2134.94,
+      "Time": 8.94,
+      "MktPoten": 37806.94,
+      "Adver": 402.44,
+      "MktShare": 5.51,
+      "Change": 0.15,
+      "Accts": 104.88,
+      "WkLoad": 16.22,
+      "Rating": 4.5
+    },
+    {
+      "Sales": 5031.66,
+      "Time": 365.04,
+      "MktPoten": 50935.26,
+      "Adver": 3140.62,
+      "MktShare": 8.54,
+      "Change": 0.55,
+      "Accts": 256.1,
+      "WkLoad": 18.8,
+      "Rating": 4.6
+    },
+    {
+      "Sales": 3367.45,
+      "Time": 220.32,
+      "MktPoten": 35602.08,
+      "Adver": 2086.16,
+      "MktShare": 7.07,
+      "Change": -0.49,
+      "Accts": 126.83,
+      "WkLoad": 19.86,
+      "Rating": 2.3
+    },
+    {
+      "Sales": 6519.45,
+      "Time": 127.64,
+      "MktPoten": 46176.77,
+      "Adver": 8846.25,
+      "MktShare": 12.54,
+      "Change": 1.24,
+      "Accts": 203.25,
+      "WkLoad": 17.42,
+      "Rating": 4.9
+    },
+    {
+      "Sales": 4876.37,
+      "Time": 105.69,
+      "MktPoten": 42053.24,
+      "Adver": 5673.11,
+      "MktShare": 8.85,
+      "Change": 0.31,
+      "Accts": 119.51,
+      "WkLoad": 21.41,
+      "Rating": 2.8
+    },
+    {
+      "Sales": 2468.27,
+      "Time": 57.72,
+      "MktPoten": 36829.71,
+      "Adver": 2761.76,
+      "MktShare": 5.38,
+      "Change": 0.37,
+      "Accts": 116.26,
+      "WkLoad": 16.32,
+      "Rating": 3.1
+    },
+    {
+      "Sales": 2533.31,
+      "Time": 23.58,
+      "MktPoten": 33612.67,
+      "Adver": 1991.85,
+      "MktShare": 5.43,
+      "Change": -0.65,
+      "Accts": 142.28,
+      "WkLoad": 14.51,
+      "Rating": 4.2
+    },
+    {
+      "Sales": 2408.11,
+      "Time": 13.82,
+      "MktPoten": 21412.79,
+      "Adver": 1971.52,
+      "MktShare": 8.48,
+      "Change": 0.64,
+      "Accts": 89.43,
+      "WkLoad": 19.35,
+      "Rating": 4.3
+    },
+    {
+      "Sales": 2337.38,
+      "Time": 13.82,
+      "MktPoten": 20416.87,
+      "Adver": 1737.38,
+      "MktShare": 7.8,
+      "Change": 1.01,
+      "Accts": 84.55,
+      "WkLoad": 20.02,
+      "Rating": 4.2
+    },
+    {
+      "Sales": 4586.95,
+      "Time": 86.99,
+      "MktPoten": 36272.0,
+      "Adver": 10694.2,
+      "MktShare": 10.34,
+      "Change": 0.11,
+      "Accts": 119.51,
+      "WkLoad": 15.26,
+      "Rating": 5.5
+    },
+    {
+      "Sales": 2729.24,
+      "Time": 165.85,
+      "MktPoten": 23093.26,
+      "Adver": 8618.61,
+      "MktShare": 5.15,
+      "Change": 0.04,
+      "Accts": 80.49,
+      "WkLoad": 15.87,
+      "Rating": 3.6
+    },
+    {
+      "Sales": 3289.4,
+      "Time": 116.26,
+      "MktPoten": 26878.59,
+      "Adver": 7747.89,
+      "MktShare": 6.64,
+      "Change": 0.68,
+      "Accts": 136.58,
+      "WkLoad": 7.81,
+      "Rating": 3.4
+    },
+    {
+      "Sales": 2800.78,
+      "Time": 42.28,
+      "MktPoten": 39571.96,
+      "Adver": 4565.81,
+      "MktShare": 5.45,
+      "Change": 0.66,
+      "Accts": 78.86,
+      "WkLoad": 16.0,
+      "Rating": 4.2
+    },
+    {
+      "Sales": 3264.2,
+      "Time": 52.84,
+      "MktPoten": 51866.15,
+      "Adver": 6022.7,
+      "MktShare": 6.31,
+      "Change": -0.1,
+      "Accts": 136.58,
+      "WkLoad": 17.44,
+      "Rating": 3.6
+    },
+    {
+      "Sales": 3453.62,
+      "Time": 165.04,
+      "MktPoten": 58749.82,
+      "Adver": 3721.1,
+      "MktShare": 6.35,
+      "Change": -0.03,
+      "Accts": 138.21,
+      "WkLoad": 17.98,
+      "Rating": 3.1
+    },
+    {
+      "Sales": 1741.45,
+      "Time": 10.57,
+      "MktPoten": 23990.82,
+      "Adver": 860.97,
+      "MktShare": 7.37,
+      "Change": -1.63,
+      "Accts": 75.61,
+      "WkLoad": 20.99,
+      "Rating": 1.6
+    },
+    {
+      "Sales": 2035.75,
+      "Time": 13.82,
+      "MktPoten": 25694.86,
+      "Adver": 3571.51,
+      "MktShare": 8.39,
+      "Change": -0.43,
+      "Accts": 102.44,
+      "WkLoad": 21.66,
+      "Rating": 3.4
+    },
+    {
+      "Sales": 1578.0,
+      "Time": 8.13,
+      "MktPoten": 23736.35,
+      "Adver": 2845.5,
+      "MktShare": 5.15,
+      "Change": 0.04,
+      "Accts": 76.42,
+      "WkLoad": 21.46,
+      "Rating": 2.7
+    },
+    {
+      "Sales": 4167.44,
+      "Time": 58.54,
+      "MktPoten": 34314.29,
+      "Adver": 5060.11,
+      "MktShare": 12.88,
+      "Change": 0.22,
+      "Accts": 136.58,
+      "WkLoad": 24.78,
+      "Rating": 2.8
+    },
+    {
+      "Sales": 2799.97,
+      "Time": 21.14,
+      "MktPoten": 22809.53,
+      "Adver": 3552.0,
+      "MktShare": 9.14,
+      "Change": -0.74,
+      "Accts": 88.62,
+      "WkLoad": 24.96,
+      "Rating": 3.9
+    }
+  ]
+}
