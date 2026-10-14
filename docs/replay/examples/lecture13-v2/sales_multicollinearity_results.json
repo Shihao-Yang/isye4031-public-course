@@ -1,0 +1,132 @@
+{
+  "model": "OLS Sales on intercept and all eight supplied predictors",
+  "n": 25,
+  "residual_df": 16.0,
+  "vif": {
+    "Time": 3.3426186465792984,
+    "MktPoten": 1.977623379087502,
+    "Adver": 1.9102120221669523,
+    "MktShare": 3.2357574788958003,
+    "Change": 1.6017300997018395,
+    "Accts": 5.639317372785646,
+    "WkLoad": 1.8183460883999527,
+    "Rating": 1.8085578984048953
+  },
+  "auxiliary_r_squared": {
+    "Time": 0.700833356798461,
+    "MktPoten": 0.4943425474362002,
+    "Adver": 0.47649790264350034,
+    "MktShare": 0.6909533528015674,
+    "Change": 0.3756750902126713,
+    "Accts": 0.8226735730771557,
+    "WkLoad": 0.45004968725181105,
+    "Rating": 0.4470732726433718
+  },
+  "largest_absolute_correlations": [
+    {
+      "predictors": [
+        "Time",
+        "Accts"
+      ],
+      "correlation": 0.7578154902701248
+    },
+    {
+      "predictors": [
+        "Change",
+        "Rating"
+      ],
+      "correlation": 0.5493333484671675
+    },
+    {
+      "predictors": [
+        "MktPoten",
+        "Accts"
+      ],
+      "correlation": 0.47864196982531887
+    },
+    {
+      "predictors": [
+        "Time",
+        "MktPoten"
+      ],
+      "correlation": 0.45397057111686706
+    },
+    {
+      "predictors": [
+        "Adver",
+        "Rating"
+      ],
+      "correlation": 0.41146465240635804
+    },
+    {
+      "predictors": [
+        "MktShare",
+        "Accts"
+      ],
+      "correlation": 0.4030114729407131
+    },
+    {
+      "predictors": [
+        "Adver",
+        "Change"
+      ],
+      "correlation": 0.3765181720471606
+    },
+    {
+      "predictors": [
+        "MktPoten",
+        "Rating"
+      ],
+      "correlation": 0.3587024471552013
+    }
+  ],
+  "standardized_predictor_condition_number": 5.78346389678697,
+  "r_squared": 0.9220391531948753,
+  "coefficients": {
+    "const": {
+      "estimate": -1507.813729842376,
+      "standard_error": 778.6349396429604,
+      "p_value": 0.0706753507666509
+    },
+    "Time": {
+      "estimate": 2.009566151129275,
+      "standard_error": 1.9306542139050382,
+      "p_value": 0.3134082901167487
+    },
+    "MktPoten": {
+      "estimate": 0.03720490957821154,
+      "standard_error": 0.008202299653678928,
+      "p_value": 0.00033754151188269667
+    },
+    "Adver": {
+      "estimate": 0.15098889562735793,
+      "standard_error": 0.04710850722704687,
+      "p_value": 0.0055178918602819755
+    },
+    "MktShare": {
+      "estimate": 199.02353634541282,
+      "standard_error": 67.02792229985293,
+      "p_value": 0.009040575919155622
+    },
+    "Change": {
+      "estimate": 290.8551339862283,
+      "standard_error": 186.78199573963792,
+      "p_value": 0.13898278046684925
+    },
+    "Accts": {
+      "estimate": 5.55096065129905,
+      "standard_error": 4.775549619779348,
+      "p_value": 0.2621300346045893
+    },
+    "WkLoad": {
+      "estimate": 19.79389188698722,
+      "standard_error": 33.67669223400783,
+      "p_value": 0.5648958715985758
+    },
+    "Rating": {
+      "estimate": 8.189283661689956,
+      "standard_error": 128.50561301223286,
+      "p_value": 0.9499769450447823
+    }
+  }
+}

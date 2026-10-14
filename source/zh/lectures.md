@@ -10,13 +10,13 @@ en_url: ../lectures.html
 
 ## 第 13 讲：回归分析中的陷阱与多重共线性（英文）
 
-[打开互动回放](../replay/?transcript=./examples/lecture13-replay.md)
+[打开对话回放](../replay/?transcript=./examples/lecture13-v2-replay.md)
 
-[下载 Markdown 文字稿](../replay/examples/lecture13-replay.md)
+[下载 Markdown 文字稿](../replay/examples/lecture13-v2-replay.md) · [原始版本](../replay/?transcript=./examples/lecture13-replay.md)
 
 沿用销售区域案例，分析方差膨胀因子、识别调整后回归系数所需的剩余变异、完全与近似共线性、常见处理建议、外推和影响较大的观测。通过比较单独检验与联合检验，讨论下一步需要核查什么。
 
-教师提问根据旧版讲义模拟，Codex CLI 实际编写并运行 Python 分析。回放保留真实录制的回答和计算结果；教师补充说明与构造的实验均单独标注。开放式讨论停顿鼓励学生先解释自己的判断，再查看答案。
+简短的模拟教师提问引导对话，Codex CLI 自主选择分析方法并实际运行代码。回放保留真实录制的回答和计算结果；教师补充说明与构造的实验均单独标注。开放式讨论停顿鼓励学生先解释自己的判断，再查看答案。原始录制版本仍可查看和比较。
 
 ## 第 12 讲：销售区域模型选择（英文）
 

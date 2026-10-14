@@ -11,7 +11,7 @@ zh_url: zh/materials.html
 This collection publishes a small set of instructor-created lecture materials that illustrate the teaching approach. The slides are shared as public course resources.
 
 <div class="resource-list">
-<article class="resource"><strong>Lecture 13: Regression pitfalls and multicollinearity</strong><p>Follow actual Codex CLI analysis of predictor overlap, coefficient precision, proposed remedies, and diagnostic checks.</p><a href="replay/?transcript=./examples/lecture13-replay.md">Open Lecture 13 replay</a></article>
+<article class="resource"><strong>Lecture 13: Regression pitfalls and multicollinearity</strong><p>Short instructor questions guide actual Codex CLI analysis of predictor overlap, coefficient precision, proposed remedies, and diagnostic checks.</p><a href="replay/?transcript=./examples/lecture13-v2-replay.md">Open Lecture 13 replay</a></article>
 <article class="resource"><strong>Lecture 12: Sales-territory model selection</strong><p>Step through a recorded analysis with plots, equations, instructor notes, and discussion checkpoints.</p><a href="lectures.html">Open lecture replays</a></article>
 
 <article class="resource"><strong>Course computing environment</strong><p>Public GitHub repositories demonstrate Python, Jupyter, course analysis packages, Codex, environment checks, and agent-audit labs.</p><a href="https://github.com/Shihao-Yang">Browse the instructor's public repositories</a></article>

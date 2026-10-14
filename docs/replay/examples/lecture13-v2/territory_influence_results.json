@@ -1,0 +1,136 @@
+{
+  "model": "Original additive OLS with all eight predictors and intercept; rows numbered 1 through 25 in supplied CSV",
+  "full_model": {
+    "Accts_coefficient": 5.55096065129905,
+    "Accts_p": 0.2621300346045893,
+    "Time_coefficient": 2.009566151129275,
+    "joint_Time_Accts_p": 0.02151840306246317
+  },
+  "top_five_Cooks_distance": [
+    {
+      "territory_row": 7,
+      "leverage": 0.7162623198481091,
+      "externally_studentized_residual": -1.0681588562924664,
+      "cooks_distance": 0.31723040430273963,
+      "Accts_dfbeta": -0.44880700431408355,
+      "Time_dfbeta": -0.6043103963694162,
+      "Accts_coefficient_without_row": 7.684881240630219,
+      "Accts_p_without_row": 0.15692427148490604,
+      "Time_coefficient_without_row": 3.1711747781588455,
+      "joint_Time_Accts_p_without_row": 0.05100870069129175
+    },
+    {
+      "territory_row": 12,
+      "leverage": 0.5015197442916427,
+      "externally_studentized_residual": 1.4306127059771687,
+      "cooks_distance": 0.21474476717150742,
+      "Accts_dfbeta": 0.9178337415673786,
+      "Time_dfbeta": -0.725935458066557,
+      "Accts_coefficient_without_row": 1.3044930422932852,
+      "Accts_p_without_row": 0.8156249589173324,
+      "Time_coefficient_without_row": 3.367388465997884,
+      "joint_Time_Accts_p_without_row": 0.025610669665748022
+    },
+    {
+      "territory_row": 10,
+      "leverage": 0.21856602922054646,
+      "externally_studentized_residual": 2.2178228791013312,
+      "cooks_distance": 0.12278907872998411,
+      "Accts_dfbeta": -0.09345134445213775,
+      "Time_dfbeta": -0.02614812020244281,
+      "Accts_coefficient_without_row": 5.950940391460437,
+      "Accts_p_without_row": 0.18506768562299236,
+      "Time_coefficient_without_row": 2.054811511145032,
+      "joint_Time_Accts_p_without_row": 0.00829926398676237
+    },
+    {
+      "territory_row": 1,
+      "leverage": 0.5167943576455579,
+      "externally_studentized_residual": 0.9300204798668287,
+      "cooks_distance": 0.10365968442933239,
+      "Accts_dfbeta": -0.3468542223454852,
+      "Time_dfbeta": 0.027951521149437813,
+      "Accts_coefficient_without_row": 7.214416000720149,
+      "Accts_p_without_row": 0.17909000191564284,
+      "Time_coefficient_without_row": 1.955372208740834,
+      "joint_Time_Accts_p_without_row": 0.019563436779008615
+    },
+    {
+      "territory_row": 19,
+      "leverage": 0.29317128380956226,
+      "externally_studentized_residual": -1.4604628450326225,
+      "cooks_distance": 0.09179807015840641,
+      "Accts_dfbeta": -0.6281808168116475,
+      "Time_dfbeta": 0.6931157021117222,
+      "Accts_coefficient_without_row": 8.449985431372777,
+      "Accts_p_without_row": 0.11326209170202114,
+      "Time_coefficient_without_row": 0.7164005885812479,
+      "joint_Time_Accts_p_without_row": 0.018542277492742433
+    }
+  ],
+  "leave_one_out_ranges": {
+    "Accts_coefficient_without_row": {
+      "min": 1.3044930422932852,
+      "max": 8.449985431372777
+    },
+    "Time_coefficient_without_row": {
+      "min": 0.7164005885812479,
+      "max": 3.367388465997884
+    },
+    "joint_Time_Accts_p_without_row": {
+      "min": 0.00829926398676237,
+      "max": 0.05100870069129175
+    }
+  },
+  "most_influential_row_values": {
+    "Sales": 5031.66,
+    "Time": 365.04,
+    "MktPoten": 50935.26,
+    "Adver": 3140.62,
+    "MktShare": 8.54,
+    "Change": 0.55,
+    "Accts": 256.1,
+    "WkLoad": 18.8,
+    "Rating": 4.6
+  },
+  "duplicate_rows": 0,
+  "missing_values": 0,
+  "predictor_ranges": {
+    "Sales": {
+      "min": 1578.0,
+      "max": 6519.45
+    },
+    "Time": {
+      "min": 8.13,
+      "max": 365.04
+    },
+    "MktPoten": {
+      "min": 20416.87,
+      "max": 74065.11
+    },
+    "Adver": {
+      "min": 402.44,
+      "max": 10694.2
+    },
+    "MktShare": {
+      "min": 2.51,
+      "max": 12.88
+    },
+    "Change": {
+      "min": -1.63,
+      "max": 1.24
+    },
+    "Accts": {
+      "min": 74.86,
+      "max": 256.1
+    },
+    "WkLoad": {
+      "min": 7.81,
+      "max": 24.96
+    },
+    "Rating": {
+      "min": 1.6,
+      "max": 5.5
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "model": "Original full eight-predictor OLS with intercept, compared with same model after subtracting each predictor sample mean; Sales not centered",
+  "n": 25,
+  "original_intercept": -1507.813729842376,
+  "centered_intercept": 3374.5675999999985,
+  "mean_sales": 3374.5676000000003,
+  "original_Accts_slope": 5.55096065129905,
+  "centered_Accts_slope": 5.550960651298979,
+  "original_Accts_se": 4.775549619779348,
+  "centered_Accts_se": 4.775549619779352,
+  "original_vifs": {
+    "Time": 3.3426186465792984,
+    "MktPoten": 1.977623379087502,
+    "Adver": 1.9102120221669523,
+    "MktShare": 3.2357574788958003,
+    "Change": 1.6017300997018395,
+    "Accts": 5.639317372785646,
+    "WkLoad": 1.8183460883999527,
+    "Rating": 1.8085578984048953
+  },
+  "centered_vifs": {
+    "Time": 3.3426186465792984,
+    "MktPoten": 1.977623379087501,
+    "Adver": 1.9102120221669523,
+    "MktShare": 3.2357574788958003,
+    "Change": 1.6017300997018395,
+    "Accts": 5.639317372785646,
+    "WkLoad": 1.8183460883999523,
+    "Rating": 1.8085578984048953
+  },
+  "max_abs_slope_difference": 7.389644451905042e-13,
+  "max_abs_fitted_difference": 1.2496457202360034e-09,
+  "original_design_condition_number": 366082.48889194155,
+  "centered_design_condition_number": 34050.34097566148
+}

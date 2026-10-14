@@ -1,0 +1,34 @@
+{
+  "model": "Sales on all eight original main effects plus Time times Accts; all 25 observations retained",
+  "time_mean_months": 87.642,
+  "Accts_mean": 122.69920000000002,
+  "interaction_coefficient": -0.014750811776044287,
+  "interaction_se": 0.02250121663375998,
+  "interaction_95ci": [
+    -0.06271101974461407,
+    0.03320939619252549
+  ],
+  "interaction_p_value": 0.5220380170559881,
+  "centered_Accts_coefficient_at_mean_Time": 6.692776526774374,
+  "centered_Accts_se": 5.165503020424586,
+  "base_r_squared": 0.9220391531948753,
+  "interaction_r_squared": 0.9242105409726336,
+  "base_adjusted_r_squared": 0.8830587297923129,
+  "interaction_adjusted_r_squared": 0.8787368655562137,
+  "residual_df": 15.0,
+  "nested_F": 0.4297539141242954,
+  "nested_p": 0.5220380170562928,
+  "vifs": {
+    "raw": {
+      "Time": 15.379885944851198,
+      "Accts": 8.928261918392527,
+      "Time_x_Accts": 22.470063233713677
+    },
+    "centered": {
+      "Time": 4.156226069554008,
+      "Accts": 6.362738425212109,
+      "Time_x_Accts": 3.194197087432378
+    }
+  },
+  "max_abs_fitted_difference_raw_vs_centered": 9.549694368615746e-10
+}

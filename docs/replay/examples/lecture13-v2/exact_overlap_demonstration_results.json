@@ -1,0 +1,14 @@
+{
+  "experiment": "Constructed exact duplicate of Accts; all 25 original observations retained",
+  "original_design_columns": 9,
+  "original_design_rank": 9,
+  "duplicated_design_columns": 10,
+  "duplicated_design_rank": 9,
+  "original_Accts_coefficient": 5.55096065129905,
+  "pseudoinverse_Accts_coefficient": 2.775480325649763,
+  "pseudoinverse_duplicate_coefficient": 2.7754803256492337,
+  "alternative_Accts_coefficient": 12.775480325649763,
+  "alternative_duplicate_coefficient": -7.224519674350766,
+  "max_absolute_fitted_difference_original_vs_duplicate": 2.764863893389702e-10,
+  "max_absolute_fitted_difference_after_coefficient_shift": 4.547473508864641e-13
+}

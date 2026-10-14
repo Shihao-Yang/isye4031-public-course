@@ -10,13 +10,13 @@ Follow each analysis one step at a time. Use **Next message** to reveal an answe
 
 ## Lecture 13: Regression pitfalls and multicollinearity
 
-[Open the interactive replay](replay/?transcript=./examples/lecture13-replay.md)
+[Open the conversational replay](replay/?transcript=./examples/lecture13-v2-replay.md)
 
-[Download the Markdown transcript](replay/examples/lecture13-replay.md)
+[Download the Markdown transcript](replay/examples/lecture13-v2-replay.md) · [Original version](replay/?transcript=./examples/lecture13-replay.md)
 
 Continue with the sales-territory example to examine VIF, the variation that identifies an adjusted coefficient, exact and near collinearity, proposed remedies, extrapolation, and influential observations. Compare individual and joint tests before deciding what to investigate next.
 
-The instructor prompts are simulated from legacy lecture slides. Codex CLI actually wrote and ran the Python analysis; the replay preserves its recorded responses and generated results. Instructor notes are labeled separately, and constructed experiments are identified. Open-ended pauses invite students to explain their reasoning before revealing the answer.
+Short, simulated instructor questions guide the conversation. Codex CLI chooses and executes the analysis, and the replay preserves its recorded responses and generated results. Instructor notes are labeled separately, and constructed experiments are identified. Open-ended pauses invite students to explain their reasoning before revealing the answer. The original recording remains available for comparison.
 
 ## Lecture 12: Sales-territory model selection
 

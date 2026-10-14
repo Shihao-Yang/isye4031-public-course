@@ -1,0 +1,18 @@
+{
+  "model": "OLS Sales on intercept and all eight original predictors; partial regression adjusts both Sales and Accts for the other seven predictors",
+  "accounts_total_centered_sum_squares": 49856.539384,
+  "accounts_residual_sum_squares": 8840.881987702787,
+  "accounts_variation_fraction_remaining": 0.17732642692284428,
+  "accounts_original_sample_sd": 45.57801890897263,
+  "accounts_residual_rms_using_n_minus_1": 19.192969619653688,
+  "accounts_coefficient": 5.55096065129905,
+  "accounts_coefficient_se": 4.775549619779348,
+  "accounts_coefficient_95ci": [
+    -4.572752294365236,
+    15.674673596963336
+  ],
+  "accounts_p_value": 0.2621300346045893,
+  "partial_correlation": 0.27904946840848815,
+  "partial_r_squared": 0.07786860581905983,
+  "full_model_residual_df": 16.0
+}

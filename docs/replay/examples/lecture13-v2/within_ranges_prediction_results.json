@@ -1,0 +1,27 @@
+{
+  "model": "OLS Sales on intercept and all eight predictors, using centered standardized columns for numerically stable calculation",
+  "experiment": "Constructed range-box corner selected for maximum leverage among all 256 corners; not an observed or proposed real territory",
+  "constructed_predictors": {
+    "Time": 365.04,
+    "MktPoten": 74065.11,
+    "Adver": 402.44,
+    "MktShare": 12.88,
+    "Change": -1.63,
+    "Accts": 74.86,
+    "WkLoad": 7.81,
+    "Rating": 5.5
+  },
+  "all_predictors_within_observed_ranges": true,
+  "constructed_leverage": 11.774121824580208,
+  "leverage_at_predictor_means": 0.04,
+  "maximum_observed_leverage": 0.7162623198481392,
+  "constructed_prediction": {
+    "mean": 4746.613539436774,
+    "mean_se": 1540.7615114926966,
+    "mean_ci_lower": 1480.3450463872564,
+    "mean_ci_upper": 8012.882032486292,
+    "obs_ci_lower": 1344.4659813097296,
+    "obs_ci_upper": 8148.761097563818
+  },
+  "observed_Time_Accts_correlation": 0.7578154902701247
+}

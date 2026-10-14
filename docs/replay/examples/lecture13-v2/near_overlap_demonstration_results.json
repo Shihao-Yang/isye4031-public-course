@@ -1,0 +1,37 @@
+{
+  "experiment": "Constructed near copies, using one fixed standardized random noise vector at two scales. Original data unchanged; all 25 observations retained.",
+  "seed": 403113,
+  "original_full_model_Accts_coefficient": 5.55096065129905,
+  "original_full_model_Accts_se": 4.775549619779348,
+  "original_full_model_r_squared": 0.9220391531948753,
+  "constructed_models": [
+    {
+      "constructed_noise_sd_fraction_of_Accts_sd": 0.1,
+      "pair_correlation": 0.9956162809419945,
+      "Accts_vif": 161.27286807027832,
+      "Accts_coefficient": 28.111933357004933,
+      "Accts_se": 25.70055260977838,
+      "near_copy_coefficient": -22.77450403225465,
+      "near_copy_se": 25.486167178442674,
+      "coefficient_sum": 5.337429324750282,
+      "coefficient_sum_se": 4.811840740926395,
+      "training_r_squared": 0.9259796301545896,
+      "design_rank": 10,
+      "design_columns": 10
+    },
+    {
+      "constructed_noise_sd_fraction_of_Accts_sd": 0.01,
+      "pair_correlation": 0.9999593138164434,
+      "Accts_vif": 15835.266250833836,
+      "Accts_coefficient": 233.08246964730384,
+      "Accts_se": 254.66806692813432,
+      "near_copy_coefficient": -227.74504032255302,
+      "near_copy_se": 254.8616717844259,
+      "coefficient_sum": 5.337429324750815,
+      "coefficient_sum_se": 4.811840740928238,
+      "training_r_squared": 0.9259796301545895,
+      "design_rank": 10,
+      "design_columns": 10
+    }
+  ]
+}

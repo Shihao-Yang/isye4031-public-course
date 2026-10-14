@@ -1,0 +1,23 @@
+{
+  "comparison": "Additive OLS full eight-predictor model versus model omitting both Time and Accts; intercept and all 25 observations retained; other six predictors held in model",
+  "null_hypothesis": "beta_Time = beta_Accts = 0",
+  "F": 4.9267316198463895,
+  "p_value": 0.02151840306246317,
+  "numerator_df": 2.0,
+  "denominator_df": 16.0,
+  "full_r_squared": 0.9220391531948753,
+  "reduced_r_squared": 0.8740276320617743,
+  "full_SSE": 3225984.6747517833,
+  "reduced_SSE": 5212679.762531718,
+  "partial_R_squared_for_pair": 0.3811274005474351,
+  "individual_full_model_tests": {
+    "Time": {
+      "coefficient": 2.009566151129275,
+      "p_value": 0.3134082901167487
+    },
+    "Accts": {
+      "coefficient": 5.55096065129905,
+      "p_value": 0.2621300346045893
+    }
+  }
+}

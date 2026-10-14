@@ -24,13 +24,13 @@ if (replay / 'assets').exists():
 shutil.copytree(player / 'dist/assets', replay / 'assets', dirs_exist_ok=True)
 (replay / 'examples').mkdir(exist_ok=True)
 # Keep this explicit list aligned with publication-manifest.yml.
-for lecture in (12, 13):
-    transcript = player / f'public/examples/lecture{lecture}-replay.md'
+for lesson in ('lecture12', 'lecture13', 'lecture13-v2'):
+    transcript = player / f'public/examples/{lesson}-replay.md'
     text = transcript.read_text()
-    paths = set(re.findall(rf'\]\(/(examples/lecture{lecture}/[^)]+)\)', text))
-    paths.add(f'examples/lecture{lecture}/sales_territory.csv')
-    shutil.copy2(transcript, replay / f'examples/lecture{lecture}-replay.md')
-    asset_root = (player / f'public/examples/lecture{lecture}').resolve()
+    paths = set(re.findall(rf'\]\(/(examples/{re.escape(lesson)}/[^)]+)\)', text))
+    paths.add(f'examples/{lesson}/sales_territory.csv')
+    shutil.copy2(transcript, replay / f'examples/{lesson}-replay.md')
+    asset_root = (player / f'public/examples/{lesson}').resolve()
     for path in sorted(paths):
         source = (player / 'public' / path).resolve()
         if not source.is_relative_to(asset_root) or source.suffix not in {'.py', '.csv', '.json', '.png', '.txt'}:
