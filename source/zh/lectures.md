@@ -8,6 +8,16 @@ en_url: ../lectures.html
 
 点击 **Next message** 逐步显示答案，通过章节菜单跳转，在教师提出的问题处暂停并先作出自己的判断。按 **End** 可显示完整内容。
 
+## 第 14 讲：Lasso 诊断与 Elastic Net（英文）
+
+[打开 AI 分析回放](../replay/?transcript=./examples/lecture14-v2-replay.md)
+
+[下载 Markdown 文字稿](../replay/examples/lecture14-v2-replay.md)
+
+先用图表认识新构造的商店销售数据，再通过系数路径和仅使用训练数据的调参比较 Lasso 与岭回归，检查残差模式和变量选择稳定性。Elastic Net 结合 L1 与 L2 惩罚；所有调参完成后才使用预留观测进行最终比较。
+
+简短的讨论停顿邀请你先预测、解释或质疑一个说法，再查看实际录制的回答。回放包含可运行的数据生成与分析代码，并区分拟合残差、折外检查和最终测试表现。示例数据明确标为人工构造。
+
 ## 第 13 讲：回归分析中的陷阱与多重共线性（英文）
 
 [打开对话回放](../replay/?transcript=./examples/lecture13-v3-replay.md)

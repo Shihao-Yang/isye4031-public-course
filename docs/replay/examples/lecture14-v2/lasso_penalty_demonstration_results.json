@@ -1,0 +1,131 @@
+{
+  "dataset": "Original constructed sales, seed 4031",
+  "rows": 168,
+  "scope": "All fits and scaling use training data only. Fixed-penalty sensitivity, no tuning or validation.",
+  "response_units": "Thousands of dollars",
+  "predictors": "Standardized with training means and population standard deviations",
+  "objective": "SSE/(2n) + alpha * sum(abs(beta)); intercept unpenalized",
+  "alpha_all_zero_threshold": 4.806889287970823,
+  "fits": [
+    {
+      "alpha": 0,
+      "nonzero_coefficients": 12,
+      "coefficient_L1_norm": 11.437914076316902,
+      "training_SSE_over_2n": 5.121203770233963,
+      "penalty": 0.0,
+      "objective": 5.121203770233963,
+      "intercept": 29.844843042744046,
+      "coefficients": {
+        "digital_ad_spend": 1.1327288769544983,
+        "print_ad_spend": 0.01872489966417385,
+        "promotion_index": 0.5547699280073572,
+        "floor_area": 4.109559563390704,
+        "staff_hours": -0.5869261453412592,
+        "shelf_capacity_index": 0.9298119913873423,
+        "local_demand_index": 2.130946078016756,
+        "footfall_index": 0.5234868914421259,
+        "neighborhood_activity_index": -0.2548538696428742,
+        "store_code_index": 0.2513767261722835,
+        "display_color_index": -0.5222970879532624,
+        "survey_noise_index": -0.42243201834426547
+      }
+    },
+    {
+      "alpha": 0.1,
+      "nonzero_coefficients": 9,
+      "coefficient_L1_norm": 9.18168066868612,
+      "training_SSE_over_2n": 5.186767487370681,
+      "penalty": 0.9181680668686121,
+      "objective": 6.104935554239294,
+      "intercept": 29.844843042744046,
+      "coefficients": {
+        "digital_ad_spend": 1.054756974599214,
+        "print_ad_spend": 0.0,
+        "promotion_index": 0.5855176260145062,
+        "floor_area": 3.786791045859432,
+        "staff_hours": -0.0,
+        "shelf_capacity_index": 0.6098752843574614,
+        "local_demand_index": 1.892534850307219,
+        "footfall_index": 0.396193425747632,
+        "neighborhood_activity_index": 0.0,
+        "store_code_index": 0.09554511449409055,
+        "display_color_index": -0.43566952137321785,
+        "survey_noise_index": -0.32479682593334824
+      }
+    },
+    {
+      "alpha": 0.5,
+      "nonzero_coefficients": 7,
+      "coefficient_L1_norm": 7.266723350571391,
+      "training_SSE_over_2n": 5.73756380973834,
+      "penalty": 3.6333616752856956,
+      "objective": 9.370925485024035,
+      "intercept": 29.844843042744046,
+      "coefficients": {
+        "digital_ad_spend": 0.923754703325545,
+        "print_ad_spend": 0.0,
+        "promotion_index": 0.3772470544776298,
+        "floor_area": 3.561210936375265,
+        "staff_hours": 0.0,
+        "shelf_capacity_index": 0.5058245916235131,
+        "local_demand_index": 1.6110465498475164,
+        "footfall_index": 0.25937333848811256,
+        "neighborhood_activity_index": 0.0,
+        "store_code_index": 0.0,
+        "display_color_index": -0.02826617643380996,
+        "survey_noise_index": -0.0
+      }
+    },
+    {
+      "alpha": 1.0,
+      "nonzero_coefficients": 5,
+      "coefficient_L1_norm": 5.841357137407826,
+      "training_SSE_over_2n": 6.7986684593313,
+      "penalty": 5.841357137407826,
+      "objective": 12.640025596739125,
+      "intercept": 29.844843042744046,
+      "coefficients": {
+        "digital_ad_spend": 0.7547024898139213,
+        "print_ad_spend": 0.0,
+        "promotion_index": 0.05589053446810882,
+        "floor_area": 3.336182511890978,
+        "staff_hours": 0.0,
+        "shelf_capacity_index": 0.29770366624883016,
+        "local_demand_index": 1.396877934985988,
+        "footfall_index": 0.0,
+        "neighborhood_activity_index": 0.0,
+        "store_code_index": 0.0,
+        "display_color_index": -0.0,
+        "survey_noise_index": -0.0
+      }
+    }
+  ],
+  "scaling_means": {
+    "digital_ad_spend": 1463.2058027321427,
+    "print_ad_spend": 780.7389464821429,
+    "promotion_index": 48.95480082738095,
+    "floor_area": 1943.7371927142854,
+    "staff_hours": 292.445000202381,
+    "shelf_capacity_index": 48.63514050595238,
+    "local_demand_index": 51.58564488095238,
+    "footfall_index": 52.114383624999995,
+    "neighborhood_activity_index": 51.88560414285714,
+    "store_code_index": 47.511975404761905,
+    "display_color_index": 48.348301142857146,
+    "survey_noise_index": 45.095208744047625
+  },
+  "scaling_standard_deviations": {
+    "digital_ad_spend": 303.1464881469655,
+    "print_ad_spend": 169.7706784757321,
+    "promotion_index": 10.214001110177305,
+    "floor_area": 501.66833522978806,
+    "staff_hours": 70.16726795923647,
+    "shelf_capacity_index": 11.886029554561363,
+    "local_demand_index": 11.992454681632987,
+    "footfall_index": 11.954965750615216,
+    "neighborhood_activity_index": 11.30242014422576,
+    "store_code_index": 28.83897869150523,
+    "display_color_index": 29.51909759844217,
+    "survey_noise_index": 29.015581728940575
+  }
+}

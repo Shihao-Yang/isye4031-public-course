@@ -1,0 +1,13 @@
+predictor,selected_count,selection_fraction,known_synthetic_role,known_direct_coefficient_original_units,selected_in_full_training_fit,coefficient_median_thousands_per_subsample_SD
+digital_ad_spend,60,1.0,Direct equation term,4,True,1.0836882717402831
+print_ad_spend,23,0.38333333333333336,Correlated proxy,0,False,0.0
+promotion_index,60,1.0,Direct equation term,70,True,0.49734670293105687
+floor_area,60,1.0,Direct equation term,7,True,3.774968854218429
+staff_hours,5,0.08333333333333333,Direct equation term,8,False,0.0
+shelf_capacity_index,60,1.0,Correlated proxy,0,True,0.6001370100211965
+local_demand_index,60,1.0,Direct equation term,180,True,1.8972295712845588
+footfall_index,51,0.85,Correlated proxy,0,True,0.3203510581339897
+neighborhood_activity_index,16,0.26666666666666666,Correlated proxy,0,False,0.0
+store_code_index,38,0.6333333333333333,Independent noise input,0,True,0.0749099267236796
+display_color_index,60,1.0,Independent noise input,0,True,-0.34669751988542696
+survey_noise_index,60,1.0,Independent noise input,0,True,-0.31050054556780643

@@ -8,6 +8,16 @@ zh_url: zh/lectures.html
 
 Follow each analysis one step at a time. Use **Next message** to reveal an answer, the checkpoint menu to revisit a topic, and **End** to show the complete lesson. Pause at the instructor questions and make your own prediction before continuing.
 
+## Lecture 14: Lasso diagnostics and Elastic Net
+
+[Open the recorded AI replay](replay/?transcript=./examples/lecture14-v2-replay.md)
+
+[Download the Markdown transcript](replay/examples/lecture14-v2-replay.md)
+
+Begin with plots of a newly constructed store-sales dataset. Follow Lasso and Ridge through coefficient paths and training-only tuning, then check residual patterns and selection stability. Elastic Net combines L1 and L2 penalties; the final comparison uses observations reserved until all tuning is complete.
+
+Short discussion pauses ask you to predict, explain or challenge a claim before revealing the recorded response. The lesson includes runnable generation and analysis code. The original synthetic data are labeled throughout, and the replay distinguishes fitted residuals, out-of-fold checks and final test performance.
+
 ## Lecture 13: Regression pitfalls and multicollinearity
 
 [Open the conversational replay](replay/?transcript=./examples/lecture13-v3-replay.md)

@@ -11,6 +11,7 @@ en_url: ../materials.html
 本网站发布一组由教师制作、能够体现教学方法的公开资料。当前讲义 PDF 为英文。
 
 <div class="resource-list">
+<article class="resource"><strong>第 14 讲：Lasso 诊断与 Elastic Net（英文）</strong><p>可视化人工构造的销售数据，检查 Lasso 拟合，并比较 L1、L2 及结合两者的 Elastic Net。</p><a href="../replay/?transcript=./examples/lecture14-v2-replay.md">打开第 14 讲回放</a></article>
 <article class="resource"><strong>第 13 讲：回归分析中的陷阱与多重共线性（英文）</strong><p>通过简短的教师提问，回放 Codex CLI 实际执行的分析，理解预测变量重叠、系数精度、处理建议和诊断检查。</p><a href="../replay/?transcript=./examples/lecture13-v3-replay.md">打开第 13 讲回放</a></article>
 <article class="resource"><strong>第 12 讲：销售区域模型选择（英文）</strong><p>逐步回放分析过程，包含图表、公式、教师说明和讨论停顿。</p><a href="../lectures.html">打开课堂回放</a></article>
 

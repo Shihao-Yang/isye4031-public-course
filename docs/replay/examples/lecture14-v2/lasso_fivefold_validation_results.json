@@ -1,0 +1,64 @@
+{
+  "dataset": "Original constructed sales, seed 4031",
+  "training_rows": 168,
+  "fold_seed": 4031,
+  "procedure": "Five-fold shuffled CV; StandardScaler fitted inside each training fold, followed by Lasso. Select minimum mean fold RMSE from 121 log-spaced penalties between .001 and 10.",
+  "response_units": "Thousands of dollars during fitting; reported RMSE in dollars",
+  "fits": {
+    "minimum_CV": {
+      "lambda": 0.09261187281287933,
+      "mean_fold_RMSE_dollars": 3454.621194137241,
+      "SE_fold_RMSE_dollars": 142.23842946871616,
+      "nonzero_after_refit_on_168_training_stores": 9,
+      "training_refit_coefficients_thousands_per_SD": {
+        "digital_ad_spend": 1.0587375366850917,
+        "print_ad_spend": 0.0,
+        "promotion_index": 0.5881797872371588,
+        "floor_area": 3.7905258854956814,
+        "staff_hours": -0.0,
+        "shelf_capacity_index": 0.6123541865004216,
+        "local_demand_index": 1.8986328088856046,
+        "footfall_index": 0.3977750440701413,
+        "neighborhood_activity_index": 0.0,
+        "store_code_index": 0.10316615728808055,
+        "display_color_index": -0.44314124567324353,
+        "survey_noise_index": -0.33132265953675394
+      },
+      "training_refit_intercept_thousands": 29.844843042744046
+    },
+    "one_SE_alternative": {
+      "lambda": 0.5843414133735175,
+      "mean_fold_RMSE_dollars": 3590.434637089777,
+      "SE_fold_RMSE_dollars": 116.45717259891404,
+      "nonzero_after_refit_on_168_training_stores": 6,
+      "training_refit_coefficients_thousands_per_SD": {
+        "digital_ad_spend": 0.8998072975854312,
+        "print_ad_spend": 0.0,
+        "promotion_index": 0.32093628909435373,
+        "floor_area": 3.5200199863983714,
+        "staff_hours": 0.0,
+        "shelf_capacity_index": 0.4741948556364714,
+        "local_demand_index": 1.5745278965642644,
+        "footfall_index": 0.21320874812023946,
+        "neighborhood_activity_index": 0.0,
+        "store_code_index": 0.0,
+        "display_color_index": -0.0,
+        "survey_noise_index": -0.0
+      },
+      "training_refit_intercept_thousands": 29.844843042744046
+    }
+  },
+  "baseline_mean_only_CV_RMSE_dollars": 6522.753870302073,
+  "baseline_fold_RMSE_dollars": [
+    5924.963372685958,
+    7524.927879853424,
+    6191.692982773227,
+    6278.050902047405,
+    6694.134214150347
+  ],
+  "one_SE_rule": "Largest candidate lambda with mean RMSE <= minimum mean RMSE + SE at minimum",
+  "uncertainty": "SE is SD of five fold RMSE values / sqrt(5); descriptive, folds have overlapping training sets, not a formal confidence interval.",
+  "limitations": "Curve validates fixed candidates using training-only folds. Its selected minimum is optimistically biased as an estimate of the tuned procedure. No nested validation or final test evaluation has been performed.",
+  "best_is_grid_endpoint": false,
+  "test_status": "72 reserved stores remain unused"
+}

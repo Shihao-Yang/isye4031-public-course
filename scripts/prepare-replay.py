@@ -24,16 +24,21 @@ if (replay / 'assets').exists():
 shutil.copytree(player / 'dist/assets', replay / 'assets', dirs_exist_ok=True)
 (replay / 'examples').mkdir(exist_ok=True)
 # Keep this explicit list aligned with publication-manifest.yml.
-for lesson in ('lecture12', 'lecture13', 'lecture13-v2', 'lecture13-v3'):
+for lesson in ('lecture12', 'lecture13', 'lecture13-v2', 'lecture13-v3', 'lecture14-v2'):
     transcript = player / f'public/examples/{lesson}-replay.md'
     text = transcript.read_text()
     paths = set(re.findall(rf'\]\(/(examples/{re.escape(lesson)}/[^)]+)\)', text))
-    paths.add(f'examples/{lesson}/sales_territory.csv')
+    if lesson == 'lecture14-v2':
+        paths.update(f'examples/{lesson}/{name}' for name in (
+            'constructed_sales_seed4031.csv', 'fixed_sales_split.csv',
+            'sales_generation_metadata.json', 'requirements.txt'))
+    else:
+        paths.add(f'examples/{lesson}/sales_territory.csv')
     shutil.copy2(transcript, replay / f'examples/{lesson}-replay.md')
     asset_root = (player / f'public/examples/{lesson}').resolve()
     for path in sorted(paths):
         source = (player / 'public' / path).resolve()
-        if not source.is_relative_to(asset_root) or source.suffix not in {'.py', '.csv', '.json', '.png', '.txt'}:
+        if not source.is_relative_to(asset_root) or source.suffix not in {'.py', '.csv', '.json', '.png', '.txt', '.md'}:
             raise SystemExit(f'Unapproved replay asset path: {path}')
         target = replay / path
         target.parent.mkdir(parents=True, exist_ok=True)

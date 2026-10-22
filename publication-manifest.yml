@@ -22,6 +22,14 @@ allowlist:
     - materials
     - lectures
   lecture_replays:
+    - key: lecture14-lasso-diagnostics-elastic-net
+      public_output: docs/replay/
+      transcript: docs/replay/examples/lecture14-v2-replay.md
+      source: ../../llm-chat-replay/public/examples/lecture14-v2-replay.md
+      data_provenance: original-seeded-synthetic-store-sales-generated-in-recorded-cli-run
+      release_status: owner-requested-ai-replay-publication-with-diagnostics-and-elastic-net
+      player_license: MIT
+      assets: linked-generated-code-results-plots-data-dictionary-split-and-requirements-only
     - key: lecture13-regression-pitfalls-v3
       public_output: docs/replay/
       transcript: docs/replay/examples/lecture13-v3-replay.md

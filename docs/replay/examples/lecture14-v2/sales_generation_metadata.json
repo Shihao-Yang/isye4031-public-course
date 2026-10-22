@@ -1,0 +1,11 @@
+{
+  "constructed": true,
+  "seed": 4031,
+  "n": 240,
+  "training_rows": 168,
+  "reserved_test_rows": 72,
+  "mechanism": "Three independent standard-normal latent factors induce correlation within marketing, size, and demand groups. Each grouped predictor adds independent N(0, 0.45^2) noise before rescaling. Three independent Uniform(0,100) inputs have zero direct coefficients.",
+  "outcome_equation": "weekly_sales = 30000 + 4*(digital_ad_spend-1500) + 70*(promotion_index-50) + 7*(floor_area-2000) + 8*(staff_hours-300) + 180*(local_demand_index-50) + epsilon",
+  "epsilon": "Independent normal noise, mean 0, standard deviation 3000 dollars",
+  "split": "sklearn train_test_split row indices, test_size=0.30, random_state=4031; fixed before generating predictors or outcomes"
+}

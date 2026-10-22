@@ -5,3 +5,6 @@ docs/replay/examples/lecture13-v2/*.csv -text
 docs/replay/examples/lecture13-v2/sales_territory.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 docs/replay/examples/lecture13-v3/*.csv -text
 docs/replay/examples/lecture13-v3/sales_territory.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve the new original synthetic data and recorded numerical outputs.
+docs/replay/examples/lecture14-v2/*.csv -text

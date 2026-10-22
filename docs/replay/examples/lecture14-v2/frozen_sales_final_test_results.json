@@ -1,0 +1,37 @@
+{
+  "dataset": "Original constructed sales, seed 4031",
+  "evaluation": "Single final evaluation on 72 previously reserved stores using hash-verified frozen training fits. No refitting, retuning, preprocessing updates or model switching.",
+  "primary_model": "Lasso",
+  "primary_metric": "RMSE in dollars; MAE is secondary",
+  "metrics": [
+    {
+      "model": "Lasso",
+      "test_n": 72,
+      "RMSE_dollars": 2946.593322482358,
+      "MAE_dollars": 2326.1923683639097,
+      "mean_residual_dollars": -329.54286215602457
+    },
+    {
+      "model": "Ridge",
+      "test_n": 72,
+      "RMSE_dollars": 2993.3415031558175,
+      "MAE_dollars": 2353.5844294017047,
+      "mean_residual_dollars": -310.1720058704652
+    },
+    {
+      "model": "Elastic Net",
+      "test_n": 72,
+      "RMSE_dollars": 2957.328183722532,
+      "MAE_dollars": 2337.578178625072,
+      "mean_residual_dollars": -331.3257986550122
+    }
+  ],
+  "other_RMSE_minus_Lasso_dollars": {
+    "Ridge": 46.7481806734595,
+    "Elastic Net": 10.734861240173814
+  },
+  "frozen_models_sha256": "33d3ea777799bc55e7bd707b479a6755e346e6f7ed5d1018adedde68a0005031",
+  "limits": "Independent held-out evaluation of the fixed training fits under this synthetic population. One 72-store split does not establish population ranking or equivalence. No confidence intervals are claimed; no causal effects or true-variable recovery are established.",
+  "decision": "Retain preselected Lasso as primary model; report all locked comparison results. Test outcomes will not be used to revise the model.",
+  "test_status": "Consumed for final evaluation; no longer an untouched test set."
+}

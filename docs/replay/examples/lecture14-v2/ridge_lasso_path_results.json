@@ -1,0 +1,64 @@
+{
+  "dataset": "Original synthetic sales, seed 4031",
+  "training_rows": 168,
+  "scope": "Training-only fixed-penalty sensitivity; no tuning, validation or reserved test evaluation",
+  "scaling": "Predictors standardized on training rows; sales in thousands of dollars",
+  "objectives": {
+    "Lasso": "SSE/(2n) + lambda * sum(abs(beta))",
+    "Ridge": "SSE/(2n) + (lambda/2) * sum(beta**2)"
+  },
+  "intercept": "Unpenalized for both methods",
+  "lasso_all_zero_threshold": 4.806889287970823,
+  "OLS_coefficients": {
+    "digital_ad_spend": 1.1327288769544983,
+    "print_ad_spend": 0.01872489966417385,
+    "promotion_index": 0.5547699280073572,
+    "floor_area": 4.109559563390704,
+    "staff_hours": -0.5869261453412592,
+    "shelf_capacity_index": 0.9298119913873423,
+    "local_demand_index": 2.130946078016756,
+    "footfall_index": 0.5234868914421259,
+    "neighborhood_activity_index": -0.2548538696428742,
+    "store_code_index": 0.2513767261722835,
+    "display_color_index": -0.5222970879532624,
+    "survey_noise_index": -0.42243201834426547
+  },
+  "illustrative_fits": {
+    "Lasso": {
+      "lambda": 1,
+      "nonzero_above_1e_minus_8": 5,
+      "coefficients": {
+        "digital_ad_spend": 0.7547024898139213,
+        "print_ad_spend": 0.0,
+        "promotion_index": 0.05589053446810882,
+        "floor_area": 3.336182511890978,
+        "staff_hours": 0.0,
+        "shelf_capacity_index": 0.29770366624883016,
+        "local_demand_index": 1.396877934985988,
+        "footfall_index": 0.0,
+        "neighborhood_activity_index": 0.0,
+        "store_code_index": 0.0,
+        "display_color_index": -0.0,
+        "survey_noise_index": -0.0
+      }
+    },
+    "Ridge": {
+      "lambda": 1,
+      "nonzero_above_1e_minus_8": 12,
+      "coefficients": {
+        "digital_ad_spend": 0.5733858276136251,
+        "print_ad_spend": 0.37221536236234065,
+        "promotion_index": 0.5083471054862709,
+        "floor_area": 1.401417128085334,
+        "staff_hours": 0.8936336289027094,
+        "shelf_capacity_index": 1.034285641692765,
+        "local_demand_index": 0.7355491860640967,
+        "footfall_index": 0.5599072737853802,
+        "neighborhood_activity_index": 0.4804727967023961,
+        "store_code_index": 0.019438835122909687,
+        "display_color_index": -0.24015318489604764,
+        "survey_noise_index": -0.21407214359409224
+      }
+    }
+  }
+}

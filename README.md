@@ -106,7 +106,7 @@ Codex non-interactive mode is designed for scripted pipelines and scheduled jobs
 
 ## Lecture replay preview
 
-Run `python3 scripts/prepare-replay.py` to build the player and stage the course site in `tmp/replay-preview/isye4031-public-course/`. Serve `tmp/replay-preview/` to test the same subdirectory used by GitHub Pages. Only the player assets, explicitly approved Lecture 12 and 13 transcripts, linked results, code, plots, input CSVs, and requirements enter the preview. Raw sessions and unrelated conversation examples are excluded. The upstream MIT license accompanies the player.
+Run `python3 scripts/prepare-replay.py` to build the player and stage the course site in `tmp/replay-preview/isye4031-public-course/`. Serve `tmp/replay-preview/` to test the same subdirectory used by GitHub Pages. Only the player assets, explicitly approved Lecture 12, 13 and 14 transcripts, linked results, code, plots, input CSVs, and requirements enter the preview. Raw sessions and unrelated conversation examples are excluded. The upstream MIT license accompanies the player.
 
 The Lecture 12 data originates from course file `5-1.txt`. On October 13, 2026, Shihao explicitly approved public release of this replay, including the dataset, after reviewing the preview and the redistribution question. This records owner authorization; it does not assert an independently verified dataset license. Run `python3 scripts/prepare-replay.py --release` and `bash scripts/check.sh` to stage and check the approved payload in `docs/`.
 
@@ -117,3 +117,9 @@ The current Lecture 13 link opens version 3 with a setup reminder, brief request
 Instructor notes identify learning goals, open-ended pauses, a compact VIF calculation, and the transition to optional material. Source coverage was checked against the complete legacy topic sequence and relevant textbook sections. Old software-specific examples are replaced by worked course-data and constructed examples; a fitted factor-analysis model and full method derivations remain deferred. Private preparation contains the coverage map and a suggested 75-minute delivery guide. Public material contains no source PDFs or assessment text. Recorded responses retain their wording, with only portable asset links adjusted.
 
 The earlier Lecture 12 hosting release addressed requests for complete worked examples throughout chapters 1 to 6, independent judgment at all eight checkpoints, a compact manual calculation in chapter 4, and checks of AI claims in chapter 7. That release changed hosting and navigation only. Assessment alignment was documented in the October 8 lesson preparation; current exam materials were not re-reviewed for that packaging change.
+
+## Lecture 14 release
+
+The owner requested publication of the AI replay with a visual opening, post-Lasso diagnostics and Elastic Net. The public version contains nine freshly recorded prompts and executed analyses, short instructor-authored discussion pauses, and an original seeded synthetic sales dataset with generation code. The lab sequence is credited to Jiecheng Lu; no third-party lab data or notebooks are redistributed. The separate group-discussion version and its instructor materials remain private and are excluded from the release allowlist.
+
+Diagnostics use nested out-of-fold errors within training data. Elastic Net combines L1 and L2 penalties and tunes their strength and mixture within training folds. The final test set stays unused until model choices are frozen.

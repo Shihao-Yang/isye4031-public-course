@@ -1,0 +1,70 @@
+{
+  "dataset": "Original constructed sales, seed 4031",
+  "scope": "Training-only tuning comparison on identical five folds; test unused",
+  "ridge_objective": "SSE/(2n) + lambda*sum(beta**2)/2, intercept unpenalized; sklearn alpha equals fitting-fold n times lambda",
+  "ridge_grid": "0 plus 121 log-spaced values from .001 to 1000",
+  "preprocessing": "StandardScaler inside each CV training fold; sales fitted in thousands of dollars",
+  "comparison": [
+    {
+      "model": "Ridge",
+      "lambda": 0.05011872336272725,
+      "rho": 0,
+      "mean_fold_RMSE_dollars": 3480.479601914971,
+      "SE_fold_RMSE_dollars": 161.88074904868296,
+      "nonzero_training_refit": 12,
+      "fold_RMSE_dollars": [
+        3779.3508175725055,
+        3032.717897660692,
+        3242.1209644755486,
+        3900.485710179215,
+        3447.7226196868924
+      ]
+    },
+    {
+      "model": "Lasso",
+      "lambda": 0.0926118728128793,
+      "rho": 1,
+      "mean_fold_RMSE_dollars": 3454.621194137241,
+      "SE_fold_RMSE_dollars": 142.23842946871616,
+      "nonzero_training_refit": 9,
+      "fold_RMSE_dollars": [
+        3708.61077418346,
+        3033.1615224889706,
+        3236.3253494556466,
+        3789.693648797875,
+        3505.314675760253
+      ]
+    },
+    {
+      "model": "Elastic Net",
+      "lambda": 0.0926118728128793,
+      "rho": 0.9,
+      "mean_fold_RMSE_dollars": 3449.3314071548884,
+      "SE_fold_RMSE_dollars": 146.91724446426863,
+      "nonzero_training_refit": 10,
+      "fold_RMSE_dollars": [
+        3716.6424498164465,
+        3021.1935104841723,
+        3222.5806066464816,
+        3801.884426933848,
+        3484.3560418934926
+      ]
+    }
+  ],
+  "ridge_training_refit_coefficients_thousands_per_SD": {
+    "digital_ad_spend": 1.007228852555298,
+    "print_ad_spend": 0.09962294383569076,
+    "promotion_index": 0.6296328305429256,
+    "floor_area": 3.3371861687987616,
+    "staff_hours": 0.008492788530700388,
+    "shelf_capacity_index": 1.0271294460298475,
+    "local_demand_index": 1.7188035748436814,
+    "footfall_index": 0.5882935163014407,
+    "neighborhood_activity_index": 0.019832934802682885,
+    "store_code_index": 0.17756452823641075,
+    "display_color_index": -0.4844337279420323,
+    "survey_noise_index": -0.38803229937075806
+  },
+  "ridge_best_grid_endpoint": false,
+  "limits": "Each entry is a selected tuning minimum. The CV folds do not independently evaluate model-family selection or tuning. SE bars describe fold variability, not confidence intervals."
+}

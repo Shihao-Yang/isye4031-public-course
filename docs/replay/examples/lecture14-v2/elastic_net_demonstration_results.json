@@ -1,0 +1,64 @@
+{
+  "dataset": "Original constructed sales, seed 4031",
+  "training_rows": 168,
+  "objective": "SSE/(2n) + lambda*rho*sum(abs(beta)) + lambda*(1-rho)*sum(beta**2)/2; unpenalized intercept",
+  "response_units": "Thousands of dollars; predictors standardized within fitting folds",
+  "tuning": "Same fixed five training folds as Lasso; joint grid search over 121 lambdas [.001,10] and rho [.05,.1,.25,.5,.75,.9,1]. Minimum mean fold RMSE. No test use.",
+  "best_lambda": 0.09261187281287933,
+  "best_rho": 0.9,
+  "best_mean_fold_RMSE_dollars": 3449.331407154888,
+  "nonzero_training_refit_coefficients": 10,
+  "training_refit_coefficients_thousands_per_SD": {
+    "digital_ad_spend": 1.0454961704794346,
+    "print_ad_spend": 0.01600874598984155,
+    "promotion_index": 0.5957371786451484,
+    "floor_area": 3.6800958465712905,
+    "staff_hours": -0.0,
+    "shelf_capacity_index": 0.7105676619819772,
+    "local_demand_index": 1.8507378281481257,
+    "footfall_index": 0.44224547148418447,
+    "neighborhood_activity_index": 0.0,
+    "store_code_index": 0.10986245607388477,
+    "display_color_index": -0.4416951580660442,
+    "survey_noise_index": -0.3351381986215863
+  },
+  "training_refit_intercept_thousands": 29.844843042744046,
+  "best_by_rho": [
+    {
+      "rho": 0.05,
+      "lambda": 0.054116952654646375,
+      "mean_fold_RMSE_dollars": 3478.6337918492836
+    },
+    {
+      "rho": 0.1,
+      "lambda": 0.05843414133735175,
+      "mean_fold_RMSE_dollars": 3476.694948077643
+    },
+    {
+      "rho": 0.25,
+      "lambda": 0.06812920690579612,
+      "mean_fold_RMSE_dollars": 3470.2553497691815
+    },
+    {
+      "rho": 0.5,
+      "lambda": 0.07943282347242814,
+      "mean_fold_RMSE_dollars": 3459.2451491644615
+    },
+    {
+      "rho": 0.75,
+      "lambda": 0.09261187281287933,
+      "mean_fold_RMSE_dollars": 3449.8485886588774
+    },
+    {
+      "rho": 0.9,
+      "lambda": 0.09261187281287933,
+      "mean_fold_RMSE_dollars": 3449.3314071548884
+    },
+    {
+      "rho": 1.0,
+      "lambda": 0.09261187281287933,
+      "mean_fold_RMSE_dollars": 3454.6211941372408
+    }
+  ],
+  "limits": "Coefficient paths at rho=.5 are fixed-mix sensitivity. CV curves are tuning evidence, not independent validation of the selected procedure; minimum can be optimistic. No selection-stability improvement or causal inference is established. 72 test stores remain unused."
+}

@@ -1,0 +1,65 @@
+{
+  "dataset": "Original constructed fictional store data, seed 4031",
+  "scope": "168 training rows only; descriptive exploration, no fitted model",
+  "sales_summary_dollars": {
+    "count": 168.0,
+    "mean": 29844.843042744047,
+    "std": 6542.820165303614,
+    "min": 14682.470926,
+    "25%": 24841.2571745,
+    "50%": 29644.1288655,
+    "75%": 34154.387176749995,
+    "max": 46957.89214
+  },
+  "sales_pearson_correlations": {
+    "digital_ad_spend": 0.3435630216358332,
+    "print_ad_spend": 0.30331866507817357,
+    "promotion_index": 0.31512466126578526,
+    "floor_area": 0.736877916523164,
+    "staff_hours": 0.6558006131912496,
+    "shelf_capacity_index": 0.6789082083745913,
+    "local_demand_index": 0.4338727236282562,
+    "footfall_index": 0.39446953933378176,
+    "neighborhood_activity_index": 0.39417394049710325,
+    "store_code_index": -0.008487074691345235,
+    "display_color_index": -0.074514783441127,
+    "survey_noise_index": -0.09835732385276058
+  },
+  "preview": [
+    {
+      "store_id": 1,
+      "digital_ad_spend": 1143.2,
+      "floor_area": 1943.9,
+      "local_demand_index": 39.7,
+      "weekly_sales": 29669.4
+    },
+    {
+      "store_id": 2,
+      "digital_ad_spend": 1302.0,
+      "floor_area": 869.9,
+      "local_demand_index": 54.9,
+      "weekly_sales": 19083.4
+    },
+    {
+      "store_id": 5,
+      "digital_ad_spend": 1363.3,
+      "floor_area": 2108.8,
+      "local_demand_index": 32.4,
+      "weekly_sales": 21885.1
+    },
+    {
+      "store_id": 6,
+      "digital_ad_spend": 1237.9,
+      "floor_area": 1979.9,
+      "local_demand_index": 65.9,
+      "weekly_sales": 23189.5
+    },
+    {
+      "store_id": 7,
+      "digital_ad_spend": 873.4,
+      "floor_area": 3121.1,
+      "local_demand_index": 48.7,
+      "weekly_sales": 35813.8
+    }
+  ]
+}
