@@ -1,0 +1,21 @@
+{
+  "C": 1.0,
+  "gammas": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "four_feature_validation": "Same saved StratifiedGroupKFold(5, shuffle=True, random_state=4031) development folds; StandardScaler fit inside training folds",
+  "geometry": "Separate two-feature models fitted to standardized variance and skewness on all development rows",
+  "kernel": "exp(-gamma * squared_Euclidean_distance)",
+  "radius_at_similarity_exp_minus_1": {
+    "0.01": 10.0,
+    "1.0": 1.0,
+    "100.0": 0.1
+  },
+  "scope": "One gamma sweep at fixed C; model-selection evidence, not complete joint tuning or final-test performance",
+  "convergence_problems": 0,
+  "holdout_accessed": false
+}

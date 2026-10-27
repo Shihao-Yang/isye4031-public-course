@@ -1,0 +1,28 @@
+{
+  "purpose": "two-feature development training illustration, not model selection or final testing",
+  "features": [
+    "variance",
+    "skewness"
+  ],
+  "C": 1.0,
+  "standardization_mean": [
+    0.4178469111758987,
+    1.8408169480244898
+  ],
+  "standardization_scale": [
+    2.8711301849606805,
+    5.893523523990705
+  ],
+  "w": [
+    -2.027787545218884,
+    -1.1795868000243825
+  ],
+  "b": -0.25499719048343555,
+  "norm_w": 2.3459214282103718,
+  "distance_from_boundary_to_each_margin": 0.4262717361181478,
+  "full_margin_width": 0.8525434722362956,
+  "development_training_rows": 1029,
+  "training_misclassified_rows": 127,
+  "rows_strictly_inside_margin_or_on_wrong_side": 295,
+  "support_vectors": 295
+}

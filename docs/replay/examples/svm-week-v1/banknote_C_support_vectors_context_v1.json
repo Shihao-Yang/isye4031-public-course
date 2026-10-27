@@ -1,0 +1,21 @@
+{
+  "purpose": "Fixed-C two-feature development training illustration only; no CV or final test",
+  "features": [
+    "variance",
+    "skewness"
+  ],
+  "standardization_mean": [
+    0.4178469111758987,
+    1.8408169480244898
+  ],
+  "standardization_scale": [
+    2.8711301849606805,
+    5.893523523990705
+  ],
+  "support_vector_definition": "SVC support_ indices; dual weights from abs(dual_coef_)",
+  "alpha_cap_tolerance": {
+    "rtol": 1e-05,
+    "atol": 1e-08
+  },
+  "margin_equations": "w dot z + b = -1 and +1"
+}

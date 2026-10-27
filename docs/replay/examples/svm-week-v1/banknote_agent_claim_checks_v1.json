@@ -1,0 +1,14 @@
+{
+  "svm_selected_C": 100.0,
+  "svm_selected_mean_balanced_accuracy": 0.9894759893043645,
+  "svm_largest_tested_C": 1000.0,
+  "svm_largest_C_mean_balanced_accuracy": 0.9859977284347993,
+  "largest_minus_selected_percentage_points": -0.3478260869565264,
+  "paired_folds_largest_better": 0,
+  "paired_folds_largest_equal": 4,
+  "paired_folds_largest_worse": 1,
+  "sigmoid_of_0_8": 0.6899744811276125,
+  "sigmoid_of_8": 0.9996646498695336,
+  "score_example_status": "Constructed algebra examples only; sigmoid values are not calibrated SVM probabilities",
+  "holdout_accessed": false
+}

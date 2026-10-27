@@ -8,6 +8,22 @@ zh_url: zh/lectures.html
 
 Follow each analysis one step at a time. Use **Next message** to reveal an answer, the checkpoint menu to revisit a topic, and **End** to show the complete lesson. Pause at the instructor questions and make your own prediction before continuing.
 
+## Lecture 15: Support vector machines, margins and linear classification
+
+[Open the recorded AI replay](replay/?transcript=./examples/lecture15-replay.md)
+
+[Download the Markdown transcript](replay/examples/lecture15-replay.md)
+
+Explore margins, hinge loss, support vectors, scaling, and linear model selection using the UCI Banknote Authentication dataset. Seven discussion checkpoints invite you to interpret the evidence before revealing each recorded response.
+
+## Lecture 16: Nonlinear models, features, kernels and validation
+
+[Open the recorded AI replay](replay/?transcript=./examples/lecture16-replay.md)
+
+[Download the Markdown transcript](replay/examples/lecture16-replay.md)
+
+Explore curved decision boundaries, polynomial and RBF kernels, gamma, joint tuning, and a frozen final comparison using the UCI Banknote Authentication dataset. Seven discussion checkpoints invite you to interpret the evidence before revealing each recorded response.
+
 ## Lecture 14: Lasso diagnostics and Elastic Net
 
 [Open the recorded AI replay](replay/?transcript=./examples/lecture14-v2-replay.md)

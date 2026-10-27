@@ -1,0 +1,14 @@
+python banknote_data_overview_v1.py
+python banknote_margin_geometry_v1.py
+python banknote_soft_margin_tradeoff_v1.py
+python banknote_C_support_vectors_v1.py
+python banknote_units_comparison_v5.py
+python banknote_four_feature_cv_v2.py
+python banknote_agent_claim_checks_v1.py
+python banknote_linear_recap_v1.py
+python banknote_quadratic_boundary_v1.py
+python banknote_kernel_identity_v1.py
+python banknote_rbf_gamma_v2.py
+python banknote_joint_rbf_cv_v1.py
+python banknote_freeze_analysis_plan_v1.py
+python banknote_frozen_test_evaluation_v1.py

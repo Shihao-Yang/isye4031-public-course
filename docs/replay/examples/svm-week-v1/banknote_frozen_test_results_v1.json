@@ -1,0 +1,121 @@
+{
+  "status": "Final test evaluated after explicit user request; no settings changed",
+  "frozen_plan": "banknote_frozen_final_evaluation_plan_v1.json",
+  "development_rows": 1029,
+  "test_rows": 343,
+  "test_class_counts": {
+    "0": 190,
+    "1": 153
+  },
+  "test_unique_groups": 336,
+  "primary_model": "RBF SVM",
+  "metrics": [
+    {
+      "model": "Linear SVM",
+      "test_rows": 343,
+      "balanced_accuracy": 0.9869281045751634,
+      "accuracy": 0.9883381924198251,
+      "class_0_recall": 1.0,
+      "class_1_recall": 0.9738562091503268,
+      "class_1_precision": 1.0,
+      "errors": 4,
+      "true_0_pred_0": 190,
+      "true_0_pred_1": 0,
+      "true_1_pred_0": 4,
+      "true_1_pred_1": 149
+    },
+    {
+      "model": "Logistic regression",
+      "test_rows": 343,
+      "balanced_accuracy": 0.9869281045751634,
+      "accuracy": 0.9883381924198251,
+      "class_0_recall": 1.0,
+      "class_1_recall": 0.9738562091503268,
+      "class_1_precision": 1.0,
+      "errors": 4,
+      "true_0_pred_0": 190,
+      "true_0_pred_1": 0,
+      "true_1_pred_0": 4,
+      "true_1_pred_1": 149
+    },
+    {
+      "model": "RBF SVM",
+      "test_rows": 343,
+      "balanced_accuracy": 0.9973684210526316,
+      "accuracy": 0.9970845481049563,
+      "class_0_recall": 0.9947368421052631,
+      "class_1_recall": 1.0,
+      "class_1_precision": 0.9935064935064936,
+      "errors": 1,
+      "true_0_pred_0": 189,
+      "true_0_pred_1": 1,
+      "true_1_pred_0": 0,
+      "true_1_pred_1": 153
+    }
+  ],
+  "paired_errors": [
+    {
+      "reference": "Linear SVM",
+      "both_correct": 338,
+      "rbf_correct_reference_wrong": 4,
+      "reference_correct_rbf_wrong": 1,
+      "both_wrong": 0
+    },
+    {
+      "reference": "Logistic regression",
+      "both_correct": 338,
+      "rbf_correct_reference_wrong": 4,
+      "reference_correct_rbf_wrong": 1,
+      "both_wrong": 0
+    }
+  ],
+  "development_fitted_scalers": {
+    "Linear SVM": {
+      "mean": [
+        0.4178469111758987,
+        1.8408169480244898,
+        1.4562028004859084,
+        -1.1606048177842565
+      ],
+      "scale": [
+        2.8711301849606805,
+        5.893523523990705,
+        4.336138212956392,
+        2.0796931730860218
+      ]
+    },
+    "Logistic regression": {
+      "mean": [
+        0.4178469111758987,
+        1.8408169480244898,
+        1.4562028004859084,
+        -1.1606048177842565
+      ],
+      "scale": [
+        2.8711301849606805,
+        5.893523523990705,
+        4.336138212956392,
+        2.0796931730860218
+      ]
+    },
+    "RBF SVM": {
+      "mean": [
+        0.4178469111758987,
+        1.8408169480244898,
+        1.4562028004859084,
+        -1.1606048177842565
+      ],
+      "scale": [
+        2.8711301849606805,
+        5.893523523990705,
+        4.336138212956392,
+        2.0796931730860218
+      ]
+    }
+  },
+  "limitations": [
+    "Single historical test split; selection and interpretation must not be revised using these outcomes",
+    "Exact duplicate groups isolated, but unknown acquisition/specimen dependence unresolved",
+    "No probability calibration tested; no operational error costs or external-population performance established"
+  ]
+}

@@ -24,18 +24,21 @@ if (replay / 'assets').exists():
 shutil.copytree(player / 'dist/assets', replay / 'assets', dirs_exist_ok=True)
 (replay / 'examples').mkdir(exist_ok=True)
 # Keep this explicit list aligned with publication-manifest.yml.
-for lesson in ('lecture12', 'lecture13', 'lecture13-v2', 'lecture13-v3', 'lecture14-v2'):
+for lesson in ('lecture12', 'lecture13', 'lecture13-v2', 'lecture13-v3', 'lecture14-v2', 'lecture15', 'lecture16'):
     transcript = player / f'public/examples/{lesson}-replay.md'
     text = transcript.read_text()
-    paths = set(re.findall(rf'\]\(/(examples/{re.escape(lesson)}/[^)]+)\)', text))
-    if lesson == 'lecture14-v2':
+    asset_name = 'svm-week-v1' if lesson in ('lecture15', 'lecture16') else lesson
+    paths = set(re.findall(rf'\]\(/(examples/{re.escape(asset_name)}/[^)]+)\)', text))
+    if lesson in ('lecture15', 'lecture16'):
+        paths.update(f'examples/svm-week-v1/{p.name}' for p in (player / 'public/examples/svm-week-v1').iterdir() if p.is_file())
+    elif lesson == 'lecture14-v2':
         paths.update(f'examples/{lesson}/{name}' for name in (
             'constructed_sales_seed4031.csv', 'fixed_sales_split.csv',
             'sales_generation_metadata.json', 'requirements.txt'))
     else:
         paths.add(f'examples/{lesson}/sales_territory.csv')
     shutil.copy2(transcript, replay / f'examples/{lesson}-replay.md')
-    asset_root = (player / f'public/examples/{lesson}').resolve()
+    asset_root = (player / f'public/examples/{asset_name}').resolve()
     for path in sorted(paths):
         source = (player / 'public' / path).resolve()
         if not source.is_relative_to(asset_root) or source.suffix not in {'.py', '.csv', '.json', '.png', '.txt', '.md'}:

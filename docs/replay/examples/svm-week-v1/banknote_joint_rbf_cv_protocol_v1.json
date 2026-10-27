@@ -1,0 +1,34 @@
+{
+  "features": [
+    "variance",
+    "skewness",
+    "kurtosis",
+    "entropy"
+  ],
+  "development_rows": 1029,
+  "C_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "gamma_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "folds": "Saved StratifiedGroupKFold(5, shuffle=True, random_state=4031) development folds, grouped by exact feature vector",
+  "pipeline": "StandardScaler fit inside each training fold, then SVC",
+  "selection": "Highest mean validation balanced accuracy; exact ties use smaller C, then smaller gamma",
+  "selected_C": 1.0,
+  "selected_gamma": 1.0,
+  "number_of_exact_top_ties": 4,
+  "solver_problems": 0,
+  "scope": "Model selection CV; the same folds select and compare settings, so maxima can be optimistic. Not nested CV.",
+  "holdout_accessed": false
+}

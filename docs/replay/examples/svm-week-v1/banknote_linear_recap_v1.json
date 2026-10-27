@@ -1,0 +1,13 @@
+{
+  "total_rows": 1372,
+  "development_rows": 1029,
+  "reserved_holdout_rows": 343,
+  "development_class_counts": {
+    "0": 572,
+    "1": 457
+  },
+  "logistic_minus_svm_balanced_accuracy_percentage_points": 0.0240274599542456,
+  "data_figure": "banknote_development_scatter_v1.png",
+  "source_results": "banknote_four_feature_cv_selected_v2.csv",
+  "evaluation_status": "development model-selection cross-validation; final holdout unused"
+}

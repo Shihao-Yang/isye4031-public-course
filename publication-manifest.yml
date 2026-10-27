@@ -22,6 +22,22 @@ allowlist:
     - materials
     - lectures
   lecture_replays:
+    - key: lecture15-svm-margins-linear-classification
+      public_output: docs/replay/
+      transcript: docs/replay/examples/lecture15-replay.md
+      source: ../../llm-chat-replay/public/examples/lecture15-replay.md
+      data_provenance: UCI-Banknote-Authentication-Volker-Lohweg-CC-BY-4.0
+      release_status: owner-requested-publication
+      player_license: MIT
+      assets: reviewed-svm-week-v1-code-data-results-plots-and-reproduction-instructions
+    - key: lecture16-nonlinear-features-kernels-validation
+      public_output: docs/replay/
+      transcript: docs/replay/examples/lecture16-replay.md
+      source: ../../llm-chat-replay/public/examples/lecture16-replay.md
+      data_provenance: UCI-Banknote-Authentication-Volker-Lohweg-CC-BY-4.0
+      release_status: owner-requested-publication
+      player_license: MIT
+      assets: reviewed-svm-week-v1-code-data-results-plots-and-reproduction-instructions
     - key: lecture14-lasso-diagnostics-elastic-net
       public_output: docs/replay/
       transcript: docs/replay/examples/lecture14-v2-replay.md

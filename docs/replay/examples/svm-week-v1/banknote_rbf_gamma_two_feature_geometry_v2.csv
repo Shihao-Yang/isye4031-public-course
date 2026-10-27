@@ -1,0 +1,4 @@
+gamma,C,training_errors,support_vectors
+0.01,1.0,121,418
+1.0,1.0,66,197
+100.0,1.0,31,694

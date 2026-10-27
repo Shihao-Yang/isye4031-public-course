@@ -1,0 +1,12 @@
+{
+  "purpose": "Two-feature development training illustration; final holdout unused",
+  "unit_change": "variance multiplied by 0.1; no physical unit claimed",
+  "features": [
+    "variance",
+    "skewness"
+  ],
+  "C": 1.0,
+  "standardization": "Each model learns feature means and standard deviations from development rows",
+  "solver_tol": 1e-07,
+  "solver_max_iter": 5000000
+}

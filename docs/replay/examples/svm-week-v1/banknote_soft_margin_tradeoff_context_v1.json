@@ -1,0 +1,11 @@
+{
+  "purpose": "Fixed-C two-feature development training illustration; no tuning, CV, or final test",
+  "features": [
+    "variance",
+    "skewness"
+  ],
+  "development_rows": 1029,
+  "positive_signed_label": "class 1",
+  "objective": "0.5 * ||w||^2 + C * sum(max(0, 1 - t_i * f_i))",
+  "score_examples": "Constructed algebra examples, not individual banknote observations"
+}

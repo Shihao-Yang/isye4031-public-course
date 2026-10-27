@@ -11,6 +11,8 @@ zh_url: zh/materials.html
 This collection publishes a small set of instructor-created lecture materials that illustrate the teaching approach. The slides are shared as public course resources.
 
 <div class="resource-list">
+<article class="resource"><strong>Lecture 15: Support vector machines, margins and linear classification</strong><p><a href="replay/?transcript=./examples/lecture15-replay.md">Open Lecture 15 replay</a></p></article>
+<article class="resource"><strong>Lecture 16: Nonlinear models, features, kernels and validation</strong><p><a href="replay/?transcript=./examples/lecture16-replay.md">Open Lecture 16 replay</a></p></article>
 <article class="resource"><strong>Lecture 14: Lasso diagnostics and Elastic Net</strong><p>Visualize synthetic sales data, check a Lasso fit, and compare L1 and L2 penalties with a combined Elastic Net model.</p><a href="replay/?transcript=./examples/lecture14-v2-replay.md">Open Lecture 14 replay</a></article>
 <article class="resource"><strong>Lecture 13: Regression pitfalls and multicollinearity</strong><p>Short instructor questions guide actual Codex CLI analysis of predictor overlap, coefficient precision, proposed remedies, and diagnostic checks.</p><a href="replay/?transcript=./examples/lecture13-v3-replay.md">Open Lecture 13 replay</a></article>
 <article class="resource"><strong>Lecture 12: Sales-territory model selection</strong><p>Step through a recorded analysis with plots, equations, instructor notes, and discussion checkpoints.</p><a href="lectures.html">Open lecture replays</a></article>

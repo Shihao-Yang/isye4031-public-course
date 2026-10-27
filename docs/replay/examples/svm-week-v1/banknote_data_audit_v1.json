@@ -1,0 +1,21 @@
+{
+  "raw_rows": 1372,
+  "predictors": [
+    "variance",
+    "skewness",
+    "kurtosis",
+    "entropy"
+  ],
+  "missing_values": 0,
+  "unique_feature_vectors": 1348,
+  "repeated_feature_groups": 11,
+  "rows_in_repeated_groups": 35,
+  "extra_duplicate_rows": 24,
+  "conflicting_label_groups": 0,
+  "development_rows": 1029,
+  "reserved_holdout_rows": 343,
+  "development_class_counts": {
+    "0": 572,
+    "1": 457
+  }
+}

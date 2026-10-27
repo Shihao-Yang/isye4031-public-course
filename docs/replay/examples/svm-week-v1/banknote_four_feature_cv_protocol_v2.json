@@ -1,0 +1,42 @@
+{
+  "features": [
+    "variance",
+    "skewness",
+    "kurtosis",
+    "entropy"
+  ],
+  "development_rows": 1029,
+  "unique_development_groups": 1012,
+  "splitter": "StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=4031)",
+  "scaling": "StandardScaler fit on training rows inside every fold",
+  "primary_metric": "mean validation balanced accuracy",
+  "selection_rule": "Maximum mean balanced accuracy for each model; exact ties use smaller C",
+  "C_grid": {
+    "Linear SVM": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ],
+    "Logistic regression": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0,
+      10000.0,
+      100000.0
+    ]
+  },
+  "logistic_threshold": 0.5,
+  "svm_threshold": 0,
+  "class_weight": null,
+  "positive_class": 1,
+  "convergence_problems": 0,
+  "interpretation": "Model-selection CV, not independent performance assessment; no final holdout evaluated"
+}

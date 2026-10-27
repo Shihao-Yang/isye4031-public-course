@@ -1,0 +1,38 @@
+{
+  "kernel": "(1 + dot(z,u))**2; degree=2, gamma=1, coef0=1",
+  "explicit_map": [
+    "1",
+    "sqrt(2)*z1",
+    "sqrt(2)*z2",
+    "z1**2",
+    "sqrt(2)*z1*z2",
+    "z2**2"
+  ],
+  "example_row_ids": [
+    1,
+    2
+  ],
+  "example_z": [
+    1.1158508609626059,
+    1.1580988901107974
+  ],
+  "example_u": [
+    1.4377798368208208,
+    1.0734805802033291
+  ],
+  "example_kernel_value": 14.803598966354388,
+  "example_explicit_dot_product": 14.80359896635439,
+  "max_gram_identity_absolute_error": 4.263256414560601e-14,
+  "kernel_vs_explicit_max_score_difference": 1.8207657603852567e-13,
+  "kernel_vs_explicit_prediction_disagreements": 0,
+  "support_vector_score_reconstruction_max_error": 3.836930773104541e-13,
+  "kernel_training_errors": 73,
+  "explicit_training_errors": 73,
+  "kernel_support_vectors": 202,
+  "solver_fit_status": [
+    0,
+    0
+  ],
+  "scope": "Two-feature development training identity check; not CV or final test",
+  "distinction": "Weighted polynomial map differs from previous independently scaled quadratic map; C=1 fixed"
+}

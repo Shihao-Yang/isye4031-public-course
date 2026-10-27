@@ -1,0 +1,28 @@
+{
+  "coefficients_in_standardized_original_predictors": {
+    "intercept": 0.4109163395569664,
+    "z_variance": -2.725700600913733,
+    "z_skewness": -0.5984470169012445,
+    "z_variance_squared": 0.4893998592283123,
+    "z_variance_times_z_skewness": 1.8385302351798123,
+    "z_skewness_squared": -1.2749469466320118
+  },
+  "original_predictor_means": [
+    0.4178469111758987,
+    1.8408169480244898
+  ],
+  "original_predictor_scales": [
+    2.8711301849606805,
+    5.893523523990705
+  ],
+  "expanded_features": [
+    "z_variance",
+    "z_skewness",
+    "z_variance_squared",
+    "z_variance_times_z_skewness",
+    "z_skewness_squared"
+  ],
+  "purpose": "Two-feature development training geometry, not four-feature CV or final-test results",
+  "pipeline": "Scale original predictors; expand degree 2 without constant; scale expanded columns; linear SVC(C=1)",
+  "holdout_accessed": false
+}

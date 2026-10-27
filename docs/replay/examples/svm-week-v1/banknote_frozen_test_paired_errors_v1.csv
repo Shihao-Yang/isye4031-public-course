@@ -1,0 +1,3 @@
+reference,both_correct,rbf_correct_reference_wrong,reference_correct_rbf_wrong,both_wrong
+Linear SVM,338,4,1,0
+Logistic regression,338,4,1,0

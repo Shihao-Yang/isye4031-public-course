@@ -8,6 +8,22 @@ en_url: ../lectures.html
 
 点击 **Next message** 逐步显示答案，通过章节菜单跳转，在教师提出的问题处暂停并先作出自己的判断。按 **End** 可显示完整内容。
 
+## 第15讲：支持向量机、间隔与线性分类
+
+[打开英文交互回放](../replay/?transcript=./examples/lecture15-replay.md)
+
+[下载英文 Markdown 对话记录](../replay/examples/lecture15-replay.md)
+
+使用 UCI 纸币鉴别数据，学习间隔、合页损失、支持向量、标准化与线性模型选择。七个讨论暂停点帮助你先独立解释证据，再查看实际记录的回答。
+
+## 第16讲：非线性模型、特征、核函数与验证
+
+[打开英文交互回放](../replay/?transcript=./examples/lecture16-replay.md)
+
+[下载英文 Markdown 对话记录](../replay/examples/lecture16-replay.md)
+
+使用 UCI 纸币鉴别数据，学习曲线决策边界、多项式核与 RBF 核、gamma、联合调参和预先锁定模型后的最终比较。七个讨论暂停点帮助你先独立解释证据，再查看实际记录的回答。
+
 ## 第 14 讲：Lasso 诊断与 Elastic Net（英文）
 
 [打开 AI 分析回放](../replay/?transcript=./examples/lecture14-v2-replay.md)
