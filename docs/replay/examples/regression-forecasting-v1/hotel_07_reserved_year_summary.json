@@ -1,0 +1,17 @@
+{
+  "test_months": 12,
+  "test_origin": 156,
+  "forecasts_updated": false,
+  "log_model_rmse_reduction_percent_vs_benchmark": 31.300201276216665,
+  "months_log_model_has_lower_absolute_error": 5,
+  "actual_average_rooms_per_day": 875.0833333333334,
+  "log_model_forecast_average_rooms_per_day": 889.1575216757514,
+  "benchmark_forecast_average_rooms_per_day": 851.1666666666666,
+  "limits": [
+    "Only one final 12-month block; errors within it may be dependent",
+    "Earlier residual dependence remains; calibrated prediction intervals unresolved",
+    "Future stability of exponential trend and seasonal ratios unverified",
+    "No hotel capacity or external predictors provided; occupancy rates cannot be inferred",
+    "Final block is now evaluated and cannot be reused as untouched evidence after revisions"
+  ]
+}

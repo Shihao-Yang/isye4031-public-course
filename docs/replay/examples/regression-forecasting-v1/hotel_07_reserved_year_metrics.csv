@@ -1,0 +1,3 @@
+method,rmse_rooms_per_day,mae_rooms_per_day,mean_forecast_minus_actual_rooms_per_day,max_absolute_error_rooms_per_day
+Log trend + months,23.777641144026976,21.866964765568287,14.074188342418049,39.468469465141084
+Repeat last year,34.61093276215865,25.583333333333332,-23.916666666666668,64.0

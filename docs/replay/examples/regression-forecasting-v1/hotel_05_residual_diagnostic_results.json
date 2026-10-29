@@ -1,0 +1,15 @@
+{
+  "model": "Linear trend plus January-reference month indicators fitted to log occupancy",
+  "residual_definition": "log(observed occupancy) minus fitted log occupancy",
+  "development_months": 156,
+  "final_reserved_used": false,
+  "residual_acf_lag1": 0.373569168040544,
+  "residual_acf_lag2": 0.23167814648209997,
+  "residual_acf_lag12": 0.3067552586602799,
+  "adjacent_residual_pearson_correlation": 0.3763044164232312,
+  "durbin_watson": 1.2382586345394442,
+  "longest_same_sign_run_months": 8,
+  "white_noise_reference_band": 0.15692559072898538,
+  "reference_band_caveat": "Approximate white-noise guide only; fitted seasonal regression residuals do not have exactly independent sampling errors. No formal significance claim.",
+  "interpretation": "Strong residual persistence contradicts treating independent errors as an adequate working assumption; not a proof of one particular error model."
+}

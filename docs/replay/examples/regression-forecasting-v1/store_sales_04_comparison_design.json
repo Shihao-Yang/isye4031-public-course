@@ -1,0 +1,30 @@
+{
+  "features": [
+    "size_sqft",
+    "advertising_thousand_usd_month",
+    "staff_count",
+    "area_household_income_thousand_usd_year",
+    "nearby_competitor_count",
+    "centered_advertising_squared"
+  ],
+  "advertising_center": 28,
+  "training_stores": 225,
+  "reserved_test_used": false,
+  "outer_folds": "Saved five-fold split from store_sales_02_shared_five_folds.csv",
+  "inner_folds": "Five shared inner folds per outer training set; seed=403120+outer_fold_number",
+  "tuning_objective": "Mean squared error; scaling and PCA fitted inside each training fold",
+  "final_training_settings": {
+    "Curved OLS": {},
+    "PCR": {
+      "pca__n_components": 6
+    },
+    "Ridge": {
+      "reg__alpha": 4.6415888336127775
+    },
+    "Lasso": {
+      "reg__alpha": 0.1778279410038923,
+      "retained_coefficients": 6
+    }
+  },
+  "note": "Full-training tuning selects candidate settings, with no test evaluation. Nested validation evaluates the tuning procedures."
+}

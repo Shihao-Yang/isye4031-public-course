@@ -1,0 +1,22 @@
+{
+  "development_t": [
+    1,
+    156
+  ],
+  "final_holdout_t": [
+    157,
+    168
+  ],
+  "final_holdout_used": false,
+  "validation_origins": [
+    96,
+    108,
+    120,
+    132,
+    144
+  ],
+  "validation_horizon": 12,
+  "errors": "Actual minus fitted or forecast value",
+  "acf_definition": "Sum of lagged residual products divided by sum of squared residuals, without bias adjustment",
+  "scope": "Trend-only fits; residual summaries are development diagnostics, not forecast evaluation."
+}

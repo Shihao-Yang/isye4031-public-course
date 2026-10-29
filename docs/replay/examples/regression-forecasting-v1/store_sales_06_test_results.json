@@ -1,0 +1,31 @@
+{
+  "selected_model": "Curved OLS",
+  "test_stores": 75,
+  "test_metrics": {
+    "rmse_thousand_usd": 34.472185541707375,
+    "mae_thousand_usd": 27.280532397665358,
+    "r_squared": 0.6752271674642738,
+    "mean_predicted_minus_actual_thousand_usd": -1.4271849960727103
+  },
+  "training_mean_reference_test_metrics": {
+    "rmse_thousand_usd": 60.9349695473059,
+    "mae_thousand_usd": 50.43745304814809,
+    "r_squared": -0.01478783572028064,
+    "mean_predicted_minus_actual_thousand_usd": 7.355823174174675
+  },
+  "training_advertising_range_thousand_usd": [
+    5.0,
+    55.205311409475605
+  ],
+  "previous_validation_rmse_thousand_usd": 35.270658271526415,
+  "extrapolation_illustrations": [
+    {
+      "advertising_thousand_usd_month": 100,
+      "predicted_sales_thousand_usd_month": 232.1575293946547
+    },
+    {
+      "advertising_thousand_usd_month": 150,
+      "predicted_sales_thousand_usd_month": -28.249976066247314
+    }
+  ]
+}

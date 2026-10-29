@@ -1,0 +1,14 @@
+{
+  "quadratic_coefficients": {
+    "size_sqft": 0.05450380463443699,
+    "advertising_thousand_usd_month": 1.4854334649110446,
+    "staff_count": 2.969749630611631,
+    "area_household_income_thousand_usd_year": 1.1392340487908224,
+    "nearby_competitor_count": -5.445642862002782,
+    "centered_advertising_squared": -0.03450300811406744
+  },
+  "intercept": 82.56287352366988,
+  "advertising_center": 28,
+  "validation_rmse_reduction_percent": 1.1738133777063897,
+  "test_evaluated": false
+}

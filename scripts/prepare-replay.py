@@ -24,12 +24,14 @@ if (replay / 'assets').exists():
 shutil.copytree(player / 'dist/assets', replay / 'assets', dirs_exist_ok=True)
 (replay / 'examples').mkdir(exist_ok=True)
 # Keep this explicit list aligned with publication-manifest.yml.
-for lesson in ('lecture12', 'lecture13', 'lecture13-v2', 'lecture13-v3', 'lecture14-v2', 'lecture15', 'lecture16'):
+for lesson in ('lecture12', 'lecture13', 'lecture13-v2', 'lecture13-v3', 'lecture14-v2', 'lecture15', 'lecture16', 'lecture17', 'lecture18'):
     transcript = player / f'public/examples/{lesson}-replay.md'
     text = transcript.read_text()
-    asset_name = 'svm-week-v1' if lesson in ('lecture15', 'lecture16') else lesson
+    asset_name = 'regression-forecasting-v1' if lesson in ('lecture17', 'lecture18') else ('svm-week-v1' if lesson in ('lecture15', 'lecture16') else lesson)
     paths = set(re.findall(rf'\]\(/(examples/{re.escape(asset_name)}/[^)]+)\)', text))
-    if lesson in ('lecture15', 'lecture16'):
+    if lesson in ('lecture17', 'lecture18'):
+        paths.update(f'examples/regression-forecasting-v1/{p.name}' for p in (player / 'public/examples/regression-forecasting-v1').iterdir() if p.is_file())
+    elif lesson in ('lecture15', 'lecture16'):
         paths.update(f'examples/svm-week-v1/{p.name}' for p in (player / 'public/examples/svm-week-v1').iterdir() if p.is_file())
     elif lesson == 'lecture14-v2':
         paths.update(f'examples/{lesson}/{name}' for name in (

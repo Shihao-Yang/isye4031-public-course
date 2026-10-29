@@ -11,6 +11,9 @@ zh_url: zh/materials.html
 This collection publishes a small set of instructor-created lecture materials that illustrate the teaching approach. The slides are shared as public course resources.
 
 <div class="resource-list">
+<article class="resource"><strong>Lecture 17: Nonlinear regression, PCA and model comparison</strong><p><a href="replay/?transcript=./examples/lecture17-replay.md">Open Lecture 17 replay</a></p></article>
+<article class="resource"><strong>Lecture 18: Time-series regression and forecasting</strong><p><a href="replay/?transcript=./examples/lecture18-replay.md">Open Lecture 18 replay</a></p></article>
+
 <article class="resource"><strong>Lecture 15: Support vector machines, margins and linear classification</strong><p><a href="replay/?transcript=./examples/lecture15-replay.md">Open Lecture 15 replay</a></p></article>
 <article class="resource"><strong>Lecture 16: Nonlinear models, features, kernels and validation</strong><p><a href="replay/?transcript=./examples/lecture16-replay.md">Open Lecture 16 replay</a></p></article>
 <article class="resource"><strong>Lecture 14: Lasso diagnostics and Elastic Net</strong><p>Visualize synthetic sales data, check a Lasso fit, and compare L1 and L2 penalties with a combined Elastic Net model.</p><a href="replay/?transcript=./examples/lecture14-v2-replay.md">Open Lecture 14 replay</a></article>

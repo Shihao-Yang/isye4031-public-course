@@ -1,0 +1,17 @@
+{
+  "selected_model": "Curved ordinary least squares",
+  "selection_reason": "User chose simplicity after training-only comparison",
+  "original_inputs": [
+    "size_sqft",
+    "advertising_thousand_usd_month",
+    "staff_count",
+    "area_household_income_thousand_usd_year",
+    "nearby_competitor_count"
+  ],
+  "additional_term": "(advertising_thousand_usd_month - 28)^2",
+  "training_role": "training",
+  "evaluation_role": "test",
+  "retune_after_test": false,
+  "comparison_sha256": "599b26e04f5d7708a1355ab92a10b8a019bba25d1d72261d7351aceba0a1c9e0",
+  "comparison_scope": "Frozen. Evaluate selected model only; training-mean reference is a fixed baseline."
+}

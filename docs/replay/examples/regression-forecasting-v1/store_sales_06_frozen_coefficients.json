@@ -1,0 +1,21 @@
+{
+  "intercept": 82.56287352366988,
+  "feature_names": [
+    "size_sqft",
+    "advertising_thousand_usd_month",
+    "staff_count",
+    "area_household_income_thousand_usd_year",
+    "nearby_competitor_count",
+    "centered_advertising_squared"
+  ],
+  "coefficients": [
+    0.05450380463443699,
+    1.4854334649110446,
+    2.969749630611631,
+    1.1392340487908224,
+    -5.445642862002782,
+    -0.03450300811406744
+  ],
+  "advertising_center": 28,
+  "training_rows": 225
+}

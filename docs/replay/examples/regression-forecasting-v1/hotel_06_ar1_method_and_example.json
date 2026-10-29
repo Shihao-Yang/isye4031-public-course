@@ -1,0 +1,18 @@
+{
+  "model": "log(y_t)=x_t beta+u_t; u_t=rho*u_(t-1)+epsilon_t",
+  "fitting": "Stationary Gaussian profile likelihood for rho and GLS for regression coefficients",
+  "point_forecast": "exp(x_future beta+rho^h*u_T+innovation_variance_h/2)",
+  "interval": "Approximate 95% prediction interval on log scale, exponentiated. Includes innovation variance and beta covariance conditional on estimated rho; omits rho-estimation uncertainty.",
+  "innovation_assumption": "Independent Gaussian innovations with constant variance; remaining dependence can invalidate intervals",
+  "validation": "Same origins 96,108,120,132,144; each forecasts a full year without updates",
+  "reserved_final_used": false,
+  "example": {
+    "origin": 120,
+    "rho": 0.37121460363124353,
+    "latest_log_residual": 0.01735716148422828,
+    "innovation_variance": 0.0003272017902149794,
+    "ar1_error_acf_lag1": 0.3680666188383204,
+    "innovation_acf_lag1": -0.043463091591119954,
+    "innovation_acf_lag12": 0.17181894623307012
+  }
+}

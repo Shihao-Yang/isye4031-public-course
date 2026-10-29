@@ -1,0 +1,5 @@
+hypothetical_store,logistic_score,logistic_probability_miss,logistic_label_threshold_0_5,logistic_label_threshold_0_3,svm_score,svm_label_threshold_0
+A,-2.0,0.11920292202211755,0,0,-1.2,0
+B,-0.4,0.401312339887548,0,1,0.1,1
+C,0.4,0.598687660112452,1,1,0.6,1
+D,1.4,0.8021838885585817,1,1,1.3,1

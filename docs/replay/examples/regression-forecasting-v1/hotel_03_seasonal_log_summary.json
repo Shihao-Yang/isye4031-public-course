@@ -1,0 +1,26 @@
+{
+  "development_t": [
+    1,
+    156
+  ],
+  "reserved_t": [
+    157,
+    168
+  ],
+  "reserved_used": false,
+  "january_reference": true,
+  "time_predictor": "t/12, so trend coefficients are per year",
+  "validation_origins": [
+    96,
+    108,
+    120,
+    132,
+    144
+  ],
+  "forecast_horizon": 12,
+  "retransformation": "exp(log prediction) times mean(exp(training log residual)); recomputed within each training block",
+  "level_seasonal_trend_per_month": 1.9516559829059767,
+  "log_seasonal_trend_per_month": 0.002761071424875855,
+  "log_seasonal_growth_percent_per_year": 3.36878628891215,
+  "full_development_smearing_factor": 1.0001993799011166
+}

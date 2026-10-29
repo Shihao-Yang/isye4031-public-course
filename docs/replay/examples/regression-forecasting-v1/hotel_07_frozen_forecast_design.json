@@ -1,0 +1,21 @@
+{
+  "origin": 156,
+  "forecast_months": [
+    157,
+    168
+  ],
+  "horizon": 12,
+  "selected_model": "OLS log occupancy on linear time trend and 11 month indicators, January reference",
+  "time_term": "t/12",
+  "retransformation": "exp(predicted log occupancy) * mean(exp(training log residual))",
+  "benchmark": "Seasonal naive: forecast(t)=observed(t-12)",
+  "training_months": [
+    1,
+    156
+  ],
+  "updates_during_forecast_year": false,
+  "comparison_frozen": true,
+  "no_post_test_tuning": true,
+  "prior_validation_sha256": "ac726337f8313f55a03cf54ea8cda0346c8fd9592c9da06ca72656c50da94f50",
+  "ar1_comparison_sha256": "bce7677f992bb0f64e2ef74d21215677bdaed052b0f50787331849cd3d240194"
+}

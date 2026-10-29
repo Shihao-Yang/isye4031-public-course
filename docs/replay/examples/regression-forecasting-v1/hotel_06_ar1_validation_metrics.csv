@@ -1,0 +1,5 @@
+method,evaluation,rmse,mae
+"Log seasonal, independent errors",all five origins,20.114786508285015,16.44943802068245
+"Log seasonal, independent errors",origin 120,24.69185632492795,19.608938304366223
+"Log seasonal, AR(1) errors",all five origins,20.409925674600718,16.736879895931704
+"Log seasonal, AR(1) errors",origin 120,25.286698239392514,20.652759136743043

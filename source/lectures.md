@@ -8,6 +8,22 @@ zh_url: zh/lectures.html
 
 Follow each analysis one step at a time. Use **Next message** to reveal an answer, the checkpoint menu to revisit a topic, and **End** to show the complete lesson. Pause at the instructor questions and make your own prediction before continuing.
 
+## Lecture 17: Nonlinear regression, PCA and model comparison
+
+[Open the recorded replay](replay/?transcript=./examples/lecture17-replay.md)
+
+[Download the Markdown transcript](replay/examples/lecture17-replay.md)
+
+Use constructed store-sales data to compare curved regression, PCA/PCR, Ridge and Lasso. Work through a component score, check validation and extrapolation, and distinguish regression predictions, logistic probabilities and SVM scores. Six checkpoints invite independent reasoning before each answer.
+
+## Lecture 18: Time-series regression and forecasting
+
+[Open the recorded replay](replay/?transcript=./examples/lecture18-replay.md)
+
+[Download the Markdown transcript](replay/examples/lecture18-replay.md)
+
+Follow the hotel-occupancy example through trends, seasonality, log transformations, chronological validation, residual diagnostics and an AR(1) correction. Seven checkpoints include an explicit forecast and a reserved-year comparison. The detailed AR(1) uncertainty derivation is optional; exponential smoothing and full ARIMA follow in later lessons.
+
 ## Lecture 15: Support vector machines, margins and linear classification
 
 [Open the recorded AI replay](replay/?transcript=./examples/lecture15-replay.md)

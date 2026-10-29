@@ -1,0 +1,18 @@
+{
+  "training_stores": 225,
+  "inputs": [
+    "size_sqft",
+    "advertising_thousand_usd_month",
+    "staff_count",
+    "area_household_income_thousand_usd_year",
+    "nearby_competitor_count"
+  ],
+  "example_store_id": 2,
+  "example_PC1_score": 2.360580337742646,
+  "sum_of_contributions": 2.3605803377426455,
+  "PC1_weight_squared_sum": 1.0000000000000002,
+  "sales_used": false,
+  "test_used": false,
+  "standardization": "Training mean and population standard deviation (ddof=0)",
+  "purpose": "Descriptive PCA of original five inputs. No squared term. Future predictive validation must refit scaling and PCA within each training fold."
+}

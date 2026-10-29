@@ -11,6 +11,9 @@ en_url: ../materials.html
 本网站发布一组由教师制作、能够体现教学方法的公开资料。当前讲义 PDF 为英文。
 
 <div class="resource-list">
+<article class="resource"><strong>第17讲（英文）: Nonlinear regression, PCA and model comparison</strong><p><a href="../replay/?transcript=./examples/lecture17-replay.md">打开英文回放</a></p></article>
+<article class="resource"><strong>第18讲（英文）: Time-series regression and forecasting</strong><p><a href="../replay/?transcript=./examples/lecture18-replay.md">打开英文回放</a></p></article>
+
 <article class="resource"><strong>第15讲：支持向量机与线性分类（英文回放）</strong><p><a href="../replay/?transcript=./examples/lecture15-replay.md">打开交互回放</a></p></article>
 <article class="resource"><strong>第16讲：非线性模型与核函数（英文回放）</strong><p><a href="../replay/?transcript=./examples/lecture16-replay.md">打开交互回放</a></p></article>
 <article class="resource"><strong>第 14 讲：Lasso 诊断与 Elastic Net（英文）</strong><p>可视化人工构造的销售数据，检查 Lasso 拟合，并比较 L1、L2 及结合两者的 Elastic Net。</p><a href="../replay/?transcript=./examples/lecture14-v2-replay.md">打开第 14 讲回放</a></article>

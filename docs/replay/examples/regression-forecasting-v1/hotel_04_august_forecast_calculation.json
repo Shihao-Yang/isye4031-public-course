@@ -1,0 +1,24 @@
+{
+  "origin": 120,
+  "training_t": [
+    1,
+    120
+  ],
+  "forecast_t": 128,
+  "month": "August of year 11",
+  "horizon_months": 8,
+  "intercept": 6.23313234588901,
+  "trend_coefficient_per_month": 0.0029025195107408794,
+  "trend_contribution": 0.37152249737483256,
+  "august_coefficient": 0.3557563589008175,
+  "predicted_log_occupancy": 6.960411202164661,
+  "smearing_factor": 1.0001686410709414,
+  "exp_log_forecast": 1054.0669027320123,
+  "mean_forecast_rooms_per_day": 1054.244661703333,
+  "repeat_last_year_value": 1040.0,
+  "observed_later": 1038.0,
+  "model_actual_minus_forecast": -16.244661703332895,
+  "naive_actual_minus_forecast": -2.0,
+  "annual_fitted_growth_percent": 3.5443910840289847,
+  "final_reserved_used": false
+}

@@ -22,6 +22,22 @@ allowlist:
     - materials
     - lectures
   lecture_replays:
+    - key: lecture17-nonlinear-regression-pca-model-comparison
+      public_output: docs/replay/
+      transcript: docs/replay/examples/lecture17-replay.md
+      source: ../../llm-chat-replay/public/examples/lecture17-replay.md
+      data_provenance: original-constructed-stores-and-owner-approved-attributed-FTR-table-6-4-observations
+      release_status: owner-requested-publication
+      player_license: MIT
+      assets: reviewed-regression-forecasting-v1-code-numerical-data-results-and-original-plots
+    - key: lecture18-time-series-regression-forecasting
+      public_output: docs/replay/
+      transcript: docs/replay/examples/lecture18-replay.md
+      source: ../../llm-chat-replay/public/examples/lecture18-replay.md
+      data_provenance: original-constructed-stores-and-owner-approved-attributed-FTR-table-6-4-observations
+      release_status: owner-requested-publication
+      player_license: MIT
+      assets: reviewed-regression-forecasting-v1-code-numerical-data-results-and-original-plots
     - key: lecture15-svm-margins-linear-classification
       public_output: docs/replay/
       transcript: docs/replay/examples/lecture15-replay.md

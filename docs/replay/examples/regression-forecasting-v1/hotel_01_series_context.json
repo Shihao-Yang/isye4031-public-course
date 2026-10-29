@@ -1,0 +1,19 @@
+{
+  "source": "FTR, fourth edition, Bowerman, O\u2019Connell and Koehler, Table 6.4, printed p. 297",
+  "origin": "Textbook observations, transcribed unchanged",
+  "response": "Monthly average rooms occupied per day across four hotels",
+  "observations": 168,
+  "sequential_years": 14,
+  "calendar_origin": "t=1 is January of year 1; actual calendar years unspecified",
+  "development_start_t": 1,
+  "development_end_t": 156,
+  "development_months": 156,
+  "reserved_months": 12,
+  "reserved_t_range": [
+    157,
+    168
+  ],
+  "reserved_outcomes_displayed": false,
+  "forecast_evaluation_performed": false,
+  "validation_rule": "Use earlier expanding training windows followed by 12-month validation blocks; no random folds."
+}

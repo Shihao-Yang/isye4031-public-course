@@ -8,6 +8,22 @@ en_url: ../lectures.html
 
 点击 **Next message** 逐步显示答案，通过章节菜单跳转，在教师提出的问题处暂停并先作出自己的判断。按 **End** 可显示完整内容。
 
+## 第17讲：非线性回归、主成分分析与模型比较（英文）
+
+[打开英文交互回放](../replay/?transcript=./examples/lecture17-replay.md)
+
+[下载英文 Markdown 对话记录](../replay/examples/lecture17-replay.md)
+
+使用人工构造的商店销售数据，比较曲线回归、PCA/PCR、岭回归与 Lasso。逐步计算主成分得分，检查验证与外推，并区分回归预测、逻辑回归概率和 SVM 得分。六个讨论暂停点邀请你先独立判断，再查看回答。
+
+## 第18讲：时间序列回归与预测（英文）
+
+[打开英文交互回放](../replay/?transcript=./examples/lecture18-replay.md)
+
+[下载英文 Markdown 对话记录](../replay/examples/lecture18-replay.md)
+
+以酒店入住数据为例，学习趋势、季节性、对数变换、按时间顺序验证、残差诊断与 AR(1) 修正。七个讨论暂停点包含完整的预测计算和预留年度比较。AR(1) 不确定性的详细推导为选学内容；指数平滑与完整 ARIMA 留待后续课程。
+
 ## 第15讲：支持向量机、间隔与线性分类
 
 [打开英文交互回放](../replay/?transcript=./examples/lecture15-replay.md)

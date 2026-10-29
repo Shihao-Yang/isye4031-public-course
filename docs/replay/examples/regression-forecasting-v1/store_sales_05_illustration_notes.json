@@ -1,0 +1,11 @@
+{
+  "purpose": "Conceptual score illustration, not a new fitted classification dataset",
+  "positive_class": "Store misses its sales target",
+  "logistic_link": "p = 1/(1+exp(-eta))",
+  "svm_orientation": "Positive score denotes predicted miss",
+  "scores": "Independently assigned hypothetical logistic and SVM outputs; not estimated from data",
+  "observed_labels_available": false,
+  "performance_estimated": false,
+  "store_sales_regression_data_used": false,
+  "reserved_test_used": false
+}

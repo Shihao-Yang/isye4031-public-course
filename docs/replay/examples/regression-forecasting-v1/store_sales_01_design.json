@@ -1,0 +1,12 @@
+{
+  "data_origin": "Original constructed data, not observed business records",
+  "seed": 403117,
+  "rows": 300,
+  "training_rows": 225,
+  "reserved_test_rows": 75,
+  "split_seed": 403118,
+  "noise_seed": 403119,
+  "mechanism": "sales (thousand USD/month) = 40 + .055*size_sqft + 3*advertising - .025*advertising^2 + 2.5*staff + area_income - 8*competitors + independent N(0,35^2) noise. Advertising is in thousand USD/month and income in thousand USD/year.",
+  "predictor_generation": "size=clip(N(2500,700^2),800,5000); advertising=clip(28+.008*(size-2500)+N(0,8^2),5,65); staff=clip(round(10+.003*(size-2500)+N(0,2^2)),3,22); income=clip(N(65,15^2),25,110); competitors=Poisson(3). Independent underlying random draws across stores.",
+  "evaluation": "Test roles fixed before generating outcomes. Only training outcomes displayed or summarized. Test set reserved for later final evaluation."
+}

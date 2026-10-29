@@ -1,0 +1,13 @@
+model,fold,validation_rmse,training_rmse
+Linear advertising,1,30.688282284776683,
+Linear advertising,2,39.63125127022982,
+Linear advertising,3,31.504994482242445,
+Linear advertising,4,37.743428695080894,
+Linear advertising,5,37.93672914671795,
+Linear advertising,pooled,35.689587423147536,34.44726132830322
+Quadratic advertising,1,30.59221211563694,
+Quadratic advertising,2,39.145435762315564,
+Quadratic advertising,3,30.794666883489054,
+Quadratic advertising,4,37.15726587800718,
+Quadratic advertising,5,37.72100443241543,
+Quadratic advertising,pooled,35.270658271526415,34.07425728218378

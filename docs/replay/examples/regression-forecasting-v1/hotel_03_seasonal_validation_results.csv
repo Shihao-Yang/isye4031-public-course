@@ -1,0 +1,4 @@
+model,development_rmse_rooms_per_day,validation_rmse_rooms_per_day,validation_mae_rooms_per_day
+Linear trend only,103.46732652873725,118.42137658562585,92.77560641891941
+Trend + months: level,20.400196129859932,27.726660636927793,21.284718013467973
+Trend + months: log,14.383981411962132,20.114786508285015,16.44943802068245
