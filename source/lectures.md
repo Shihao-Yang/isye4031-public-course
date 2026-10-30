@@ -8,6 +8,22 @@ zh_url: zh/lectures.html
 
 Follow each analysis one step at a time. Use **Next message** to reveal an answer, the checkpoint menu to revisit a topic, and **End** to show the complete lesson. Pause at the instructor questions and make your own prediction before continuing.
 
+## Lecture 19: Exponential smoothing and Holt trend
+
+[Open the recorded replay](replay/?transcript=./examples/lecture19-v2-replay.md) · [Markdown transcript](replay/examples/lecture19-v2-replay.md)
+
+Work through cod catch and thermostat sales, including initialization, weights, parameter fitting, prediction intervals and forecast accuracy.
+
+
+## Lecture 20: Holt–Winters and seasonal forecasting
+
+[Open the recorded replay](replay/?transcript=./examples/lecture20-v2-replay.md) · [Markdown transcript](replay/examples/lecture20-v2-replay.md)
+
+Work through the bike, Tiger and Cola examples, additive and multiplicative seasonal models, chronological evaluation and checks of AI analysis.
+
+[Self-study guide and practice (English)](replay/examples/smoothing-selfstudy-v2/STUDY-GUIDE.md)
+
+
 ## Lecture 17: Nonlinear regression, PCA and model comparison
 
 [Open the recorded replay](replay/?transcript=./examples/lecture17-replay.md)

@@ -8,6 +8,22 @@ en_url: ../lectures.html
 
 点击 **Next message** 逐步显示答案，通过章节菜单跳转，在教师提出的问题处暂停并先作出自己的判断。按 **End** 可显示完整内容。
 
+## 第19讲：简单指数平滑与 Holt 趋势法（英文）
+
+[Open the recorded replay](../replay/?transcript=./examples/lecture19-v2-replay.md) · [Markdown transcript](../replay/examples/lecture19-v2-replay.md)
+
+以鳕鱼捕捞量和温控器销售为例，学习初始化、权重、参数拟合、预测区间和误差评价。
+
+
+## 第20讲：Holt–Winters 与季节预测（英文）
+
+[Open the recorded replay](../replay/?transcript=./examples/lecture20-v2-replay.md) · [Markdown transcript](../replay/examples/lecture20-v2-replay.md)
+
+以自行车、Tiger 和 Cola 数据为例，学习加法与乘法季节模型、按时间顺序验证及 AI 分析检查。
+
+[Self-study guide and practice (English)](../replay/examples/smoothing-selfstudy-v2/STUDY-GUIDE.md)
+
+
 ## 第17讲：非线性回归、主成分分析与模型比较（英文）
 
 [打开英文交互回放](../replay/?transcript=./examples/lecture17-replay.md)

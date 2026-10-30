@@ -11,6 +11,8 @@ zh_url: zh/materials.html
 This collection publishes a small set of instructor-created lecture materials that illustrate the teaching approach. The slides are shared as public course resources.
 
 <div class="resource-list">
+<article class="resource"><strong>Lecture 19: Exponential smoothing and Holt trend</strong><p><a href="replay/?transcript=./examples/lecture19-v2-replay.md">Open Lecture 19 replay</a></p></article>
+<article class="resource"><strong>Lecture 20: Holt–Winters and seasonal forecasting</strong><p><a href="replay/?transcript=./examples/lecture20-v2-replay.md">Open Lecture 20 replay</a></p></article>
 <article class="resource"><strong>Lecture 17: Nonlinear regression, PCA and model comparison</strong><p><a href="replay/?transcript=./examples/lecture17-replay.md">Open Lecture 17 replay</a></p></article>
 <article class="resource"><strong>Lecture 18: Time-series regression and forecasting</strong><p><a href="replay/?transcript=./examples/lecture18-replay.md">Open Lecture 18 replay</a></p></article>
 

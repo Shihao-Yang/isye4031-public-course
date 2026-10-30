@@ -1,0 +1,13 @@
+example,reported_method,horizon,forecast,lower95,upper95,alpha,gamma,delta,MAPE,MAD,MSD
+thermostat,Minitab_with_Solver_constants,1,320.397,264.389,376.405,0.247,0.095,,10.581,22.861,802.179
+thermostat,Minitab_with_Solver_constants,2,324.890,267.090,382.690,0.247,0.095,,10.581,22.861,802.179
+thermostat,Minitab_with_Solver_constants,3,329.383,269.634,389.133,0.247,0.095,,10.581,22.861,802.179
+thermostat,Minitab_automatic,1,324.219,269.414,379.025,0.489596,0.066912,,10.339,22.370,887.404
+thermostat,Minitab_automatic,2,328.441,266.602,390.280,0.489596,0.066912,,10.339,22.370,887.404
+thermostat,Minitab_automatic,3,332.662,263.054,402.270,0.489596,0.066912,,10.339,22.370,887.404
+bikes,Minitab_initial,,,,,0.2,0.1,0.1,29.2106,6.0284,41.5876
+bikes,Minitab_with_Solver_constants,,,,,0.561,0,0,19.8810,4.0380,17.4331
+tiger,Minitab_initial,,,,,0.2,0.1,0.1,9.692,11.808,207.153
+tiger,Minitab_with_Solver_constants,,,,,0.336,0.046,0.134,8.771,10.971,149.232
+cola,Minitab_additive,,,,,0.2,0.2,0.2,16.01,59.78,9425.48
+cola,Minitab_multiplicative,,,,,0.2,0.2,0.2,9.58,46.93,6812.61

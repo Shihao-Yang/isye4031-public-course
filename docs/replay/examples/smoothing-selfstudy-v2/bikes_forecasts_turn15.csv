@@ -1,0 +1,65 @@
+initialization,fit,target_quarter,horizon,forecast
+Chapter 8: all-16 regression,Initial,17,1,22.8665063567011
+Chapter 8: all-16 regression,Initial,18,2,44.61406818920043
+Chapter 8: all-16 regression,Initial,19,3,57.6203702141097
+Chapter 8: all-16 regression,Initial,20,4,29.062032675577342
+Chapter 8: all-16 regression,Initial,21,5,26.684006366098025
+Chapter 8: all-16 regression,Initial,22,6,48.431568198597354
+Chapter 8: all-16 regression,Initial,23,7,61.43787022350662
+Chapter 8: all-16 regression,Initial,24,8,32.879532684974265
+Chapter 8: all-16 regression,Optimized,17,1,23.10734651656187
+Chapter 8: all-16 regression,Optimized,18,2,44.85734651656186
+Chapter 8: all-16 regression,Optimized,19,3,57.85734651656187
+Chapter 8: all-16 regression,Optimized,20,4,29.357346516561865
+Chapter 8: all-16 regression,Optimized,21,5,27.030875928326573
+Chapter 8: all-16 regression,Optimized,22,6,48.780875928326566
+Chapter 8: all-16 regression,Optimized,23,7,61.78087592832657
+Chapter 8: all-16 regression,Optimized,24,8,33.280875928326566
+Earlier series: first-year regression and seasons,Initial,17,1,26.055436136562825
+Earlier series: first-year regression and seasons,Initial,18,2,46.21013687672049
+Earlier series: first-year regression and seasons,Initial,19,3,57.40187676007086
+Earlier series: first-year regression and seasons,Initial,20,4,28.683372510437913
+Earlier series: first-year regression and seasons,Initial,21,5,31.271172332927215
+Earlier series: first-year regression and seasons,Initial,22,6,51.42587307308488
+Earlier series: first-year regression and seasons,Initial,23,7,62.617612956435245
+Earlier series: first-year regression and seasons,Initial,24,8,33.899108706802295
+Earlier series: first-year regression and seasons,Optimized,17,1,17.367639070046586
+Earlier series: first-year regression and seasons,Optimized,18,2,39.18583995668855
+Earlier series: first-year regression and seasons,Optimized,19,3,52.969233972975424
+Earlier series: first-year regression and seasons,Optimized,20,4,23.198117622785432
+Earlier series: first-year regression and seasons,Optimized,21,5,19.565756692832018
+Earlier series: first-year regression and seasons,Optimized,22,6,41.38395757947398
+Earlier series: first-year regression and seasons,Optimized,23,7,55.167351595760856
+Earlier series: first-year regression and seasons,Optimized,24,8,25.396235245570864
+Earlier series: first-year regression and seasons,Reported rounded constants,17,1,28.251508906150534
+Earlier series: first-year regression and seasons,Reported rounded constants,18,2,49.251508906150534
+Earlier series: first-year regression and seasons,Reported rounded constants,19,3,61.251508906150534
+Earlier series: first-year regression and seasons,Reported rounded constants,20,4,34.251508906150534
+Earlier series: first-year regression and seasons,Reported rounded constants,21,5,40.251508906150534
+Earlier series: first-year regression and seasons,Reported rounded constants,22,6,61.251508906150534
+Earlier series: first-year regression and seasons,Reported rounded constants,23,7,73.25150890615053
+Earlier series: first-year regression and seasons,Reported rounded constants,24,8,46.251508906150534
+"Earlier series: first-year states, all-16 regression seasons",Initial,17,1,22.740616028733317
+"Earlier series: first-year states, all-16 regression seasons",Initial,18,2,44.646370691512836
+"Earlier series: first-year states, all-16 regression seasons",Initial,19,3,58.12522922942556
+"Earlier series: first-year states, all-16 regression seasons",Initial,20,4,30.0923794552838
+"Earlier series: first-year states, all-16 regression seasons",Initial,21,5,27.713788036770662
+"Earlier series: first-year states, all-16 regression seasons",Initial,22,6,49.61954269955018
+"Earlier series: first-year states, all-16 regression seasons",Initial,23,7,63.098401237462895
+"Earlier series: first-year states, all-16 regression seasons",Initial,24,8,35.06555146332114
+"Earlier series: first-year states, all-16 regression seasons",Optimized,17,1,17.722913205704476
+"Earlier series: first-year states, all-16 regression seasons",Optimized,18,2,39.02180809313515
+"Earlier series: first-year states, all-16 regression seasons",Optimized,19,3,51.82070298056583
+"Earlier series: first-year states, all-16 regression seasons",Optimized,20,4,23.11959786799651
+"Earlier series: first-year states, all-16 regression seasons",Optimized,21,5,19.530257461309542
+"Earlier series: first-year states, all-16 regression seasons",Optimized,22,6,40.829152348740216
+"Earlier series: first-year states, all-16 regression seasons",Optimized,23,7,53.6280472361709
+"Earlier series: first-year states, all-16 regression seasons",Optimized,24,8,24.926942123601577
+"Earlier series: first-year states, all-16 regression seasons",Reported rounded constants,17,1,22.245028468214347
+"Earlier series: first-year states, all-16 regression seasons",Reported rounded constants,18,2,46.09208729174376
+"Earlier series: first-year states, all-16 regression seasons",Reported rounded constants,19,3,61.439146115273175
+"Earlier series: first-year states, all-16 regression seasons",Reported rounded constants,20,4,35.286204938802584
+"Earlier series: first-year states, all-16 regression seasons",Reported rounded constants,21,5,34.24502846821434
+"Earlier series: first-year states, all-16 regression seasons",Reported rounded constants,22,6,58.09208729174376
+"Earlier series: first-year states, all-16 regression seasons",Reported rounded constants,23,7,73.43914611527318
+"Earlier series: first-year states, all-16 regression seasons",Reported rounded constants,24,8,47.286204938802584

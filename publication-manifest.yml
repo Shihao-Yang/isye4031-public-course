@@ -30,6 +30,22 @@ allowlist:
       release_status: owner-requested-publication
       player_license: MIT
       assets: reviewed-regression-forecasting-v1-code-numerical-data-results-and-original-plots
+    - key: lecture19-exponential-smoothing-and-holt
+      public_output: docs/replay/
+      transcript: docs/replay/examples/lecture19-v2-replay.md
+      source: ../../llm-chat-replay/public/examples/lecture19-v2-replay.md
+      data_provenance: owner-approved-legacy-course-numerical-examples-with-attribution-no-source-pdfs
+      release_status: owner-approved-after-local-review
+      player_license: MIT
+      assets: reviewed-smoothing-selfstudy-v2-code-data-results-plots-and-study-guide
+    - key: lecture20-holt-winters-seasonal-forecasting
+      public_output: docs/replay/
+      transcript: docs/replay/examples/lecture20-v2-replay.md
+      source: ../../llm-chat-replay/public/examples/lecture20-v2-replay.md
+      data_provenance: owner-approved-legacy-course-numerical-examples-with-attribution-no-source-pdfs
+      release_status: owner-approved-after-local-review
+      player_license: MIT
+      assets: reviewed-smoothing-selfstudy-v2-code-data-results-plots-and-study-guide
     - key: lecture18-time-series-regression-forecasting
       public_output: docs/replay/
       transcript: docs/replay/examples/lecture18-replay.md
