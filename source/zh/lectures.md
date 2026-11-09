@@ -8,6 +8,14 @@ en_url: ../lectures.html
 
 点击 **Next message** 逐步显示答案，通过章节菜单跳转，在教师提出的问题处暂停并先作出自己的判断。按 **End** 可显示完整内容。
 
+## EWMA 复习与 ARIMA 入门（英文）
+
+[打开完整回放](../replay/?transcript=./examples/ewma-arima-20261109-replay.md) · [下载 Markdown 文字稿](../replay/examples/ewma-arima-20261109-replay.md)
+
+先用章节 **1–2** 简要复习指数加权移动平均、Holt 趋势法和 Holt–Winters 季节法，再用章节 **3–8** 完成纸巾销量的 ARIMA 案例，包括差分、ACF/PACF、参数估计、残差诊断和预测区间。章节 **9** 为选学内容，解释 ARIMA 与 EWMA 的联系。
+
+回放包含实际执行的计算、八幅图和九个开放式讨论暂停点。教师补充说明与录制的回答分别标注。
+
 ## 第19讲：简单指数平滑与 Holt 趋势法（英文）
 
 [Open the recorded replay](../replay/?transcript=./examples/lecture19-v2-replay.md) · [Markdown transcript](../replay/examples/lecture19-v2-replay.md)

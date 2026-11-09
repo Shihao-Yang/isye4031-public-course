@@ -1,0 +1,58 @@
+{
+  "theta_hat_plus_convention": 0.3533867726712789,
+  "last_error": 0.689264187399282,
+  "sigma2_estimate_SSE_over_118": 1.080328855370663,
+  "last_observed_rolls": 256453.0,
+  "forecast_change_week121": 0.24357684670292382,
+  "assumptions": "Independent Gaussian innovations with constant variance; fitted theta and last innovation treated as known; parameter and model uncertainty omitted.",
+  "forecasts": [
+    {
+      "week": 121,
+      "horizon": 1,
+      "point_rolls": 258888.76846702924,
+      "lower95_rolls": 238517.12442263748,
+      "upper95_rolls": 279260.412511421,
+      "forecast_SE_recorded_units": 1.0393886931127656
+    },
+    {
+      "week": 122,
+      "horizon": 2,
+      "point_rolls": 258888.76846702924,
+      "lower95_rolls": 224608.33485277294,
+      "upper95_rolls": 293169.20208128553,
+      "forecast_SE_recorded_units": 1.7490338539205812
+    },
+    {
+      "week": 123,
+      "horizon": 3,
+      "point_rolls": 258888.76846702924,
+      "lower95_rolls": 214896.81037817552,
+      "upper95_rolls": 302880.72655588295,
+      "forecast_SE_recorded_units": 2.2445289013398555
+    },
+    {
+      "week": 124,
+      "horizon": 4,
+      "point_rolls": 258888.76846702924,
+      "lower95_rolls": 206971.173913723,
+      "upper95_rolls": 310806.36302033544,
+      "forecast_SE_recorded_units": 2.6489055392254963
+    },
+    {
+      "week": 125,
+      "horizon": 5,
+      "point_rolls": 258888.76846702924,
+      "lower95_rolls": 200104.5795051024,
+      "upper95_rolls": 317672.9574289561,
+      "forecast_SE_recorded_units": 2.999248426277679
+    },
+    {
+      "week": 126,
+      "horizon": 6,
+      "point_rolls": 258888.76846702924,
+      "lower95_rolls": 193960.15289868714,
+      "upper95_rolls": 323817.38403537136,
+      "forecast_SE_recorded_units": 3.3127453402455727
+    }
+  ]
+}

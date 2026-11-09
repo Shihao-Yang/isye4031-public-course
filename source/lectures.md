@@ -8,6 +8,14 @@ zh_url: zh/lectures.html
 
 Follow each analysis one step at a time. Use **Next message** to reveal an answer, the checkpoint menu to revisit a topic, and **End** to show the complete lesson. Pause at the instructor questions and make your own prediction before continuing.
 
+## EWMA recap and introduction to ARIMA
+
+[Open the combined replay](replay/?transcript=./examples/ewma-arima-20261109-replay.md) · [Markdown transcript](replay/examples/ewma-arima-20261109-replay.md)
+
+Use checkpoints **1–2** for a brief recap of EWMA, Holt trend and Holt–Winters seasonality. Checkpoints **3–8** work through the paper-towel sales example, from differencing and ACF/PACF to fitting, residual diagnostics and forecast intervals. Checkpoint **9** optionally connects ARIMA back to EWMA.
+
+The replay contains executed calculations, eight figures and nine open-ended discussion pauses. Instructor notes are separate from the recorded responses.
+
 ## Lecture 19: Exponential smoothing and Holt trend
 
 [Open the recorded replay](replay/?transcript=./examples/lecture19-v2-replay.md) · [Markdown transcript](replay/examples/lecture19-v2-replay.md)

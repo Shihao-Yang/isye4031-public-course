@@ -1,0 +1,13 @@
+{
+  "observations": 120,
+  "differences": 119,
+  "week_1_actual_rolls": 250000.0,
+  "week_60_actual_rolls": 90873.0,
+  "week_119_y": 15.341,
+  "week_120_y": 15.6453,
+  "last_weekly_change": 0.30430000000000135,
+  "last_weekly_change_rolls": 3043.0000000000136,
+  "mean_weekly_change": 0.00542268907563025,
+  "level_lag1_sample_correlation": 0.9685301278564902,
+  "change_lag1_sample_correlation": 0.30714786035950137
+}

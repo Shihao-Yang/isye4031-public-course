@@ -1,0 +1,11 @@
+{
+  "alpha_constructed": 0.2,
+  "initial_level": 362.0,
+  "level_after_month_23": 341.41905782329326,
+  "month_24_observation": 365.0,
+  "month_24_one_step_fitted_forecast": 341.41905782329326,
+  "month_24_fitted_error": 23.580942176706742,
+  "month_24_update": 4.716188435341349,
+  "level_after_month_24": 346.1352462586346,
+  "month_25_future_point_forecast": 346.1352462586346
+}

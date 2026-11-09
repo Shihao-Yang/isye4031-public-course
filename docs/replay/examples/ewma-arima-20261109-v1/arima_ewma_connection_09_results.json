@@ -1,0 +1,19 @@
+{
+  "plus_sign_MA_theta_hat": 0.3533867726712789,
+  "equivalent_forecast_update_alpha": 1.353386772671279,
+  "week120_actual_recorded_units": 15.6453,
+  "week120_fitted_one_step_forecast_recorded_units": 14.95603581260072,
+  "week120_fitted_error": 0.689264187399282,
+  "forecast_update_amount": 0.9328410341022059,
+  "week121_forecast_via_MA_equation": 15.888876846702924,
+  "week121_forecast_via_EWMA_form": 15.888876846702924,
+  "ordinary_EWMA_example": {
+    "alpha": 0.2,
+    "equivalent_plus_sign_theta": -0.8
+  },
+  "general_ARIMA_example_order": [
+    2,
+    1,
+    1
+  ]
+}

@@ -22,6 +22,14 @@ allowlist:
     - materials
     - lectures
   lecture_replays:
+    - key: ewma-recap-and-introduction-to-arima
+      public_output: docs/replay/
+      transcript: docs/replay/examples/ewma-arima-20261109-replay.md
+      source: ../../llm-chat-replay/public/examples/ewma-arima-20261109-replay.md
+      data_provenance: owner-approved-attributed-legacy-course-numerical-examples-and-constructed-illustrations-no-source-pdfs
+      release_status: owner-approved-after-local-review
+      player_license: MIT
+      assets: reviewed-ewma-arima-20261109-v1-code-data-results-and-original-plots
     - key: lecture17-nonlinear-regression-pca-model-comparison
       public_output: docs/replay/
       transcript: docs/replay/examples/lecture17-replay.md

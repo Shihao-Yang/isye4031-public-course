@@ -1,0 +1,65 @@
+{
+  "method": "conditional least squares; fixed y1, e1=0; -0.999 < theta < 0.999",
+  "optimizer_success": true,
+  "theta_hat_plus_convention": 0.3533867674313227,
+  "SSE": 127.47880493373822,
+  "number_errors": 119,
+  "in_sample_RMSE": 1.035012300230317,
+  "SSE_theta_zero": 143.84061325000005,
+  "first_updates": [
+    {
+      "week": 2,
+      "previous_level": 15.0,
+      "actual_level": 14.4064,
+      "actual_change": -0.5936000000000003,
+      "previous_error": 0.0,
+      "forecast_change": 0.0,
+      "forecast_level": 15.0,
+      "error_actual_minus_forecast": -0.5936000000000003
+    },
+    {
+      "week": 3,
+      "previous_level": 14.4064,
+      "actual_level": 14.9383,
+      "actual_change": 0.5319000000000003,
+      "previous_error": -0.5936000000000003,
+      "forecast_change": -0.20977038514723328,
+      "forecast_level": 14.196629614852766,
+      "error_actual_minus_forecast": 0.7416703851472335
+    },
+    {
+      "week": 4,
+      "previous_level": 14.9383,
+      "actual_level": 16.0374,
+      "actual_change": 1.0991000000000017,
+      "previous_error": 0.7416703851472335,
+      "forecast_change": 0.26209649990672496,
+      "forecast_level": 15.200396499906725,
+      "error_actual_minus_forecast": 0.8370035000932767
+    },
+    {
+      "week": 5,
+      "previous_level": 16.0374,
+      "actual_level": 15.632,
+      "actual_change": -0.405400000000002,
+      "previous_error": 0.8370035000932767,
+      "forecast_change": 0.29578596122666584,
+      "forecast_level": 16.33318596122667,
+      "error_actual_minus_forecast": -0.7011859612266678
+    },
+    {
+      "week": 6,
+      "previous_level": 15.632,
+      "actual_level": 14.3975,
+      "actual_change": -1.2344999999999988,
+      "previous_error": -0.7011859612266678,
+      "forecast_change": -0.24778984020611688,
+      "forecast_level": 15.384210159793883,
+      "error_actual_minus_forecast": -0.9867101597938819
+    }
+  ],
+  "last_fitted_error": 0.6892641823995516,
+  "forecast_week121_change": 0.2435768413243711,
+  "forecast_week121_level": 15.888876841324372,
+  "forecast_week121_rolls": 258888.76841324373
+}
