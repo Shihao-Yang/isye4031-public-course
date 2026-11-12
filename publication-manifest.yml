@@ -118,6 +118,23 @@ allowlist:
       release_status: owner-approved-2026-10-13-after-preview-and-redistribution-question
       player_license: MIT
       assets: linked-classroom-results-code-plots-and-input-csv-only
+  released_midterms:
+    - key: midterm1
+      source: review-materials/ISYE4031_Midterm1.pdf
+      public_output: docs/materials/ISYE4031_Midterm1.pdf
+      sha256: b8100a68421394b4fdcda17ddcba9e43b3f339694f72d47c5782997e9d723e34
+      pages: 27
+      release_status: owner-requested-publication
+      scope: original-exam-packet-with-blank-answer-sheet-no-solutions
+      provenance: instructor-authored-questions-and-recorded-agent-analyses-of-attributed-course-data
+    - key: midterm2
+      source: review-materials/ISYE4031_Midterm2.pdf
+      public_output: docs/materials/ISYE4031_Midterm2.pdf
+      sha256: 40d295671623b1b94902911b361a04f51c4a74e743ce3776189c0e73285c4fa3
+      pages: 20
+      release_status: owner-requested-publication
+      scope: original-exam-packet-with-blank-answer-sheet-no-solutions
+      provenance: instructor-authored-questions-and-recorded-agent-analyses-of-attributed-course-data
   review_materials:
     - key: statistical-review-slides
       source_display_name: ISYE4031_Week01_Class02.pdf
@@ -147,7 +164,7 @@ denylist:
   - student records and contact information
   - submissions, grades, attendance, and recordings
   - announcements and accommodations
-  - exams, solutions, question banks, and instructor-only assessments
+  - assessments except the exact owner-approved released_midterms entries, plus all solutions, question banks, and instructor-only assessments
   - learning-management-system exports and API responses
   - credentials, verifier URLs, and private repository links
   - locally stored textbook

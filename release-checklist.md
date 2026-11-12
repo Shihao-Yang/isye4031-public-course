@@ -11,7 +11,7 @@
 
 - [x] No student names, contact information, records, submissions, grades, or recordings.
 - [x] No accommodations or private communications.
-- [x] No exams, solutions, answer keys, question banks, or instructor-only notes.
+- [x] Only the two explicitly owner-approved midterm packets in the publication manifest are released; no other exams, solutions, answer keys, question banks, or instructor-only notes.
 - [x] No learning-management-system export, API response, token, verifier URL, or credential.
 - [x] No licensed textbook or unapproved copyrighted material.
 

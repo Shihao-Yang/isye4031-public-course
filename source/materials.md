@@ -1,14 +1,25 @@
 ---
-title: Sample materials
+title: Course materials
 description: Public course materials for AI-agent-first regression and forecasting.
 zh_url: zh/materials.html
 ---
 
-<p class="eyebrow">Sample materials</p>
+<p class="eyebrow">Course materials</p>
 
-# A small, reviewable first release
+# Lecture materials and midterm exams
 
-This collection publishes a small set of instructor-created lecture materials that illustrate the teaching approach. The slides are shared as public course resources.
+Explore lecture replays, slides, and released midterm exams that illustrate the course's teaching approach.
+
+## Midterm exams
+
+The instructor has released these two exam packets for public study. Each PDF includes the case evidence, questions, and a blank answer sheet. The original exam instructions are retained as part of the archived packet.
+
+<div class="resource-list">
+<article class="resource"><strong>Midterm 1: Regression interpretation and diagnostics</strong><p>Five cases and 20 questions on interpreting regression results, checking model assumptions, and evaluating an agent's analysis. 27 pages, English.</p><a href="materials/ISYE4031_Midterm1.pdf">Download Midterm 1 (PDF)</a></article>
+<article class="resource"><strong>Midterm 2: Model selection, regularization, and classification</strong><p>Three cases and 15 questions on sales territory planning, hospital staffing, and classifying insurance firms. 20 pages, English.</p><a href="materials/ISYE4031_Midterm2.pdf">Download Midterm 2 (PDF)</a></article>
+</div>
+
+## Lecture materials
 
 <div class="resource-list">
 <article class="resource"><strong>EWMA recap and introduction to ARIMA</strong><p>Review smoothing, then follow the paper-towel example through ARIMA identification, fitting, diagnostics and forecasting.</p><a href="replay/?transcript=./examples/ewma-arima-20261109-replay.md">Open the combined replay</a></article>
@@ -39,5 +50,5 @@ This collection publishes a small set of instructor-created lecture materials th
 The lecture PDFs have passed content, privacy, metadata, text-extraction, and visual review. Their metadata identifies Shihao Yang as the author, and the files contain no student records, solutions, restricted assessments, or embedded external links.
 
 <div class="callout">
-<p><strong>Excluded deliberately:</strong> student records, grades, submissions, student work, exams, solutions, instructor-only archives, licensed textbooks, and private repositories.</p>
+<p><strong>Excluded deliberately:</strong> student records, grades, submissions, student work, unreleased assessments, solutions, instructor-only archives, licensed textbooks, and private repositories.</p>
 </div>

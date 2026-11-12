@@ -6,9 +6,20 @@ en_url: ../materials.html
 
 <p class="eyebrow">课程资料</p>
 
-# 小规模、可审查的第一批公开资料
+# 讲义、课堂回放与期中试卷
 
-本网站发布一组由教师制作、能够体现教学方法的公开资料。当前讲义 PDF 为英文。
+本页汇集课堂回放、讲义和已公开的期中试卷，展示本课程的教学方法。
+
+## 期中试卷
+
+教师已授权公开以下两份试卷，供学习参考。每份 PDF 包含案例材料、试题和空白答题纸。原考试说明作为试卷存档的一部分保留。
+
+<div class="resource-list">
+<article class="resource"><strong>期中考试一：回归结果解读与诊断</strong><p>五个案例、20 道题，涵盖回归结果解读、模型假设检查和智能体分析评估。英文，共 27 页。</p><a href="../materials/ISYE4031_Midterm1.pdf">下载期中考试一（PDF）</a></article>
+<article class="resource"><strong>期中考试二：模型选择、正则化与分类</strong><p>三个案例、15 道题，涉及销售区域规划、医院人员配置和保险公司分类。英文，共 20 页。</p><a href="../materials/ISYE4031_Midterm2.pdf">下载期中考试二（PDF）</a></article>
+</div>
+
+## 讲义与课堂回放
 
 <div class="resource-list">
 <article class="resource"><strong>EWMA 复习与 ARIMA 入门（英文）</strong><p>简要复习平滑方法，并通过纸巾销量案例逐步学习 ARIMA。</p><a href="../replay/?transcript=./examples/ewma-arima-20261109-replay.md">打开完整回放</a></article>
@@ -39,5 +50,5 @@ en_url: ../materials.html
 讲义 PDF 已通过内容、隐私、元数据、文本提取和视觉审核。文件不包含学生记录、答案、受限测评或嵌入的外部链接。PDF 可以提取文本，但尚未完成正式可及性标签。网页提供了清晰的 HTML 说明，PDF 标签将在后续版本中继续改进。
 
 <div class="callout">
-<p><strong>明确排除：</strong>学生记录、成绩、学生提交、学生作品、考试、答案、仅供教师使用的资料、授权教材和私有仓库。</p>
+<p><strong>明确排除：</strong>学生记录、成绩、学生提交、学生作品、尚未公开的测评、答案、仅供教师使用的资料、授权教材和私有仓库。</p>
 </div>

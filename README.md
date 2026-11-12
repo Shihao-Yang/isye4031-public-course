@@ -12,12 +12,12 @@ This prototype must not contain:
 
 - student names, records, submissions, grades, attendance, or recordings;
 - announcements, accommodations, or other course communications;
-- exams, solutions, question banks, or instructor-only assessments;
+- assessments other than the two explicitly owner-approved midterm packets listed in the publication manifest, plus all solutions, question banks, and instructor-only assessments;
 - learning-management-system exports or API responses;
 - the locally stored textbook or any material without confirmed redistribution permission; or
 - credentials, private repository links, or hidden document metadata.
 
-The sample PDFs in `docs/materials/` are locally staged for review. Their provenance and redistribution status must be confirmed before publication.
+The publication manifest records approved downloadable materials. The two released midterm PDFs retain their original questions, evidence, blank answer sheets, and historical exam instructions. Shihao explicitly authorized their public release. No solutions or completed student copies are included.
 
 ## Structure
 
