@@ -1,0 +1,255 @@
+{
+  "forecast_origin_t": 168,
+  "horizon": 12,
+  "parameters_source": "turn08_candidate_fit_results.json",
+  "interval_convention": "Pointwise central 95% Gaussian state-space prediction intervals conditional on saved fitted parameters; state and future innovation uncertainty included; parameter, transformation and model selection uncertainty excluded.",
+  "inverse_transform": "median=m^4; Gaussian fourth moment mean=m^4+6*m^2*s^2+3*s^4; limits=(m +/- 1.95996*s)^4, valid here because both root-scale limits are positive and negative root-scale probability is negligible.",
+  "first_month_calculation": {
+    "AR_lagged_values": {
+      "1": 0.10212069807066815,
+      "3": -0.006285937550156717,
+      "5": -0.0012874205366717462
+    },
+    "contributions": {
+      "constant": 0.04810522689347614,
+      "AR_lag_1": 0.024790582729603727,
+      "AR_lag_3": 0.0013746179527741762,
+      "AR_lag_5": 0.00020427724967365712,
+      "AR_plus_constant_sum": 0.0744747048255277,
+      "seasonal_innovation_state_contribution": -0.028124619665677336,
+      "implied_conditional_innovation_t157": 0.05462317963377476
+    },
+    "last_year_rooms_t157": 811.0,
+    "last_year_root_t157": 5.3364840233805895
+  },
+  "forecasts": [
+    {
+      "t": 169,
+      "month": "Jan",
+      "forecast_seasonal_difference": 0.04635008515985037,
+      "last_year_fourth_root": 5.3364840233805895,
+      "fourth_root_mean": 5.38283410854044,
+      "fourth_root_sd": 0.024731430889471637,
+      "fourth_root_95_interval": [
+        5.334361394710934,
+        5.431306822369946
+      ],
+      "rooms_per_day_median": 839.5450061812462,
+      "rooms_per_day_mean": 839.6513412004379,
+      "rooms_per_day_95_prediction_interval": [
+        809.7104430300745,
+        870.1965349458175
+      ],
+      "gaussian_probability_negative_fourth_root": 0.0
+    },
+    {
+      "t": 170,
+      "month": "Feb",
+      "forecast_seasonal_difference": 0.0626940635527607,
+      "last_year_fourth_root": 5.201490028533878,
+      "fourth_root_mean": 5.264184092086639,
+      "fourth_root_sd": 0.02544972734296161,
+      "fourth_root_95_interval": [
+        5.21430354307807,
+        5.314064641095208
+      ],
+      "rooms_per_day_median": 767.9346675615143,
+      "rooms_per_day_mean": 768.0423598808247,
+      "rooms_per_day_95_prediction_interval": [
+        739.2396241508153,
+        797.4571049040967
+      ],
+      "gaussian_probability_negative_fourth_root": 0.0
+    },
+    {
+      "t": 171,
+      "month": "Mar",
+      "forecast_seasonal_difference": 0.05472304071747854,
+      "last_year_fourth_root": 5.224431847379422,
+      "fourth_root_mean": 5.2791548880969,
+      "fourth_root_sd": 0.02549142595019809,
+      "fourth_root_95_interval": [
+        5.2291926113199425,
+        5.329117164873858
+      ],
+      "rooms_per_day_median": 776.7077110487472,
+      "rooms_per_day_mean": 776.8163719697123,
+      "rooms_per_day_95_prediction_interval": [
+        747.7192392786475,
+        806.5310184552889
+      ],
+      "gaussian_probability_negative_fourth_root": 0.0
+    },
+    {
+      "t": 172,
+      "month": "Apr",
+      "forecast_seasonal_difference": 0.03683996996001645,
+      "last_year_fourth_root": 5.3899608618864665,
+      "fourth_root_mean": 5.426800831846483,
+      "fourth_root_sd": 0.02598770353013808,
+      "fourth_root_95_interval": [
+        5.375865868886509,
+        5.477735794806458
+      ],
+      "rooms_per_day_median": 867.3123521443771,
+      "rooms_per_day_mean": 867.431690432347,
+      "rooms_per_day_95_prediction_interval": [
+        835.2061759713413,
+        900.3353975040501
+      ],
+      "gaussian_probability_negative_fourth_root": 0.0
+    },
+    {
+      "t": 173,
+      "month": "May",
+      "forecast_seasonal_difference": 0.030516437113414528,
+      "last_year_fourth_root": 5.372312293540243,
+      "fourth_root_mean": 5.402828730653657,
+      "fourth_root_sd": 0.026111529175844153,
+      "fourth_root_95_interval": [
+        5.351651073887735,
+        5.454006387419579
+      ],
+      "rooms_per_day_median": 852.0886934439892,
+      "rooms_per_day_mean": 852.2081096684524,
+      "rooms_per_day_95_prediction_interval": [
+        820.2592927579884,
+        884.8355621528898
+      ],
+      "gaussian_probability_negative_fourth_root": 0.0
+    },
+    {
+      "t": 174,
+      "month": "Jun",
+      "forecast_seasonal_difference": 0.05648838925576871,
+      "last_year_fourth_root": 5.529716964080649,
+      "fourth_root_mean": 5.5862053533364175,
+      "fourth_root_sd": 0.026559867062759555,
+      "fourth_root_95_interval": [
+        5.5341489704592375,
+        5.638261736213598
+      ],
+      "rooms_per_day_median": 973.7951039567547,
+      "rooms_per_day_mean": 973.92718538194,
+      "rooms_per_day_95_prediction_interval": [
+        938.0011739255474,
+        1010.6038079167038
+      ],
+      "gaussian_probability_negative_fourth_root": 0.0
+    },
+    {
+      "t": 175,
+      "month": "Jul",
+      "forecast_seasonal_difference": 0.046178599297330335,
+      "last_year_fourth_root": 5.772058774641451,
+      "fourth_root_mean": 5.818237373938781,
+      "fourth_root_sd": 0.02657971444087207,
+      "fourth_root_95_interval": [
+        5.766142090915313,
+        5.870332656962249
+      ],
+      "rooms_per_day_median": 1145.9501952015398,
+      "rooms_per_day_mean": 1146.0936910297526,
+      "rooms_per_day_95_prediction_interval": [
+        1105.4557443168455,
+        1187.5471159429887
+      ],
+      "gaussian_probability_negative_fourth_root": 0.0
+    },
+    {
+      "t": 176,
+      "month": "Aug",
+      "forecast_seasonal_difference": 0.06272566620091605,
+      "last_year_fourth_root": 5.790173505904674,
+      "fourth_root_mean": 5.85289917210559,
+      "fourth_root_sd": 0.02657981988876502,
+      "fourth_root_95_interval": [
+        5.800803682408049,
+        5.904994661803131
+      ],
+      "rooms_per_day_median": 1173.5029085685755,
+      "rooms_per_day_mean": 1173.6481203593805,
+      "rooms_per_day_95_prediction_interval": [
+        1132.2769627095895,
+        1215.8445078836385
+      ],
+      "gaussian_probability_negative_fourth_root": 0.0
+    },
+    {
+      "t": 177,
+      "month": "Sep",
+      "forecast_seasonal_difference": 0.051636446462950375,
+      "last_year_fourth_root": 5.427876170779181,
+      "fourth_root_mean": 5.479512617242132,
+      "fourth_root_sd": 0.026646425429871938,
+      "fourth_root_95_interval": [
+        5.427286583082851,
+        5.531738651401413
+      ],
+      "rooms_per_day_median": 901.5041392804937,
+      "rooms_per_day_mean": 901.6320533049195,
+      "rooms_per_day_95_prediction_interval": [
+        867.622925264111,
+        936.3681094709474
+      ],
+      "gaussian_probability_negative_fourth_root": 0.0
+    },
+    {
+      "t": 178,
+      "month": "Oct",
+      "forecast_seasonal_difference": 0.06466511862791971,
+      "last_year_fourth_root": 5.415326084108912,
+      "fourth_root_mean": 5.479991202736832,
+      "fourth_root_sd": 0.02666849275068983,
+      "fourth_root_95_interval": [
+        5.427721917423512,
+        5.532260488050151
+      ],
+      "rooms_per_day_median": 901.8191332314706,
+      "rooms_per_day_mean": 901.947281592922,
+      "rooms_per_day_95_prediction_interval": [
+        867.9013343701595,
+        936.7214886697304
+      ],
+      "gaussian_probability_negative_fourth_root": 0.0
+    },
+    {
+      "t": 179,
+      "month": "Nov",
+      "forecast_seasonal_difference": 0.035585262724409386,
+      "last_year_fourth_root": 5.253983963021254,
+      "fourth_root_mean": 5.289569225745663,
+      "fourth_root_sd": 0.026687915525365202,
+      "fourth_root_95_interval": [
+        5.2372618724935,
+        5.341876578997827
+      ],
+      "rooms_per_day_median": 782.8548037669743,
+      "rooms_per_day_mean": 782.9743749970565,
+      "rooms_per_day_95_prediction_interval": [
+        752.345209174042,
+        814.2830575524841
+      ],
+      "gaussian_probability_negative_fourth_root": 0.0
+    },
+    {
+      "t": 180,
+      "month": "Dec",
+      "forecast_seasonal_difference": 0.018688831567678414,
+      "last_year_fourth_root": 5.4418917473541955,
+      "fourth_root_mean": 5.460580578921874,
+      "fourth_root_sd": 0.02668791557454241,
+      "fourth_root_95_interval": [
+        5.408273225573326,
+        5.512887932270423
+      ],
+      "rooms_per_day_median": 889.109561283255,
+      "rooms_per_day_mean": 889.236988849257,
+      "rooms_per_day_95_prediction_interval": [
+        855.5285283607512,
+        923.6696129801711
+      ],
+      "gaussian_probability_negative_fourth_root": 0.0
+    }
+  ]
+}

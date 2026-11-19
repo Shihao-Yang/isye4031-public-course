@@ -24,12 +24,12 @@ if (replay / 'assets').exists():
 shutil.copytree(player / 'dist/assets', replay / 'assets', dirs_exist_ok=True)
 (replay / 'examples').mkdir(exist_ok=True)
 # Keep this explicit list aligned with publication-manifest.yml.
-for lesson in ('lecture12', 'lecture13', 'lecture13-v2', 'lecture13-v3', 'lecture14-v2', 'lecture15', 'lecture16', 'lecture17', 'lecture18', 'lecture19-v2', 'lecture20-v2', 'ewma-arima-20261109'):
+for lesson in ('seasonal-arima-20261119', 'lecture12', 'lecture13', 'lecture13-v2', 'lecture13-v3', 'lecture14-v2', 'lecture15', 'lecture16', 'lecture17', 'lecture18', 'lecture19-v2', 'lecture20-v2', 'ewma-arima-20261109'):
     transcript = player / f'public/examples/{lesson}-replay.md'
     text = transcript.read_text()
-    asset_name = 'ewma-arima-20261109-v1' if lesson == 'ewma-arima-20261109' else 'smoothing-selfstudy-v2' if lesson in ('lecture19-v2', 'lecture20-v2') else 'regression-forecasting-v1' if lesson in ('lecture17', 'lecture18') else ('svm-week-v1' if lesson in ('lecture15', 'lecture16') else lesson)
+    asset_name = 'seasonal-arima-20261119-v1' if lesson == 'seasonal-arima-20261119' else 'ewma-arima-20261109-v1' if lesson == 'ewma-arima-20261109' else 'smoothing-selfstudy-v2' if lesson in ('lecture19-v2', 'lecture20-v2') else 'regression-forecasting-v1' if lesson in ('lecture17', 'lecture18') else ('svm-week-v1' if lesson in ('lecture15', 'lecture16') else lesson)
     paths = set(re.findall(rf'\]\(/(examples/{re.escape(asset_name)}/[^)]+)\)', text))
-    if lesson == 'ewma-arima-20261109':
+    if lesson in ('ewma-arima-20261109', 'seasonal-arima-20261119'):
         paths.update(f'examples/{asset_name}/{p.name}' for p in (player / f'public/examples/{asset_name}').iterdir() if p.is_file())
     elif lesson in ('lecture19-v2', 'lecture20-v2'):
         paths.update(f'examples/smoothing-selfstudy-v2/{p.name}' for p in (player / 'public/examples/smoothing-selfstudy-v2').iterdir() if p.is_file())

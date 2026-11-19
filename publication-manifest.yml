@@ -22,6 +22,14 @@ allowlist:
     - materials
     - lectures
   lecture_replays:
+    - key: seasonal-arima-hotel-occupancy
+      public_output: docs/replay/
+      transcript: docs/replay/examples/seasonal-arima-20261119-replay.md
+      source: ../../llm-chat-replay/public/examples/seasonal-arima-20261119-replay.md
+      data_provenance: owner-requested-attributed-legacy-hotel-numerical-example-FTR-table-11-1-and-constructed-illustrations-no-source-pdfs
+      release_status: owner-requested-publication
+      player_license: MIT
+      assets: reviewed-seasonal-arima-20261119-v1-code-data-results-and-original-plots
     - key: ewma-recap-and-introduction-to-arima
       public_output: docs/replay/
       transcript: docs/replay/examples/ewma-arima-20261109-replay.md

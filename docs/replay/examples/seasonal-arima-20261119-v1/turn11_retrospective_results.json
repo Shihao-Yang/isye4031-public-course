@@ -1,0 +1,210 @@
+{
+  "design": "Single origin t=156; refit on t=1,...,156; predict all 12 months t=157,...,168 without updating.",
+  "limitation": "Retrospective illustration: model structure and fourth-root transform were chosen with access to all observations. Not an untouched test.",
+  "training_fit": {
+    "parameters": {
+      "intercept": 0.05165038674915103,
+      "ar.L1": 0.24667633542857967,
+      "ar.L3": -0.29012971288054035,
+      "ar.L5": -0.161994807555423,
+      "ma.S.L12": -0.41630874193004225,
+      "sigma2": 0.0005736747580976138
+    },
+    "standard_errors": {
+      "intercept": 0.00670549938799491,
+      "ar.L1": 0.08448894635859,
+      "ar.L3": 0.08968489670528888,
+      "ar.L5": 0.0873626783559754,
+      "ma.S.L12": 0.1026025838455502,
+      "sigma2": 6.743028496149564e-05
+    },
+    "confidence_intervals_95": {
+      "intercept": [
+        0.038507849450325635,
+        0.06479292404797643
+      ],
+      "ar.L1": [
+        0.08108104347400671,
+        0.4122716273831526
+      ],
+      "ar.L3": [
+        -0.4659088803801015,
+        -0.11435054538097919
+      ],
+      "ar.L5": [
+        -0.33322251072609166,
+        0.009232895615245679
+      ],
+      "ma.S.L12": [
+        -0.6174061109880717,
+        -0.2152113728720127
+      ],
+      "sigma2": [
+        0.00044151382810580955,
+        0.000705835688089418
+      ]
+    },
+    "log_likelihood": 331.58300250491016,
+    "AIC": -651.1660050098203,
+    "BIC": -633.3471252123643,
+    "nobs": 144,
+    "attempts": [
+      {
+        "method": "lbfgs",
+        "converged": true,
+        "warnings": []
+      }
+    ],
+    "minimum_AR_root_modulus": 1.253604885832138,
+    "minimum_MA_root_modulus": 1.0757599519035452,
+    "implied_mean": {
+      "estimate": 0.04284745490643769,
+      "delta_method_se": 0.001132767942943011,
+      "approx_95_interval": [
+        0.04062722973826939,
+        0.04506768007460599
+      ]
+    }
+  },
+  "candidate_mean_metrics": {
+    "MAE": 18.653738686213774,
+    "RMSE": 21.959391278718734,
+    "mean_error_forecast_minus_actual": 5.876848794194274
+  },
+  "candidate_median_metrics": {
+    "MAE": 18.60999902302862,
+    "RMSE": 21.92470987662518,
+    "mean_error_forecast_minus_actual": 5.758256319059048
+  },
+  "seasonal_naive_metrics": {
+    "MAE": 25.583333333333332,
+    "RMSE": 34.61093276215865,
+    "mean_error_forecast_minus_actual": -23.916666666666668
+  },
+  "months_candidate_mean_has_smaller_absolute_error": 7,
+  "candidate_95_interval_coverage_count": 11,
+  "forecasts": [
+    {
+      "t": 157,
+      "month": "Jan",
+      "actual": 811.0,
+      "candidate_mean": 775.5131009502567,
+      "candidate_median": 775.4172515952622,
+      "seasonal_naive": 748.0,
+      "candidate_lower_95": 748.190675291504,
+      "candidate_upper_95": 803.3802327270258
+    },
+    {
+      "t": 158,
+      "month": "Feb",
+      "actual": 732.0,
+      "candidate_mean": 758.4087472299041,
+      "candidate_median": 758.3081934677651,
+      "seasonal_naive": 731.0,
+      "candidate_lower_95": 730.7440076119543,
+      "candidate_upper_95": 786.6449279910281
+    },
+    {
+      "t": 159,
+      "month": "Mar",
+      "actual": 745.0,
+      "candidate_mean": 769.185789153878,
+      "candidate_median": 769.08417001153,
+      "seasonal_naive": 748.0,
+      "candidate_lower_95": 741.1774648026905,
+      "candidate_upper_95": 797.7716091329672
+    },
+    {
+      "t": 160,
+      "month": "Apr",
+      "actual": 844.0,
+      "candidate_mean": 857.1793502019117,
+      "candidate_median": 857.0644486562957,
+      "seasonal_naive": 827.0,
+      "candidate_lower_95": 825.7417083344576,
+      "candidate_upper_95": 889.2699708561792
+    },
+    {
+      "t": 161,
+      "month": "May",
+      "actual": 833.0,
+      "candidate_mean": 830.7341955371845,
+      "candidate_median": 830.6191518503427,
+      "seasonal_naive": 788.0,
+      "candidate_lower_95": 799.7714301583137,
+      "candidate_upper_95": 862.3507475748835
+    },
+    {
+      "t": 162,
+      "month": "Jun",
+      "actual": 935.0,
+      "candidate_mean": 963.5108523630388,
+      "candidate_median": 963.3820606142259,
+      "seasonal_naive": 937.0,
+      "candidate_lower_95": 928.2226259884884,
+      "candidate_upper_95": 999.5309947308751
+    },
+    {
+      "t": 163,
+      "month": "Jul",
+      "actual": 1110.0,
+      "candidate_mean": 1111.0702822985281,
+      "candidate_median": 1110.9319599112862,
+      "seasonal_naive": 1076.0,
+      "candidate_lower_95": 1071.784862741795,
+      "candidate_upper_95": 1151.1417796826686
+    },
+    {
+      "t": 164,
+      "month": "Aug",
+      "actual": 1124.0,
+      "candidate_mean": 1149.4437979308552,
+      "candidate_median": 1149.3030194135213,
+      "seasonal_naive": 1125.0,
+      "candidate_lower_95": 1109.1292540151042,
+      "candidate_upper_95": 1190.5583776628966
+    },
+    {
+      "t": 165,
+      "month": "Sep",
+      "actual": 868.0,
+      "candidate_mean": 870.4302419232436,
+      "candidate_median": 870.3064298470617,
+      "seasonal_naive": 840.0,
+      "candidate_lower_95": 837.5553637170713,
+      "candidate_upper_95": 904.0087371243736
+    },
+    {
+      "t": 166,
+      "month": "Oct",
+      "actual": 860.0,
+      "candidate_mean": 885.9544637810889,
+      "candidate_median": 885.8292501308401,
+      "seasonal_naive": 864.0,
+      "candidate_lower_95": 852.5993781055449,
+      "candidate_upper_95": 920.0211314969085
+    },
+    {
+      "t": 167,
+      "month": "Nov",
+      "actual": 762.0,
+      "candidate_mean": 751.7155406868147,
+      "candidate_median": 751.600051276418,
+      "seasonal_naive": 717.0,
+      "candidate_lower_95": 722.2216927175555,
+      "candidate_upper_95": 781.865708650524
+    },
+    {
+      "t": 168,
+      "month": "Dec",
+      "actual": 877.0,
+      "candidate_mean": 848.3758234736271,
+      "candidate_median": 848.2530890541597,
+      "seasonal_naive": 813.0,
+      "candidate_lower_95": 816.0645849555515,
+      "candidate_upper_95": 881.3845547782912
+    }
+  ],
+  "relative_MAE_reduction": 0.27086363441509675,
+  "relative_RMSE_reduction": 0.3655359874401388
+}

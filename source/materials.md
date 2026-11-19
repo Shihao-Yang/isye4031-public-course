@@ -22,6 +22,7 @@ The instructor has released these two exam packets for public study. Each PDF in
 ## Lecture materials
 
 <div class="resource-list">
+<article class="resource"><strong>Seasonal ARIMA: hotel room occupancy</strong><p>Continue from nonseasonal ARIMA through seasonal transformations, model mechanisms, diagnostics and original-scale forecasts using the legacy hotel example.</p><a href="replay/?transcript=./examples/seasonal-arima-20261119-replay.md">Open the seasonal replay</a></article>
 <article class="resource"><strong>EWMA recap and introduction to ARIMA</strong><p>Review smoothing, then follow the paper-towel example through ARIMA identification, fitting, diagnostics and forecasting.</p><a href="replay/?transcript=./examples/ewma-arima-20261109-replay.md">Open the combined replay</a></article>
 <article class="resource"><strong>Lecture 19: Exponential smoothing and Holt trend</strong><p><a href="replay/?transcript=./examples/lecture19-v2-replay.md">Open Lecture 19 replay</a></p></article>
 <article class="resource"><strong>Lecture 20: Holt–Winters and seasonal forecasting</strong><p><a href="replay/?transcript=./examples/lecture20-v2-replay.md">Open Lecture 20 replay</a></p></article>

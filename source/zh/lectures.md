@@ -8,6 +8,14 @@ en_url: ../lectures.html
 
 点击 **Next message** 逐步显示答案，通过章节菜单跳转，在教师提出的问题处暂停并先作出自己的判断。按 **End** 可显示完整内容。
 
+## 季节 ARIMA：酒店客房入住案例（英文）
+
+[打开季节模型回放](../replay/?transcript=./examples/seasonal-arima-20261119-replay.md) · [下载 Markdown 文字稿](../replay/examples/seasonal-arima-20261119-replay.md)
+
+接续非季节 ARIMA，使用原有酒店客房案例，依次学习四次方根变换、普通差分与季节差分、季节 MA 和 AR 的机制、模型识别、参数估计、诊断检查及还原到原始单位的预测。概念遵循原教学顺序，通过重新生成的图和开放式讨论暂停点展开。
+
+回放使用实际录制的 Codex CLI 回答及执行结果，教师补充说明单独标注。
+
 ## EWMA 复习与 ARIMA 入门（英文）
 
 [打开完整回放](../replay/?transcript=./examples/ewma-arima-20261109-replay.md) · [下载 Markdown 文字稿](../replay/examples/ewma-arima-20261109-replay.md)

@@ -1,0 +1,105 @@
+{
+  "transformation": "z_t = y_t ** 0.25",
+  "differencing": "none",
+  "annual_summary_definition": "Arithmetic mean and maximum minus minimum of each consecutive January-December block; ranges are descriptive, not isolated seasonal components.",
+  "annual_summaries": [
+    {
+      "year": 1,
+      "raw_mean": 569.8333333333334,
+      "raw_range": 248.0,
+      "fourth_root_mean": 4.8769455685892495,
+      "fourth_root_range": 0.5136749214172358
+    },
+    {
+      "year": 2,
+      "raw_mean": 592.1666666666666,
+      "raw_range": 269.0,
+      "fourth_root_mean": 4.924115384405932,
+      "fourth_root_range": 0.5445925667050195
+    },
+    {
+      "year": 3,
+      "raw_mean": 617.0,
+      "raw_range": 257.0,
+      "fourth_root_mean": 4.975767240645266,
+      "fourth_root_range": 0.5025657729011144
+    },
+    {
+      "year": 4,
+      "raw_mean": 642.1666666666666,
+      "raw_range": 287.0,
+      "fourth_root_mean": 5.025968414275128,
+      "fourth_root_range": 0.5402168842136161
+    },
+    {
+      "year": 5,
+      "raw_mean": 663.3333333333334,
+      "raw_range": 285.0,
+      "fourth_root_mean": 5.066986775240338,
+      "fourth_root_range": 0.5310309990349555
+    },
+    {
+      "year": 6,
+      "raw_mean": 687.6666666666666,
+      "raw_range": 328.0,
+      "fourth_root_mean": 5.110920373752662,
+      "fourth_root_range": 0.5987613792981996
+    },
+    {
+      "year": 7,
+      "raw_mean": 711.0,
+      "raw_range": 341.0,
+      "fourth_root_mean": 5.153804359490532,
+      "fourth_root_range": 0.5935046804795254
+    },
+    {
+      "year": 8,
+      "raw_mean": 732.5833333333334,
+      "raw_range": 382.0,
+      "fourth_root_mean": 5.190683777396468,
+      "fourth_root_range": 0.6480669612158731
+    },
+    {
+      "year": 9,
+      "raw_mean": 756.25,
+      "raw_range": 368.0,
+      "fourth_root_mean": 5.234155502649245,
+      "fourth_root_range": 0.6129602851853235
+    },
+    {
+      "year": 10,
+      "raw_mean": 784.0,
+      "raw_range": 391.0,
+      "fourth_root_mean": 5.280846934694079,
+      "fourth_root_range": 0.6314991433103767
+    },
+    {
+      "year": 11,
+      "raw_mean": 802.5833333333334,
+      "raw_range": 412.0,
+      "fourth_root_mean": 5.310676670452996,
+      "fourth_root_range": 0.6563780054612804
+    },
+    {
+      "year": 12,
+      "raw_mean": 827.3333333333334,
+      "raw_range": 366.0,
+      "fourth_root_mean": 5.353981058001822,
+      "fourth_root_range": 0.5658693025335833
+    },
+    {
+      "year": 13,
+      "raw_mean": 851.1666666666666,
+      "raw_range": 408.0,
+      "fourth_root_mean": 5.390915558877715,
+      "fourth_root_range": 0.6168251249581376
+    },
+    {
+      "year": 14,
+      "raw_mean": 875.0833333333334,
+      "raw_range": 392.0,
+      "fourth_root_mean": 5.429642188717576,
+      "fourth_root_range": 0.5886834773707958
+    }
+  ]
+}

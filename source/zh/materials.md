@@ -22,6 +22,7 @@ en_url: ../materials.html
 ## 讲义与课堂回放
 
 <div class="resource-list">
+<article class="resource"><strong>季节 ARIMA：酒店客房入住案例（英文）</strong><p>接续非季节 ARIMA，通过原有酒店案例学习季节变换、模型机制、诊断和原始单位的预测。</p><a href="../replay/?transcript=./examples/seasonal-arima-20261119-replay.md">打开季节模型回放</a></article>
 <article class="resource"><strong>EWMA 复习与 ARIMA 入门（英文）</strong><p>简要复习平滑方法，并通过纸巾销量案例逐步学习 ARIMA。</p><a href="../replay/?transcript=./examples/ewma-arima-20261109-replay.md">打开完整回放</a></article>
 <article class="resource"><strong>Lecture 19: 简单指数平滑与 Holt 趋势法（英文）</strong><p><a href="../replay/?transcript=./examples/lecture19-v2-replay.md">Open Lecture 19 replay</a></p></article>
 <article class="resource"><strong>Lecture 20: Holt–Winters 与季节预测（英文）</strong><p><a href="../replay/?transcript=./examples/lecture20-v2-replay.md">Open Lecture 20 replay</a></p></article>

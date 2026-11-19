@@ -1,0 +1,133 @@
+{
+  "data_definition": "Seasonal differences of fourth-root occupied rooms per day; no regular difference; t=13,...,168",
+  "equation": "v_t = c + phi_1 v_(t-1) + phi_3 v_(t-3) + phi_5 v_(t-5) + e_t + Theta e_(t-12)",
+  "estimation": "statsmodels SARIMAX Gaussian state-space maximum likelihood, stationary initialization; stationarity and invertibility enforced; default OPG covariance",
+  "sample_mean": 0.042515124625255946,
+  "with_constant": {
+    "parameters": {
+      "intercept": 0.04810522689347614,
+      "ar.L1": 0.2427576700704542,
+      "ar.L3": -0.21868145233798975,
+      "ar.L5": -0.158671734569154,
+      "ma.S.L12": -0.5148843376427549,
+      "sigma2": 0.000611643668466147
+    },
+    "standard_errors": {
+      "intercept": 0.006688017535705895,
+      "ar.L1": 0.08565597262733404,
+      "ar.L3": 0.08623391620610979,
+      "ar.L5": 0.08611120332448731,
+      "ma.S.L12": 0.0908214055814382,
+      "sigma2": 7.220471795403238e-05
+    },
+    "confidence_intervals_95": {
+      "intercept": [
+        0.03499695339552027,
+        0.061213500391432016
+      ],
+      "ar.L1": [
+        0.07487504866013078,
+        0.41064029148077763
+      ],
+      "ar.L3": [
+        -0.38769682234780983,
+        -0.04966608232816966
+      ],
+      "ar.L5": [
+        -0.3274465917505549,
+        0.010103122612246884
+      ],
+      "ma.S.L12": [
+        -0.6928910216076788,
+        -0.33687765367783096
+      ],
+      "sigma2": [
+        0.0004701250217623708,
+        0.0007531623151699231
+      ]
+    },
+    "log_likelihood": 353.71642804749206,
+    "AIC": -695.4328560949841,
+    "BIC": -677.1337200514869,
+    "nobs": 156,
+    "attempts": [
+      {
+        "method": "lbfgs",
+        "converged": true,
+        "warnings": []
+      }
+    ],
+    "minimum_AR_root_modulus": 1.2873662973052251,
+    "minimum_MA_root_modulus": 1.0568763829742271,
+    "implied_mean": {
+      "estimate": 0.04239856951629421,
+      "delta_method_se": 0.0009732854342206411,
+      "approx_95_interval": [
+        0.04049093006522175,
+        0.04430620896736667
+      ]
+    }
+  },
+  "without_constant": {
+    "parameters": {
+      "ar.L1": 0.6789746852236423,
+      "ar.L3": 0.0523431520123899,
+      "ar.L5": 0.25099885863056265,
+      "ma.S.L12": -0.6369090376710249,
+      "sigma2": 0.0009022238311815785
+    },
+    "standard_errors": {
+      "ar.L1": 0.07172827545873782,
+      "ar.L3": 0.084075134164331,
+      "ar.L5": 0.06576106401135333,
+      "ma.S.L12": 0.08180319316326845,
+      "sigma2": 0.00010690779112237204
+    },
+    "confidence_intervals_95": {
+      "ar.L1": [
+        0.538389848651348,
+        0.8195595217959367
+      ],
+      "ar.L3": [
+        -0.11244108294507194,
+        0.21712738696985173
+      ],
+      "ar.L5": [
+        0.12210954158327703,
+        0.37988817567784827
+      ],
+      "ma.S.L12": [
+        -0.7972403500914043,
+        -0.47657772525064557
+      ],
+      "sigma2": [
+        0.0006926884109149983,
+        0.0011117592514481587
+      ]
+    },
+    "log_likelihood": 321.6657615995516,
+    "AIC": -633.3315231991032,
+    "BIC": -618.0822431628555,
+    "nobs": 156,
+    "attempts": [
+      {
+        "method": "lbfgs",
+        "converged": true,
+        "warnings": []
+      }
+    ],
+    "minimum_AR_root_modulus": 1.008366861478,
+    "minimum_MA_root_modulus": 1.0383096309420237
+  },
+  "likelihood_ratio": {
+    "statistic": 64.10133289588089,
+    "df": 1,
+    "approx_p_value": 1.18181559659901e-15
+  },
+  "environment": {
+    "python": "3.12.4",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0"
+  }
+}

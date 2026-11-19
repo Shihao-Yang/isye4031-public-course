@@ -8,6 +8,14 @@ zh_url: zh/lectures.html
 
 Follow each analysis one step at a time. Use **Next message** to reveal an answer, the checkpoint menu to revisit a topic, and **End** to show the complete lesson. Pause at the instructor questions and make your own prediction before continuing.
 
+## Seasonal ARIMA: hotel room occupancy
+
+[Open the seasonal replay](replay/?transcript=./examples/seasonal-arima-20261119-replay.md) · [Markdown transcript](replay/examples/seasonal-arima-20261119-replay.md)
+
+Continue from nonseasonal ARIMA with the original hotel-room example. Follow the fourth-root transformation, regular and seasonal differences, seasonal MA and AR mechanisms, model identification, fitting, diagnostic checks and forecasts in the original units. The concepts appear in the legacy teaching order, with recreated figures and open-ended discussion pauses.
+
+The replay presents recorded Codex CLI responses and executed calculations. Added instructor notes are labeled separately.
+
 ## EWMA recap and introduction to ARIMA
 
 [Open the combined replay](replay/?transcript=./examples/ewma-arima-20261109-replay.md) · [Markdown transcript](replay/examples/ewma-arima-20261109-replay.md)
