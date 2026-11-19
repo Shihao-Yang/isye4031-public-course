@@ -8,7 +8,27 @@ en_url: ../lectures.html
 
 点击 **Next message** 逐步显示答案，通过章节菜单跳转，在教师提出的问题处暂停并先作出自己的判断。按 **End** 可显示完整内容。
 
-## 季节 ARIMA：酒店客房入住案例（英文）
+按以下四个部分依次学习 Box–Jenkins 方法。每份回放均来自实际 Codex CLI 执行，教师补充说明单独标注。
+
+## 1. 基础：平稳性、差分、ACF 与 PACF（英文）
+
+[打开回放](../replay/?transcript=./examples/box-jenkins-foundations-20261119-replay.md) · [Markdown 文字稿](../replay/examples/box-jenkins-foundations-20261119-replay.md)
+
+从原有纸巾销量案例出发，先理解平稳性、差分与样本相关图，再进入模型识别。
+
+## 2. Box–Jenkins 模型识别：理论与样本证据（英文）
+
+[打开回放](../replay/?transcript=./examples/box-jenkins-identification-20261119-replay.md) · [Markdown 文字稿](../replay/examples/box-jenkins-identification-20261119-replay.md)
+
+将理论 ACF 和 PACF 与样本相关图进行比较，初步识别 MA、AR 及混合模型。接续纸巾案例，解释残差递推、初步预测及常数项。
+
+## 3. Box–Jenkins 参数估计与诊断（英文）
+
+[打开回放](../replay/?transcript=./examples/box-jenkins-diagnostics-20261119-replay.md) · [Markdown 文字稿](../replay/examples/box-jenkins-diagnostics-20261119-replay.md)
+
+检查平稳性和可逆性条件，估计参数并解释不确定性与简约性，再通过残差图、Box–Pierce 和 Ljung–Box 检验判断模型，最后进行预测。
+
+## 4. 季节 ARIMA：酒店客房入住案例（英文）
 
 [打开季节模型回放](../replay/?transcript=./examples/seasonal-arima-20261119-replay.md) · [下载 Markdown 文字稿](../replay/examples/seasonal-arima-20261119-replay.md)
 

@@ -1,0 +1,13 @@
+{
+  "observations": 120,
+  "first_week": 1,
+  "last_week": 120,
+  "calendar_dates": "unspecified",
+  "units_conversion": "actual rolls = 100000 + 10000 * recorded sales",
+  "first_week_rolls": 250000.0,
+  "last_week_rolls": 256453.0,
+  "minimum_weekly_rolls": 86827.0,
+  "maximum_weekly_rolls": 285997.0,
+  "prediction_target": "Sales in week 121 and subsequent weeks",
+  "future_observed_values_supplied": false
+}

@@ -8,7 +8,27 @@ zh_url: zh/lectures.html
 
 Follow each analysis one step at a time. Use **Next message** to reveal an answer, the checkpoint menu to revisit a topic, and **End** to show the complete lesson. Pause at the instructor questions and make your own prediction before continuing.
 
-## Seasonal ARIMA: hotel room occupancy
+Follow the four-part Box–Jenkins sequence below in order. Each lesson records actual Codex CLI execution, with separately labeled instructor notes.
+
+## 1. Foundations: stationarity, differences, ACF and PACF
+
+[Open the replay](replay/?transcript=./examples/box-jenkins-foundations-20261119-replay.md) · [Markdown transcript](replay/examples/box-jenkins-foundations-20261119-replay.md)
+
+Work through the original paper-towel example to build the correlation tools before introducing model families.
+
+## 2. Box–Jenkins identification: theory and sample evidence
+
+[Open the replay](replay/?transcript=./examples/box-jenkins-identification-20261119-replay.md) · [Markdown transcript](replay/examples/box-jenkins-identification-20261119-replay.md)
+
+Compare theoretical ACF and PACF with empirical plots to identify tentative MA, AR and mixed models. Continue the paper-towel story through residual recursion, initial forecasts and the role of a constant.
+
+## 3. Box–Jenkins estimation and diagnostics
+
+[Open the replay](replay/?transcript=./examples/box-jenkins-diagnostics-20261119-replay.md) · [Markdown transcript](replay/examples/box-jenkins-diagnostics-20261119-replay.md)
+
+Check stationarity and invertibility restrictions, estimate parameters, examine uncertainty and parsimony, then assess residuals using plots and Box–Pierce and Ljung–Box tests before forecasting.
+
+## 4. Seasonal ARIMA: hotel room occupancy
 
 [Open the seasonal replay](replay/?transcript=./examples/seasonal-arima-20261119-replay.md) · [Markdown transcript](replay/examples/seasonal-arima-20261119-replay.md)
 

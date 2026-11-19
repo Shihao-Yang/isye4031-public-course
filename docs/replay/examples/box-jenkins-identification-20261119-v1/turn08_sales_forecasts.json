@@ -1,0 +1,28 @@
+{
+  "fit_source": "turn07_ma1_conditional_ls.json",
+  "fitted_parameters": {
+    "theta_1": -0.35338675442235684
+  },
+  "forecast_origin": 120,
+  "last_observed_y": 15.6453,
+  "last_observed_rolls": 256453.0,
+  "last_observed_difference": 0.30430000000000135,
+  "last_recursive_residual": 0.6892641699869815,
+  "assumption": "future innovations have conditional mean zero; retain fitted coefficient and e_1=0 residual initialization",
+  "forecasts": [
+    {
+      "week": 121,
+      "difference_forecast": 0.24357682797131905,
+      "y_forecast": 15.88887682797132,
+      "sales_rolls_forecast": 258888.7682797132
+    },
+    {
+      "week": 122,
+      "difference_forecast": 0.0,
+      "y_forecast": 15.88887682797132,
+      "sales_rolls_forecast": 258888.7682797132
+    }
+  ],
+  "future_observations_used": false,
+  "prediction_intervals": null
+}

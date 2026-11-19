@@ -1,0 +1,18 @@
+{
+  "series": "First differences in file units",
+  "triplet_count": 117,
+  "ordinary_lag2_correlation_matched_rows": -0.06529270529329381,
+  "partial_correlation_via_residuals": -0.17927414329501148,
+  "earlier_on_middle_intercept_slope": [
+    0.0115092782661544,
+    0.31030862707034473
+  ],
+  "current_on_middle_intercept_slope": [
+    0.0035679394600589237,
+    0.3098128431126874
+  ],
+  "acf_lag1": 0.30665462672371324,
+  "acf_lag2": -0.06473709041951266,
+  "pacf_lag2_yule_walker": -0.17525457556412985,
+  "note": "Residual correlation and ACF-based PACF differ slightly because of finite-sample conventions."
+}

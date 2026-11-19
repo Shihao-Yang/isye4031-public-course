@@ -22,6 +22,30 @@ allowlist:
     - materials
     - lectures
   lecture_replays:
+    - key: box-jenkins-foundations
+      public_output: docs/replay/
+      transcript: docs/replay/examples/box-jenkins-foundations-20261119-replay.md
+      source: ../../llm-chat-replay/public/examples/box-jenkins-foundations-20261119-replay.md
+      data_provenance: owner-requested-attributed-legacy-paper-towel-numerical-example-FTR-table-9-1-and-labeled-constructed-illustrations-no-source-pdfs
+      release_status: owner-requested-publication
+      player_license: MIT
+      assets: reviewed-arima-foundations-20261119-v1-code-data-results-and-original-plots
+    - key: box-jenkins-identification
+      public_output: docs/replay/
+      transcript: docs/replay/examples/box-jenkins-identification-20261119-replay.md
+      source: ../../llm-chat-replay/public/examples/box-jenkins-identification-20261119-replay.md
+      data_provenance: owner-requested-attributed-legacy-paper-towel-numerical-example-FTR-table-9-1-and-labeled-constructed-illustrations-no-source-pdfs
+      release_status: owner-requested-publication
+      player_license: MIT
+      assets: reviewed-box-jenkins-identification-20261119-v1-code-data-results-and-original-plots
+    - key: box-jenkins-diagnostics
+      public_output: docs/replay/
+      transcript: docs/replay/examples/box-jenkins-diagnostics-20261119-replay.md
+      source: ../../llm-chat-replay/public/examples/box-jenkins-diagnostics-20261119-replay.md
+      data_provenance: owner-requested-attributed-legacy-paper-towel-numerical-example-FTR-table-9-1-and-labeled-constructed-illustrations-no-source-pdfs
+      release_status: owner-requested-publication
+      player_license: MIT
+      assets: reviewed-box-jenkins-diagnostics-20261119-v1-code-data-results-and-original-plots
     - key: seasonal-arima-hotel-occupancy
       public_output: docs/replay/
       transcript: docs/replay/examples/seasonal-arima-20261119-replay.md

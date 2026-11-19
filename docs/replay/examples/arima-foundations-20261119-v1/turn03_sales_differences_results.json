@@ -1,0 +1,22 @@
+{
+  "units": "rolls",
+  "definitions": {
+    "first": "sales[t] - sales[t-1]",
+    "second": "first[t] - first[t-1]"
+  },
+  "first_three_sales": [
+    250000.0,
+    244064.0,
+    249383.0
+  ],
+  "first_difference_week_2": -5936.0,
+  "first_difference_week_3": 5319.0,
+  "second_difference_week_3": 11255.0,
+  "original_count": 120,
+  "first_difference_count": 119,
+  "second_difference_count": 118,
+  "first_difference_mean": 54.226890756302524,
+  "second_difference_mean": 76.09322033898304,
+  "first_difference_sample_sd": 11040.645783308652,
+  "second_difference_sample_sd": 13041.767444183275
+}

@@ -1,0 +1,11 @@
+{
+  "sales_units": "Sales above 100000 rolls, in units of 10000 rolls",
+  "difference_units": "Change in sales, in units of 10000 rolls",
+  "sales_count": 120,
+  "difference_count": 119,
+  "sales_mean": 11.583908333333333,
+  "difference_mean": 0.00542268907563025,
+  "sales_sample_sd": 4.395830085214991,
+  "difference_sample_sd": 1.1040645783308651,
+  "recommendation": "Use first differences as a provisional working series; visual stability is not proof of stationarity."
+}

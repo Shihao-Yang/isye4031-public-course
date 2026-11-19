@@ -22,7 +22,10 @@ en_url: ../materials.html
 ## 讲义与课堂回放
 
 <div class="resource-list">
-<article class="resource"><strong>季节 ARIMA：酒店客房入住案例（英文）</strong><p>接续非季节 ARIMA，通过原有酒店案例学习季节变换、模型机制、诊断和原始单位的预测。</p><a href="../replay/?transcript=./examples/seasonal-arima-20261119-replay.md">打开季节模型回放</a></article>
+<article class="resource"><strong>1. 基础：平稳性、差分、ACF 与 PACF（英文）</strong><p>从原有纸巾销量案例出发，先理解平稳性、差分与样本相关图，再进入模型识别。</p><a href="../replay/?transcript=./examples/box-jenkins-foundations-20261119-replay.md">打开回放</a></article>
+<article class="resource"><strong>2. Box–Jenkins 模型识别：理论与样本证据（英文）</strong><p>将理论 ACF 和 PACF 与样本相关图进行比较，初步识别 MA、AR 及混合模型。接续纸巾案例，解释残差递推、初步预测及常数项。</p><a href="../replay/?transcript=./examples/box-jenkins-identification-20261119-replay.md">打开回放</a></article>
+<article class="resource"><strong>3. Box–Jenkins 参数估计与诊断（英文）</strong><p>检查平稳性和可逆性条件，估计参数并解释不确定性与简约性，再通过残差图、Box–Pierce 和 Ljung–Box 检验判断模型，最后进行预测。</p><a href="../replay/?transcript=./examples/box-jenkins-diagnostics-20261119-replay.md">打开回放</a></article>
+<article class="resource"><strong>4. 季节 ARIMA：酒店客房入住案例（英文）</strong><p>接续非季节 ARIMA，通过原有酒店案例学习季节变换、模型机制、诊断和原始单位的预测。</p><a href="../replay/?transcript=./examples/seasonal-arima-20261119-replay.md">打开季节模型回放</a></article>
 <article class="resource"><strong>EWMA 复习与 ARIMA 入门（英文）</strong><p>简要复习平滑方法，并通过纸巾销量案例逐步学习 ARIMA。</p><a href="../replay/?transcript=./examples/ewma-arima-20261109-replay.md">打开完整回放</a></article>
 <article class="resource"><strong>Lecture 19: 简单指数平滑与 Holt 趋势法（英文）</strong><p><a href="../replay/?transcript=./examples/lecture19-v2-replay.md">Open Lecture 19 replay</a></p></article>
 <article class="resource"><strong>Lecture 20: Holt–Winters 与季节预测（英文）</strong><p><a href="../replay/?transcript=./examples/lecture20-v2-replay.md">Open Lecture 20 replay</a></p></article>

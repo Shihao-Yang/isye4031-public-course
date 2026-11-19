@@ -1,0 +1,121 @@
+{
+  "series": "Original sales",
+  "n": 120,
+  "formula": "SE(r_k) = sqrt((1 + 2 * sum(r_j^2 for j=1,...,k-1)) / n)",
+  "multiplier": 2,
+  "rows": [
+    {
+      "lag": 1,
+      "acf": 0.9625990339579676,
+      "bartlett_se": 0.09128709291752768,
+      "lower_limit": -0.18257418583505536,
+      "upper_limit": 0.18257418583505536,
+      "outside_limits": true
+    },
+    {
+      "lag": 2,
+      "acf": 0.9074332587697671,
+      "bartlett_se": 0.15419667636802967,
+      "lower_limit": -0.30839335273605933,
+      "upper_limit": 0.30839335273605933,
+      "outside_limits": true
+    },
+    {
+      "lag": 3,
+      "acf": 0.8532343867076297,
+      "bartlett_se": 0.19365054519668204,
+      "lower_limit": -0.3873010903933641,
+      "upper_limit": 0.3873010903933641,
+      "outside_limits": true
+    },
+    {
+      "lag": 4,
+      "acf": 0.8007231195265823,
+      "bartlett_se": 0.2227869287742093,
+      "lower_limit": -0.4455738575484186,
+      "upper_limit": 0.4455738575484186,
+      "outside_limits": true
+    },
+    {
+      "lag": 5,
+      "acf": 0.7427556293575632,
+      "bartlett_se": 0.24560125040747988,
+      "lower_limit": -0.49120250081495975,
+      "upper_limit": 0.49120250081495975,
+      "outside_limits": true
+    },
+    {
+      "lag": 6,
+      "acf": 0.6844864802098864,
+      "bartlett_se": 0.26365648032510686,
+      "lower_limit": -0.5273129606502137,
+      "upper_limit": 0.5273129606502137,
+      "outside_limits": true
+    },
+    {
+      "lag": 7,
+      "acf": 0.6277354007533968,
+      "bartlett_se": 0.27807091777205345,
+      "lower_limit": -0.5561418355441069,
+      "upper_limit": 0.5561418355441069,
+      "outside_limits": true
+    },
+    {
+      "lag": 8,
+      "acf": 0.5786811982782853,
+      "bartlett_se": 0.28963936921611544,
+      "lower_limit": -0.5792787384322309,
+      "upper_limit": 0.5792787384322309,
+      "outside_limits": false
+    },
+    {
+      "lag": 9,
+      "acf": 0.5315495689356048,
+      "bartlett_se": 0.2991189780348099,
+      "lower_limit": -0.5982379560696198,
+      "upper_limit": 0.5982379560696198,
+      "outside_limits": false
+    },
+    {
+      "lag": 10,
+      "acf": 0.4954357857456115,
+      "bartlett_se": 0.30688963068913916,
+      "lower_limit": -0.6137792613782783,
+      "upper_limit": 0.6137792613782783,
+      "outside_limits": false
+    },
+    {
+      "lag": 11,
+      "acf": 0.46852414859475483,
+      "bartlett_se": 0.31348395342421026,
+      "lower_limit": -0.6269679068484205,
+      "upper_limit": 0.6269679068484205,
+      "outside_limits": false
+    },
+    {
+      "lag": 12,
+      "acf": 0.4444865446636546,
+      "bartlett_se": 0.3192659868376415,
+      "lower_limit": -0.638531973675283,
+      "upper_limit": 0.638531973675283,
+      "outside_limits": false
+    },
+    {
+      "lag": 13,
+      "acf": 0.41597081866525315,
+      "bartlett_se": 0.3243818354314305,
+      "lower_limit": -0.648763670862861,
+      "upper_limit": 0.648763670862861,
+      "outside_limits": false
+    },
+    {
+      "lag": 14,
+      "acf": 0.38344921181384245,
+      "bartlett_se": 0.3287969543515892,
+      "lower_limit": -0.6575939087031784,
+      "upper_limit": 0.6575939087031784,
+      "outside_limits": false
+    }
+  ],
+  "interpretation": "Approximate pointwise zero-correlation reference limits; stationarity assumption is questionable for original sales."
+}

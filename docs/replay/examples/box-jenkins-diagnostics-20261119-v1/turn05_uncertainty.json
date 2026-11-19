@@ -1,0 +1,124 @@
+{
+  "n": 119,
+  "no_constant": {
+    "parameters": {
+      "theta": {
+        "estimate": -0.35184320900579186,
+        "se": 0.08624422807197059,
+        "z": -4.079614565187825,
+        "two_sided_normal_p": 4.511043382258249e-05,
+        "wald_95_interval": [
+          -0.5208818960268542,
+          -0.18280452198472952
+        ]
+      },
+      "sigma2": {
+        "estimate": 1.0707562481491124,
+        "se": 0.1388150364506268,
+        "z": 7.713546569070383,
+        "two_sided_normal_p": 1.2236867527114264e-14,
+        "wald_95_interval": [
+          0.7986787767058838,
+          1.342833719592341
+        ]
+      }
+    },
+    "covariance": [
+      [
+        0.007438066875730081,
+        5.374979770585333e-05
+      ],
+      [
+        5.374979770585333e-05,
+        0.019269614344788848
+      ]
+    ],
+    "parameter_order": [
+      "theta",
+      "sigma2"
+    ],
+    "covariance_method": "observed information matrix, statsmodels oim",
+    "loglike": -172.98774512085586,
+    "aic": 349.9754902417117,
+    "bic": 355.5337372279348,
+    "converged": true,
+    "iterations": 5,
+    "warnings": []
+  },
+  "with_constant": {
+    "parameters": {
+      "delta": {
+        "estimate": 0.00551849773756416,
+        "se": 0.12795233359030755,
+        "z": 0.04312932466893428,
+        "two_sided_normal_p": 0.9655984433367979,
+        "wald_95_interval": [
+          -0.24526807609943865,
+          0.25630507157456695
+        ]
+      },
+      "theta": {
+        "estimate": -0.3518394792968399,
+        "se": 0.0862432388863739,
+        "z": -4.079618110822472,
+        "two_sided_normal_p": 4.510974581377278e-05,
+        "wald_95_interval": [
+          -0.5208762275141328,
+          -0.18280273107954706
+        ]
+      },
+      "sigma2": {
+        "estimate": 1.0707362542824777,
+        "se": 0.13881244433248474,
+        "z": 7.713546573085631,
+        "two_sided_normal_p": 1.2236867141944534e-14,
+        "wald_95_interval": [
+          0.7986638633908076,
+          1.3428086451741477
+        ]
+      }
+    },
+    "covariance": [
+      [
+        0.016371799671205348,
+        -4.1658632966512774e-05,
+        -3.0102836899072134e-07
+      ],
+      [
+        -4.1658632966515085e-05,
+        0.007437896253612155,
+        5.374678952492062e-05
+      ],
+      [
+        -3.0102836899070726e-07,
+        5.374678952492066e-05,
+        0.019268894701559177
+      ]
+    ],
+    "parameter_order": [
+      "delta",
+      "theta",
+      "sigma2"
+    ],
+    "covariance_method": "observed information matrix, statsmodels oim",
+    "loglike": -172.98681222530962,
+    "aic": 351.97362445061924,
+    "bic": 360.31099492995384,
+    "converged": true,
+    "iterations": 8,
+    "warnings": []
+  },
+  "likelihood_ratio": {
+    "statistic": 0.0018657910924844145,
+    "df": 1,
+    "asymptotic_p": 0.9655462470331145
+  },
+  "delta_rolls_per_week": {
+    "estimate": 55.184977375641594,
+    "wald_95_interval": [
+      -2452.6807609943867,
+      2563.0507157456695
+    ]
+  },
+  "note": "Exact Gaussian likelihood on first differences. No residual diagnostics. Wald intervals and tests are asymptotic, conditional on the specified model."
+}
